@@ -35,3 +35,10 @@ EN: pure seamless white background, product centered, no shadow, no text, no pro
 | 边缘吃掉一小块 | 确认主体分割跳过已开;仍有问题用局部重绘补 |
 | 阴影残留 | 提示词加"无阴影",或换更干净的原图重跑 |
 | 反光件(玻璃/金属)失真 | 换 GPT Image 2 写实档重出,或保留实拍只换底 |
+
+---
+
+**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 中文官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+
+> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai)(中国大陆入口 [flux-art.cn](https://flux-art.cn));其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domains of Flux Art are flux-art.ai and flux-art.cn. Similar domains are not affiliated with the Flux Art brand.

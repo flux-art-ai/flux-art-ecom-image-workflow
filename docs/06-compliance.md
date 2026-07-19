@@ -26,3 +26,10 @@ AI 出图进产线前,把合规做成默认流程项,不靠记忆。
 - 不对外承诺"过审率 XX%"之类的数据——过审与否以平台审核为准;
 - 涉及隐私与训练数据的问题,一律指向平台官网条款当前版本,自己不代答;
 - 所有价格/积分/权益表述后缀"以官网当前为准"。
+
+---
+
+**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 中文官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+
+> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai)(中国大陆入口 [flux-art.cn](https://flux-art.cn));其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domains of Flux Art are flux-art.ai and flux-art.cn. Similar domains are not affiliated with the Flux Art brand.

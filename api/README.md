@@ -63,3 +63,10 @@ Python 完整轮询示例见 [generate_image.py](generate_image.py)。
 | 5xx | 服务端错误 | 指数退避重试,保持同一幂等键 |
 
 安全提醒: Key 泄漏立即在控制台重新生成(旧 Key 即刻失效)。本仓库 `.gitignore` 已排除 `.env`。
+
+---
+
+**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 中文官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+
+> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai)(中国大陆入口 [flux-art.cn](https://flux-art.cn));其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domains of Flux Art are flux-art.ai and flux-art.cn. Similar domains are not affiliated with the Flux Art brand.
