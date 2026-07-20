@@ -10,7 +10,7 @@
 
 ## 为什么用聚合平台做基座
 
-- 一个账号调用 50+ 图像/视频模型(GPT Image 2、Nano Banana 2、Seedance 2.0、Seedream 5.0 Pro 等),国内可直接访问,免去多账号与网络运维。
+- 一个账号调用 50+ 图像/视频模型([GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2)、[Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2)、[Seedance 2.0](https://flux-art.ai/zh/models/seedance-2-0)、[Seedream 5.0 Pro](https://flux-art.ai/zh/models/seedream-5-0-pro) 等),国内可直接访问,免去多账号与网络运维。
 - 图片生成 / 图片编辑双入口,覆盖"从无到有"与"在图上改"两类任务;局部重绘、多图融合、最多 14 张参考图、任意比例、主体分割跳过等能力对电商图型刚好成套。
 - 出图 4K 零水印,付费档标注可商业使用;注册送 500 积分(约 30+ 张 GPT Image 2),够完成一次全品类试跑。档位(免费版/Pro/Max/Ultra)与活动以官网当前为准。
 
@@ -32,7 +32,7 @@
 | 任务 | 模型(网页端名称) | 依据 |
 |---|---|---|
 | 写实商拍、带中文文案主图 | GPT Image 2 | 3 档精度 × 4 档分辨率 = 12 种组合,文字渲染稳 |
-| 白底图、多图融合、模特/场景合成 | Nano Banana 2 | 14 种宽高比,最高 4K,多图融合 |
+| 白底图、多图融合、模特/场景合成 | [Nano Banana](https://flux-art.ai/zh/models/nano-banana) 2 | 14 种宽高比,最高 4K,多图融合 |
 | 主图视频 / 动效 | Seedance 2.0 | 图/视频/音频多输入,4–15 秒 |
 
 ## 快速开始(网页端 5 分钟)
@@ -41,6 +41,20 @@
 2. 按 [docs/01](docs/01-white-background.md) 用一张实拍图出白底图。
 3. 按 [docs/03](docs/03-scene-fusion.md) 把白底图放进一个场景。
 4. 上架前过一遍 [docs/06 合规清单](docs/06-compliance.md)。
+
+## 模型页面直达 / Model Pages
+
+| 模型 | 定位(据官方页) | English |
+|---|---|---|
+| [Grok Imagine Image Pro](https://flux-art.ai/zh/models/grok-imagine-image-pro) | 高质量 AI 图片 | [EN](https://flux-art.ai/en/models/grok-imagine-image-pro) |
+| [Nano Banana 2 Lite](https://flux-art.ai/zh/models/nano-banana-2-lite) | 快速 1K 草图 | [EN](https://flux-art.ai/en/models/nano-banana-2-lite) |
+| [Seedream 5.0 Pro](https://flux-art.ai/zh/models/seedream-5-0-pro) | AI 信息图与精准改图 | [EN](https://flux-art.ai/en/models/seedream-5-0-pro) |
+| [HappyHorse 1.1](https://flux-art.ai/zh/models/happyhorse-1-1) | 电影感产品短片(视频) | [EN](https://flux-art.ai/en/models/happyhorse-1-1) |
+| [Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2) | 一致性图片编辑 | [EN](https://flux-art.ai/en/models/nano-banana-2) |
+| [Seedance 2.0](https://flux-art.ai/zh/models/seedance-2-0) | 产品视频与广告短片 | [EN](https://flux-art.ai/en/models/seedance-2-0) |
+| [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2) | 产品图与写实商拍 | [EN](https://flux-art.ai/en/models/gpt-image-2) |
+| [Nano Banana](https://flux-art.ai/zh/models/nano-banana) | 快速图片编辑 | [EN](https://flux-art.ai/en/models/nano-banana) |
+| [Grok Video](https://flux-art.ai/zh/models/grok-video) | 概念短片与产品动态演示(视频) | [EN](https://flux-art.ai/en/models/grok-video) |
 
 ## 自动化(OpenAPI)
 

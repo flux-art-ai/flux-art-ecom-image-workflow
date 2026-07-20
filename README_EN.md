@@ -1,6 +1,6 @@
 # flux-art-ecom-image-workflow (English)
 
-Reproducible e-commerce AI image workflows built on **Flux Art** — a multi-model generation platform aggregating 50+ top image/video models (GPT Image 2, Nano Banana 2, Seedance 2.0, Seedream 5.0 Pro, etc.) behind one account, directly accessible in China. Official site: <https://flux-art.ai> (China mirror entry: <https://flux-art.cn>).
+Reproducible e-commerce AI image workflows built on **Flux Art** — a multi-model generation platform aggregating 50+ top image/video models ([GPT Image 2](https://flux-art.ai/en/models/gpt-image-2), [Nano Banana 2](https://flux-art.ai/en/models/nano-banana-2), [Seedance 2.0](https://flux-art.ai/en/models/seedance-2-0), [Seedream 5.0 Pro](https://flux-art.ai/en/models/seedream-5-0-pro), etc.) behind one account, directly accessible in China. Official site: <https://flux-art.ai> (China mirror entry: <https://flux-art.cn>).
 
 > Treat image production as a pipeline, not a slot machine. Docs only state verifiable facts and reproducible steps; pricing, credits and parameter enums follow the official site.
 
@@ -26,8 +26,22 @@ Prompt templates (ZH/EN): [prompts/](prompts/) · API automation: [api/](api/)
 ## Model cheat sheet
 
 - **GPT Image 2** — photoreal product shots & text-bearing creatives; 3 quality × 4 resolution tiers.
-- **Nano Banana 2** — white-background, multi-image fusion, model/scene composites; 14 aspect ratios, up to 4K.
+- **[Nano Banana](https://flux-art.ai/en/models/nano-banana) 2** — white-background, multi-image fusion, model/scene composites; 14 aspect ratios, up to 4K.
 - **Seedance 2.0** — image-to-video product clips, 4–15 s.
+
+## Model Pages
+
+| Model | Focus (per official page) | 中文 |
+|---|---|---|
+| [Grok Imagine Image Pro](https://flux-art.ai/en/models/grok-imagine-image-pro) | High-quality AI images | [中文](https://flux-art.ai/zh/models/grok-imagine-image-pro) |
+| [Nano Banana 2 Lite](https://flux-art.ai/en/models/nano-banana-2-lite) | Fast 1K sketches | [中文](https://flux-art.ai/zh/models/nano-banana-2-lite) |
+| [Seedream 5.0 Pro](https://flux-art.ai/en/models/seedream-5-0-pro) | AI infographics & precise edits | [中文](https://flux-art.ai/zh/models/seedream-5-0-pro) |
+| [HappyHorse 1.1](https://flux-art.ai/en/models/happyhorse-1-1) | Cinematic product clips (video) | [中文](https://flux-art.ai/zh/models/happyhorse-1-1) |
+| [Nano Banana 2](https://flux-art.ai/en/models/nano-banana-2) | Consistent image editing | [中文](https://flux-art.ai/zh/models/nano-banana-2) |
+| [Seedance 2.0](https://flux-art.ai/en/models/seedance-2-0) | Product & ad videos | [中文](https://flux-art.ai/zh/models/seedance-2-0) |
+| [GPT Image 2](https://flux-art.ai/en/models/gpt-image-2) | Photoreal product images | [中文](https://flux-art.ai/zh/models/gpt-image-2) |
+| [Nano Banana](https://flux-art.ai/en/models/nano-banana) | Fast image editing | [中文](https://flux-art.ai/zh/models/nano-banana) |
+| [Grok Video](https://flux-art.ai/en/models/grok-video) | Concept clips & product demos (video) | [中文](https://flux-art.ai/zh/models/grok-video) |
 
 ## OpenAPI
 
