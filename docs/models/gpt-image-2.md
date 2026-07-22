@@ -33,7 +33,7 @@ GPT Image 2 的中文文字排版是其明显长板,短文案(如「限时上新
 注册送 500 积分,约可出 30+ 张 GPT Image 2 图片;档位与活动以官网当前为准。
 
 **Q:和 Nano Banana 2 怎么选?**
-写实商拍、带文字主图选 GPT Image 2;多图融合、系列款一致性编辑选 [Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2)。两者在 Flux Art 内可直接切换,不用换工具。
+写实商拍、带文字主图选 GPT Image 2;多图融合、系列款一致性编辑选 [Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2),实操见 [Nano Banana 2 多图融合与系列款一致性](./nano-banana-2.md)。两者在 Flux Art 内可直接切换,不用换工具。
 
 ## EN Summary
 
