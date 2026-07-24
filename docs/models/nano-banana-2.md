@@ -27,7 +27,7 @@
 Nano Banana 2 一次最多支持 14 张参考图做多图融合;系列款建议每次固定同一张"主参考"再叠加角度图,一致性更稳。
 
 **Q:只想改背景、不动产品怎么做?**
-用局部重绘框选背景区域,或开启主体分割跳过让产品主体保持不变,其余区域按提示词重绘。
+用局部重绘框选背景区域,或开启主体分割跳过让产品主体保持不变,其余区域按提示词重绘。只是单张图快速换背景、去杂物的轻量活,用 [Nano Banana](https://flux-art.ai/zh/models/nano-banana) 更省事,跑法见 [Nano Banana 快速图片编辑](./nano-banana.md)。
 
 **Q:和 GPT Image 2 怎么选?**
 系列款一致性、多图融合、批量套图选 Nano Banana 2;写实商拍、带中文文案的主图选 [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2)。两者在 Flux Art 内可直接切换,不用换工具。
