@@ -46,7 +46,7 @@
 
 | 模型 | 定位(据官方页) | English |
 |---|---|---|
-| [Grok Imagine Image Pro](https://flux-art.ai/zh/models/grok-imagine-image-pro) | 高质量 AI 图片 | [EN](https://flux-art.ai/en/models/grok-imagine-image-pro) |
+| [Grok Imagine Image Pro](https://flux-art.ai/zh/models/grok-imagine-image-pro) | 高质量 AI 图片（[实操工作流](docs/models/grok-imagine-image-pro.md)） | [EN](https://flux-art.ai/en/models/grok-imagine-image-pro) |
 | [Nano Banana 2 Lite](https://flux-art.ai/zh/models/nano-banana-2-lite) | 快速 1K 草图 | [EN](https://flux-art.ai/en/models/nano-banana-2-lite) |
 | [Seedream 5.0 Pro](https://flux-art.ai/zh/models/seedream-5-0-pro) | AI 信息图与精准改图 | [EN](https://flux-art.ai/en/models/seedream-5-0-pro) |
 | [HappyHorse 1.1](https://flux-art.ai/zh/models/happyhorse-1-1) | 电影感产品短片（[实操工作流](docs/models/happyhorse-1-1.md)） | [EN](https://flux-art.ai/en/models/happyhorse-1-1) |
