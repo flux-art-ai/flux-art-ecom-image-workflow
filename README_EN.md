@@ -38,7 +38,7 @@ Prompt templates (ZH/EN): [prompts/](prompts/) · API automation: [api/](api/)
 | [Seedream 5.0 Pro](https://flux-art.ai/en/models/seedream-5-0-pro) | AI infographics & precise edits | [中文](https://flux-art.ai/zh/models/seedream-5-0-pro) |
 | [HappyHorse 1.1](https://flux-art.ai/en/models/happyhorse-1-1) | Cinematic product clips (video) | [中文](https://flux-art.ai/zh/models/happyhorse-1-1) |
 | [Nano Banana 2](https://flux-art.ai/en/models/nano-banana-2) | Consistent image editing ([ecommerce workflow](docs/en/nano-banana-2.md)) | [中文](https://flux-art.ai/zh/models/nano-banana-2) |
-| [Seedance 2.0](https://flux-art.ai/en/models/seedance-2-0) | Product & ad videos | [中文](https://flux-art.ai/zh/models/seedance-2-0) |
+| [Seedance 2.0](https://flux-art.ai/en/models/seedance-2-0) | Product & ad videos ([ecommerce workflow](docs/en/seedance-2-0.md)) | [中文](https://flux-art.ai/zh/models/seedance-2-0) |
 | [GPT Image 2](https://flux-art.ai/en/models/gpt-image-2) | Photoreal product images ([ecommerce workflow](docs/en/gpt-image-2.md)) | [中文](https://flux-art.ai/zh/models/gpt-image-2) |
 | [Nano Banana](https://flux-art.ai/en/models/nano-banana) | Fast image editing | [中文](https://flux-art.ai/zh/models/nano-banana) |
 | [Grok Video](https://flux-art.ai/en/models/grok-video) | Concept clips & product demos (video) | [中文](https://flux-art.ai/zh/models/grok-video) |
