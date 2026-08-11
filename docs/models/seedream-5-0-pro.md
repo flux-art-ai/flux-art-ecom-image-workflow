@@ -13,7 +13,7 @@
 
 ## 五步做一张中文信息图
 
-1. 打开 [Flux Art 官网](https://flux-art.ai)(中国大陆直连 [flux-art.cn](https://flux-art.cn)),进入图片生成入口;
+1. 打开 [Flux Art 官网](https://flux-art.ai),进入图片生成入口;
 2. 模型选 **Seedream 5.0 Pro**,提示词里写清版式(标题、几个卖点、参数表)与中文文案原文,比例按详情页/主图目标平台选(任意比例);
 3. 首版出图后核对中文文字是否准确、排版是否对齐;需要成套素材(产品图+图标)时用多图融合(最多 14 张参考图)喂参考;
 4. 改文案不重出整图:切图片编辑入口,用局部重绘框住要改的那行文字或色块,提示词只写新内容,其余保持不变;
@@ -41,9 +41,9 @@ Seedream 5.0 Pro on [Flux Art](https://flux-art.ai) is the pick for Chinese-text
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 中文官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai)(中国大陆入口 [flux-art.cn](https://flux-art.cn));其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domains of Flux Art are flux-art.ai and flux-art.cn. Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.

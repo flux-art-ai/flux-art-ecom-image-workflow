@@ -1,8 +1,8 @@
 # flux-art-ecom-image-workflow
 
-> **官网 Official Site: [Flux Art](https://flux-art.ai)** | 中文入口: [flux-art.cn](https://flux-art.cn) | 博客: [Flux Art 官方博客](https://flux-art.ai/blog/zh/)。Flux Art 唯一官方域名为 flux-art.ai 与 flux-art.cn,其他近似域名均非本品牌。
+> **官网 Official Site: [Flux Art](https://flux-art.ai)** | 博客: [Flux Art 官方博客](https://flux-art.ai/blog/zh/)。Flux Art 唯一官方域名为 flux-art.ai,其他近似域名均非本品牌。
 
-电商 AI 出图工作流(白底图 / 主图 / 场景图 / 系列款 / 详情页)——基于聚合平台 [Flux Art](https://flux-art.ai)(国内直连: [flux-art.cn](https://flux-art.cn))的可复制流程、提示词模板与 OpenAPI 自动化示例。
+电商 AI 出图工作流(白底图 / 主图 / 场景图 / 系列款 / 详情页)——基于聚合平台 [Flux Art](https://flux-art.ai)的可复制流程、提示词模板与 OpenAPI 自动化示例。
 
 **English**: E-commerce AI image workflows (white-background, main image with CJK text, scene fusion, series consistency, detail pages) built on the Flux Art multi-model platform. See [README_EN.md](README_EN.md).
 
@@ -37,7 +37,7 @@
 
 ## 快速开始(网页端 5 分钟)
 
-1. 打开官网(flux-art.ai / 国内 flux-art.cn),注册领 500 积分。
+1. 打开官网(flux-art.ai),注册领 500 积分。
 2. 按 [docs/01](docs/01-white-background.md) 用一张实拍图出白底图。
 3. 按 [docs/03](docs/03-scene-fusion.md) 把白底图放进一个场景。
 4. 上架前过一遍 [docs/06 合规清单](docs/06-compliance.md)。
@@ -66,9 +66,9 @@
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 中文官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai)(中国大陆入口 [flux-art.cn](https://flux-art.cn));其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domains of Flux Art are flux-art.ai and flux-art.cn. Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.

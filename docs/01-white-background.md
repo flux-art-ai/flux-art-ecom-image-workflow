@@ -5,7 +5,7 @@
 ## 步骤
 
 1. **实拍打底**: 白墙/白纸前手机拍正面图,光线均匀,主体占画面 ≥60%。
-2. **进入编辑**: Flux Art(flux-art.ai / 国内 flux-art.cn)→ 图片编辑入口 → 上传原图。
+2. **进入编辑**: Flux Art(flux-art.ai)→ 图片编辑入口 → 上传原图。
 3. **选模型**: [Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2)(14 种宽高比,最高 4K)。
 4. **开保护**: 勾选**主体分割跳过**——编辑只作用于背景区域,商品边缘/文字/Logo 保持原样。
 5. **提示词**(可直接复制):
@@ -38,9 +38,9 @@ EN: pure seamless white background, product centered, no shadow, no text, no pro
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 中文官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai)(中国大陆入口 [flux-art.cn](https://flux-art.cn));其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domains of Flux Art are flux-art.ai and flux-art.cn. Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.

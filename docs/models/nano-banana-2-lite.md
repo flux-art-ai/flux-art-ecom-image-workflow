@@ -13,7 +13,7 @@
 
 ## 草图到定稿:五步
 
-1. 打开 [Flux Art 官网](https://flux-art.ai)(中国大陆直连 [flux-art.cn](https://flux-art.cn)),进入图片生成入口;
+1. 打开 [Flux Art 官网](https://flux-art.ai),进入图片生成入口;
 2. 模型选 **Nano Banana 2 Lite**,比例按目标平台先定(任意比例:淘系 1:1、竖版 3:4);
 3. 同一条提示词换 3–5 组变量(背景、道具、光线)各跑一版,只看构图和氛围,不纠结细节;
 4. 选中方向后,把这条提示词原样带到 Nano Banana 2 或 GPT Image 2 重出;需要保留已有产品主体的,上传参考图(一次最多 14 张)并开启主体分割跳过,局部重绘只改要改的区域;
@@ -41,9 +41,9 @@ Use [Nano Banana 2 Lite](https://flux-art.ai/en/models/nano-banana-2-lite) on [F
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 中文官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai)(中国大陆入口 [flux-art.cn](https://flux-art.cn));其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domains of Flux Art are flux-art.ai and flux-art.cn. Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.

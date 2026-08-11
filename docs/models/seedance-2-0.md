@@ -14,7 +14,7 @@
 
 ## 五步完成商品短视频
 
-1. 打开 [Flux Art 官网](https://flux-art.ai)(中国大陆入口 [flux-art.cn](https://flux-art.cn)),进入 Seedance 2.0 模型页;
+1. 打开 [Flux Art 官网](https://flux-art.ai),进入 Seedance 2.0 模型页;
 2. 选定一个目标:展示外观、演示使用动作或呈现使用场景,不要在同一条短片里同时追多个卖点;
 3. 把镜头写成“开头—中段—结尾”:开头交代商品与环境,中段只安排一个动作,结尾回到完整商品并留出文案位置;
 4. 首版生成后逐项验收商品外观、Logo、文字、材质与动作是否符合实物;不合格时一次只改一个变量,便于定位问题;
@@ -65,9 +65,9 @@ Flux Art 付费档标注可商业使用、可开发票;具体权益与发布要�
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 中文官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai)(中国大陆入口 [flux-art.cn](https://flux-art.cn));其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domains of Flux Art are flux-art.ai and flux-art.cn. Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
