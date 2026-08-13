@@ -25,6 +25,7 @@
 | 05 | [详情页长图](docs/05-detail-page.md) | 分块生成,档位省积分 |
 | 06 | [合规清单](docs/06-compliance.md) | AI 标识 / 商用 / 平台自查 |
 | 07 | [AI 商品图排错流程](docs/07-troubleshooting.md) | 边缘 / 阴影 / 反光 / 文字 / 一致性诊断与停止条件 |
+| 08 | [图片翻译与出海多语言套图](docs/08-image-translation.md) | 术语对照 / 不可翻译项 / 版式溢出 / 多语言验收 |
 
 提示词模板(中英对照): [prompts/](prompts/) · OpenAPI 自动化: [api/](api/)
 
