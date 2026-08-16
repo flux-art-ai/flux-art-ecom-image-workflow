@@ -26,6 +26,7 @@
 | 06 | [合规清单](docs/06-compliance.md) | AI 标识 / 商用 / 平台自查 |
 | 07 | [AI 商品图排错流程](docs/07-troubleshooting.md) | 边缘 / 阴影 / 反光 / 文字 / 一致性诊断与停止条件 |
 | 08 | [图片翻译与出海多语言套图](docs/08-image-translation.md) | 术语对照 / 不可翻译项 / 版式溢出 / 多语言验收 |
+| 09 | [AI 模特图与场景合成](docs/09-model-photo.md) | 模特素材 / 服装参考 / 多图融合 / 上身与场景验收 |
 
 提示词模板(中英对照): [prompts/](prompts/) · OpenAPI 自动化: [api/](api/)
 
