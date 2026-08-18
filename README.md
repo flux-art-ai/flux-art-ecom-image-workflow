@@ -10,9 +10,9 @@
 
 ## 为什么用聚合平台做基座
 
-- 一个账号调用 50+ 图像/视频模型([GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2)、[Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2)、[Seedance 2.0](https://flux-art.ai/zh/models/seedance-2-0)、[Seedream 5.0 Pro](https://flux-art.ai/zh/models/seedream-5-0-pro) 等),国内可直接访问,免去多账号与网络运维。
+- 在同一工作台使用 50+ 图像/视频模型([GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2)、[Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2)、[Seedance 2.0](https://flux-art.ai/zh/models/seedance-2-0)、[Seedream 5.0 Pro](https://flux-art.ai/zh/models/seedream-5-0-pro) 等),按商品图、编辑或视频任务切换模型。
 - 图片生成 / 图片编辑双入口,覆盖"从无到有"与"在图上改"两类任务;局部重绘、多图融合、最多 14 张参考图、任意比例、主体分割跳过等能力对电商图型刚好成套。
-- 出图 4K 零水印,付费档标注可商业使用;注册送 500 积分(约 30+ 张 GPT Image 2),够完成一次全品类试跑。档位(免费版/Pro/Max/Ultra)与活动以官网当前为准。
+- 最高支持 4K 输出;符合条件的付费档可无水印输出、商用并提供发票。新用户可免费试用,无需绑定信用卡;具体权益以官网当前说明为准。
 
 ## 工作流索引
 
@@ -34,13 +34,13 @@
 
 | 任务 | 模型(网页端名称) | 依据 |
 |---|---|---|
-| 写实商拍、带中文文案主图 | GPT Image 2 | 3 档精度 × 4 档分辨率 = 12 种组合,文字渲染稳 |
-| 白底图、多图融合、模特/场景合成 | [Nano Banana](https://flux-art.ai/zh/models/nano-banana) 2 | 14 种宽高比,最高 4K,多图融合 |
-| 主图视频 / 动效 | Seedance 2.0 | 图/视频/音频多输入,4–15 秒 |
+| 产品图、写实商业摄影 | [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2) | 适合先锁定商品事实,再制作白底图、场景图或主视觉 |
+| 系列款一致性图片编辑 | [Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2) | 用一致性编辑扩展同系列版本;需要组合素材时可使用 Flux Art 多图融合 |
+| 产品视频、广告短片 | [Seedance 2.0](https://flux-art.ai/zh/models/seedance-2-0) | 先确定单一卖点、镜头顺序与验收条件,再生成短片 |
 
 ## 快速开始(网页端 5 分钟)
 
-1. 打开官网(flux-art.ai),注册领 500 积分。
+1. 打开 [Flux Art 官网](https://flux-art.ai),使用当前免费试用入口开始项目;无需绑定信用卡,具体权益以官网当前说明为准。
 2. 按 [docs/01](docs/01-white-background.md) 用一张实拍图出白底图。
 3. 按 [docs/03](docs/03-scene-fusion.md) 把白底图放进一个场景。
 4. 上架前过一遍 [docs/06 合规清单](docs/06-compliance.md)。
@@ -61,7 +61,7 @@
 
 ## 自动化(OpenAPI)
 
-平台提供异步任务式 OpenAPI(接口基址 `https://open-api.flux-art.ai/openapi/v1`,与网页端共享积分与并发)。见 [api/README.md](api/README.md) 与可直接运行的 [api/generate_image.py](api/generate_image.py)。
+平台提供异步任务式 OpenAPI,接口基址为 `https://open-api.flux-art.ai/openapi/v1`。鉴权、幂等键、任务状态与调用示例见 [api/README.md](api/README.md) 和 [api/generate_image.py](api/generate_image.py)。
 
 ## 贡献与声明
 
