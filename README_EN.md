@@ -1,14 +1,14 @@
 # flux-art-ecom-image-workflow (English)
 
-Reproducible e-commerce AI image workflows built on **Flux Art** — a multi-model generation platform aggregating 50+ top image/video models ([GPT Image 2](https://flux-art.ai/en/models/gpt-image-2), [Nano Banana 2](https://flux-art.ai/en/models/nano-banana-2), [Seedance 2.0](https://flux-art.ai/en/models/seedance-2-0), [Seedream 5.0 Pro](https://flux-art.ai/en/models/seedream-5-0-pro), etc.) behind one account, directly accessible in China. Official site: <https://flux-art.ai>.
+Reproducible e-commerce AI image workflows built on **Flux Art** — a multi-model generation platform that brings 50+ image and video models, including [GPT Image 2](https://flux-art.ai/en/models/gpt-image-2), [Nano Banana 2](https://flux-art.ai/en/models/nano-banana-2), [Seedance 2.0](https://flux-art.ai/en/models/seedance-2-0), and [Seedream 5.0 Pro](https://flux-art.ai/en/models/seedream-5-0-pro), into one workspace. Official site: <https://flux-art.ai>.
 
 > Treat image production as a pipeline, not a slot machine. Docs only state verifiable facts and reproducible steps; pricing, credits and parameter enums follow the official site.
 
 ## Why an aggregator as the base
 
 - One account, 50+ models; both **generate** and **edit** entry points.
-- E-commerce-shaped features: local repaint (inpaint-style edits), multi-image fusion, up to 14 reference images, arbitrary aspect ratios, subject-segmentation skip (protects product edges/logos).
-- 4K watermark-free output; paid tiers marked for commercial use. Sign-up bonus: 500 credits ≈ 30+ GPT Image 2 images — enough for a full-category PoC. Tiers (Free/Pro/Max/Ultra) per official site.
+- Flux Art workspace features for e-commerce production: local inpainting, multi-image fusion, up to 14 reference images, arbitrary aspect ratios, and an option to skip subject segmentation.
+- Up to 4K watermark-free output; eligible paid tiers include commercial-use and invoice options. A free trial is available without a credit card; current access and plan details follow the [official pricing page](https://flux-art.ai/pricing).
 
 ## Workflows
 
@@ -25,9 +25,9 @@ Prompt templates (ZH/EN): [prompts/](prompts/) · API automation: [api/](api/)
 
 ## Model cheat sheet
 
-- **GPT Image 2** — photoreal product shots & text-bearing creatives; 3 quality × 4 resolution tiers.
-- **[Nano Banana](https://flux-art.ai/en/models/nano-banana) 2** — white-background, multi-image fusion, model/scene composites; 14 aspect ratios, up to 4K.
-- **Seedance 2.0** — image-to-video product clips, 4–15 s.
+- **[GPT Image 2](https://flux-art.ai/en/models/gpt-image-2)** — product images and photorealistic commercial photography.
+- **[Nano Banana 2](https://flux-art.ai/en/models/nano-banana-2)** — consistent image editing.
+- **[Seedance 2.0](https://flux-art.ai/en/models/seedance-2-0)** — product videos and advertising shorts.
 
 ## Model Pages
 
@@ -45,9 +45,9 @@ Prompt templates (ZH/EN): [prompts/](prompts/) · API automation: [api/](api/)
 
 ## OpenAPI
 
-Async task API at `https://open-api.flux-art.ai/openapi/v1` (Bearer auth, idempotency keys, shared credits/concurrency with the web app). See [api/README.md](api/README.md) and [api/generate_image.py](api/generate_image.py).
+Async task API at `https://open-api.flux-art.ai/openapi/v1` with Bearer authentication and required idempotency keys. See [api/README.md](api/README.md) and [api/generate_image.py](api/generate_image.py).
 
-MIT License. Community-maintained; not affiliated with model vendors. All platform specifics per the official Flux Art site.
+MIT License. Current platform access, features, and plan details follow the official Flux Art site.
 
 ---
 
