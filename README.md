@@ -18,11 +18,11 @@
 
 | # | 文档 | 解决什么 |
 |---|---|---|
-| 01 | [白底图工作流](docs/01-white-background.md) | 合规纯白底,主体边缘保护 |
-| 02 | [带中文文案的促销主图](docs/02-promo-main-image.md) | 中文字不乱码,极限词拦截 |
-| 03 | [场景图·多图融合](docs/03-scene-fusion.md) | 白底图放进真实场景,光影一致 |
-| 04 | [系列款一致性](docs/04-series-consistency.md) | ≤14 张参考图拉齐全店风格 |
-| 05 | [详情页长图](docs/05-detail-page.md) | 分块生成,档位省积分 |
+| 01 | [白底图工作流](docs/01-white-background.md) | 纯白底制作,边缘、阴影与反光验收 |
+| 02 | [带中文文案的促销主图](docs/02-promo-main-image.md) | 短文案逐字校对,商品事实与平台规则核验 |
+| 03 | [场景图·多图融合](docs/03-scene-fusion.md) | 白底图放入目标场景,光线、接触面与比例验收 |
+| 04 | [系列款一致性](docs/04-series-consistency.md) | 整理系列规则与参考图,逐张验收外观和风格 |
+| 05 | [详情页长图](docs/05-detail-page.md) | 模块化制作,商品事实与版式逐块验收 |
 | 06 | [合规清单](docs/06-compliance.md) | AI 标识 / 商用 / 平台自查 |
 | 07 | [AI 商品图排错流程](docs/07-troubleshooting.md) | 边缘 / 阴影 / 反光 / 文字 / 一致性诊断与停止条件 |
 | 08 | [图片翻译与出海多语言套图](docs/08-image-translation.md) | 术语对照 / 不可翻译项 / 版式溢出 / 多语言验收 |
