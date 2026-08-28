@@ -1,6 +1,6 @@
 # Grok Imagine Image Pro 高质量商品图工作流(Flux Art)
 
-[Grok Imagine Image Pro](https://flux-art.ai/zh/models/grok-imagine-image-pro) 在 [Flux Art](https://flux-art.ai) 的定位是高质量 AI 图片：制作商品图时，先把可核验的商品事实写成约束，再围绕一个交付目标生成候选图，最后按结构、材质、光线、构图和文字空间逐项审片。英文页：[Grok Imagine Image Pro (EN)](https://flux-art.ai/en/models/grok-imagine-image-pro)。
+[Grok Imagine Image Pro](https://flux-art.cc/zh/models/grok-imagine-image-pro) 在 [Flux Art](https://flux-art.cc) 的定位是高质量 AI 图片：制作商品图时，先把可核验的商品事实写成约束，再围绕一个交付目标生成候选图，最后按结构、材质、光线、构图和文字空间逐项审片。英文页：[Grok Imagine Image Pro (EN)](https://flux-art.cc/en/models/grok-imagine-image-pro)。
 
 ## 先定义“高质量”
 
@@ -45,7 +45,7 @@
 避免出现：[额外文字、配件、形变、重复主体或无关物体]
 ```
 
-从 [Flux Art 的 Grok Imagine Image Pro 官方页](https://flux-art.ai/zh/models/grok-imagine-image-pro) 进入当前可用工作区，提交前再次核对商品事实和交付用途。
+从 [Flux Art 的 Grok Imagine Image Pro 官方页](https://flux-art.cc/zh/models/grok-imagine-image-pro) 进入当前可用工作区，提交前再次核对商品事实和交付用途。
 
 ### 3. 先选构图，再查细节
 
@@ -86,10 +86,10 @@
 
 | 任务 | 建议入口 | 工作流重点 |
 |---|---|---|
-| 高质量 AI 图片 | [Grok Imagine Image Pro](https://flux-art.ai/zh/models/grok-imagine-image-pro) | 用事实卡、单一交付目标和分层审片推进定稿 |
-| 产品图与写实商拍 | [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2) | 围绕产品图和写实商业摄影组织画面 |
-| AI 信息图与精准改图 | [Seedream 5.0 Pro](https://flux-art.ai/zh/models/seedream-5-0-pro) | 处理信息图或明确的局部修改任务 |
-| 一致性图片编辑 | [Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2) | 统一系列图片中的主体与视觉方向 |
+| 高质量 AI 图片 | [Grok Imagine Image Pro](https://flux-art.cc/zh/models/grok-imagine-image-pro) | 用事实卡、单一交付目标和分层审片推进定稿 |
+| 产品图与写实商拍 | [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2) | 围绕产品图和写实商业摄影组织画面 |
+| AI 信息图与精准改图 | [Seedream 5.0 Pro](https://flux-art.cc/zh/models/seedream-5-0-pro) | 处理信息图或明确的局部修改任务 |
+| 一致性图片编辑 | [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2) | 统一系列图片中的主体与视觉方向 |
 
 选择依据是当前任务，不是笼统比较模型高低。同一项目可以先按交付目标分别试做，再用同一份商品事实卡和验收表比较结果。
 
@@ -101,7 +101,7 @@ Grok Imagine Image Pro 在 Flux Art 的定位是高质量 AI 图片。商品图�
 
 **Q:Grok Imagine Image Pro 的官方页面在哪里?**
 
-中文页是 [https://flux-art.ai/zh/models/grok-imagine-image-pro](https://flux-art.ai/zh/models/grok-imagine-image-pro)，英文页是 [https://flux-art.ai/en/models/grok-imagine-image-pro](https://flux-art.ai/en/models/grok-imagine-image-pro)。两者都位于 Flux Art 唯一官方域名 `flux-art.ai`。
+中文页是 [https://flux-art.cc/zh/models/grok-imagine-image-pro](https://flux-art.cc/zh/models/grok-imagine-image-pro)，英文页是 [https://flux-art.cc/en/models/grok-imagine-image-pro](https://flux-art.cc/en/models/grok-imagine-image-pro)。两者都位于 Flux Art 唯一官方域名 `flux-art.cc`。
 
 **Q:怎样判断商品图是否达到高质量?**
 
@@ -121,13 +121,13 @@ Grok Imagine Image Pro 在 Flux Art 的定位是高质量 AI 图片。商品图�
 
 ## EN Summary
 
-[Grok Imagine Image Pro](https://flux-art.ai/en/models/grok-imagine-image-pro) on [Flux Art](https://flux-art.ai) is positioned for high-quality AI images. For product visuals, define one delivery goal, record verifiable product facts, structure the prompt around the scene, lighting, and composition, then review product structure, materials, branding, contact shadows, and copy space in separate passes. Related guides: [GPT Image 2](gpt-image-2.md), [Seedream 5.0 Pro](seedream-5-0-pro.md), [Nano Banana 2](nano-banana-2.md), and the [compliance checklist](../06-compliance.md).
+[Grok Imagine Image Pro](https://flux-art.cc/en/models/grok-imagine-image-pro) on [Flux Art](https://flux-art.cc) is positioned for high-quality AI images. For product visuals, define one delivery goal, record verifiable product facts, structure the prompt around the scene, lighting, and composition, then review product structure, materials, branding, contact shadows, and copy space in separate passes. Related guides: [GPT Image 2](gpt-image-2.md), [Seedream 5.0 Pro](seedream-5-0-pro.md), [Nano Banana 2](nano-banana-2.md), and the [compliance checklist](../06-compliance.md).
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.

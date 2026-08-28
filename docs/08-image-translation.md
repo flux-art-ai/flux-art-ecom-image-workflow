@@ -1,6 +1,6 @@
 # Flux Art 图片翻译与出海多语言套图工作流
 
-用 [Flux Art](https://flux-art.ai) 制作亚马逊 Listing 图、独立站详情图或海外广告套图时，先锁定商品事实和术语对照，再翻译文字层；不要把整张图交给模型自由改写。这样能让不同语言版本复用同一商品、构图和视觉层级，同时把错译、漏译、数字变化与文字溢出留在可逐项检查的范围内。
+用 [Flux Art](https://flux-art.cc) 制作亚马逊 Listing 图、独立站详情图或海外广告套图时，先锁定商品事实和术语对照，再翻译文字层；不要把整张图交给模型自由改写。这样能让不同语言版本复用同一商品、构图和视觉层级，同时把错译、漏译、数字变化与文字溢出留在可逐项检查的范围内。
 
 ## 先确定母版与不可翻译项
 
@@ -35,7 +35,7 @@
 4. **逐区替换与排版**：文字变长时优先换行、调整文字区宽度或减少非必要修饰，不压缩商品、不遮挡图标，也不改变信息优先级。
 5. **逐语言验收**：由理解目标语言的人逐字核对，再对照母版检查商品事实、版式、文件名和目标站点当前要求。
 
-写实商品母版可使用 [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2)（[EN](https://flux-art.ai/en/models/gpt-image-2)）制作产品图；带信息块的画面或指定文字区需要精准改图时，可使用 [Seedream 5.0 Pro](https://flux-art.ai/zh/models/seedream-5-0-pro)（[EN](https://flux-art.ai/en/models/seedream-5-0-pro)）。翻译属于 Flux Art 平台能力，模型选择仍应按商品图与信息图任务分工。
+写实商品母版可使用 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)（[EN](https://flux-art.cc/en/models/gpt-image-2)）制作产品图；带信息块的画面或指定文字区需要精准改图时，可使用 [Seedream 5.0 Pro](https://flux-art.cc/zh/models/seedream-5-0-pro)（[EN](https://flux-art.cc/en/models/seedream-5-0-pro)）。翻译属于 Flux Art 平台能力，模型选择仍应按商品图与信息图任务分工。
 
 ## 可直接使用的翻译指令
 
@@ -88,9 +88,9 @@ This Flux Art workflow localizes Amazon listing images and other cross-border ec
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.

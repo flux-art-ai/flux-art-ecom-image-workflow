@@ -16,10 +16,10 @@ Flux Art 商品图出现边缘缺损、悬浮阴影、反光失真、文字错�
 
 | 问题类型 | 适合的 Flux Art 模型页 | 处理方向 |
 |---|---|---|
-| 商品结构、材质或整体光影需要重做 | [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2) · [EN](https://flux-art.ai/en/models/gpt-image-2) | 回到原始素材，重新制作产品图或写实商业摄影画面 |
-| 同系列多张图的视觉规则跑偏 | [Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2) · [EN](https://flux-art.ai/en/models/nano-banana-2) | 固定参考图与商品事实，做一致性图片编辑 |
-| 单张图只有一个小区域需要快修 | [Nano Banana](https://flux-art.ai/zh/models/nano-banana) · [EN](https://flux-art.ai/en/models/nano-banana) | 使用局部重绘，只框选出错区域 |
-| 信息图、文字区或版式需要精准改图 | [Seedream 5.0 Pro](https://flux-art.ai/zh/models/seedream-5-0-pro) · [EN](https://flux-art.ai/en/models/seedream-5-0-pro) | 只修改指定信息区，完成后逐字复核 |
+| 商品结构、材质或整体光影需要重做 | [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2) · [EN](https://flux-art.cc/en/models/gpt-image-2) | 回到原始素材，重新制作产品图或写实商业摄影画面 |
+| 同系列多张图的视觉规则跑偏 | [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2) · [EN](https://flux-art.cc/en/models/nano-banana-2) | 固定参考图与商品事实，做一致性图片编辑 |
+| 单张图只有一个小区域需要快修 | [Nano Banana](https://flux-art.cc/zh/models/nano-banana) · [EN](https://flux-art.cc/en/models/nano-banana) | 使用局部重绘，只框选出错区域 |
+| 信息图、文字区或版式需要精准改图 | [Seedream 5.0 Pro](https://flux-art.cc/zh/models/seedream-5-0-pro) · [EN](https://flux-art.cc/en/models/seedream-5-0-pro) | 只修改指定信息区，完成后逐字复核 |
 
 ## 五类常见问题速查
 
@@ -84,9 +84,9 @@ This Flux Art troubleshooting guide uses a fixed decision order for ecommerce im
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.

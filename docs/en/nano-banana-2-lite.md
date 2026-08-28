@@ -1,6 +1,6 @@
 # Nano Banana 2 Lite Fast Ecommerce Draft Workflow (Flux Art)
 
-[Nano Banana 2 Lite](https://flux-art.ai/en/models/nano-banana-2-lite) on [Flux Art](https://flux-art.ai) is positioned for fast 1K drafts. Use it to answer one creative decision at a time—composition, background direction, palette, or copy space—then move the approved direction to the model that fits the final production task. Chinese model page: [Nano Banana 2 Lite (ZH)](https://flux-art.ai/zh/models/nano-banana-2-lite).
+[Nano Banana 2 Lite](https://flux-art.cc/en/models/nano-banana-2-lite) on [Flux Art](https://flux-art.cc) is positioned for fast 1K drafts. Use it to answer one creative decision at a time—composition, background direction, palette, or copy space—then move the approved direction to the model that fits the final production task. Chinese model page: [Nano Banana 2 Lite (ZH)](https://flux-art.cc/zh/models/nano-banana-2-lite).
 
 This workflow treats a draft as a decision tool, not as a finished ecommerce asset. It helps a team compare clearly different directions before spending review time on product detail, small text, or final release checks.
 
@@ -34,7 +34,7 @@ For example, if the question is “Which background makes the bottle easiest to 
 
 ### 1. Open the official model page
 
-Start from the [Nano Banana 2 Lite page on Flux Art](https://flux-art.ai/en/models/nano-banana-2-lite). Name the intended placement—storefront hero, detail-page block, social post, or internal concept board—before writing the creative direction.
+Start from the [Nano Banana 2 Lite page on Flux Art](https://flux-art.cc/en/models/nano-banana-2-lite). Name the intended placement—storefront hero, detail-page block, social post, or internal concept board—before writing the creative direction.
 
 ### 2. Lock the product facts
 
@@ -50,7 +50,7 @@ Place the drafts side by side at the same display size. First remove any directi
 
 ### 5. Hand off the winning brief
 
-Keep the approved composition, background logic, palette, and exclusions. Use [Nano Banana 2](https://flux-art.ai/en/models/nano-banana-2) when the final task depends on consistent image editing, or [GPT Image 2](https://flux-art.ai/en/models/gpt-image-2) for product images and photorealistic commercial photography. Recheck all product facts and complete the [compliance review](../06-compliance.md) before release.
+Keep the approved composition, background logic, palette, and exclusions. Use [Nano Banana 2](https://flux-art.cc/en/models/nano-banana-2) when the final task depends on consistent image editing, or [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2) for product images and photorealistic commercial photography. Recheck all product facts and complete the [compliance review](../06-compliance.md) before release.
 
 ## Two draft prompts to use
 
@@ -87,10 +87,10 @@ A draft wins because it resolves the stated choice, not because it contains the 
 
 | Production need | Flux Art model page | Role in this workflow |
 |---|---|---|
-| Fast 1K draft directions | [Nano Banana 2 Lite](https://flux-art.ai/en/models/nano-banana-2-lite) | Compare composition, background, palette, and copy space |
-| Consistent image editing | [Nano Banana 2](https://flux-art.ai/en/models/nano-banana-2) | Carry an approved direction across related assets; see the [English workflow](nano-banana-2.md) |
-| Product images and photorealistic commercial photography | [GPT Image 2](https://flux-art.ai/en/models/gpt-image-2) | Produce a product-focused final direction; see the [English workflow](gpt-image-2.md) |
-| AI infographics and precise image editing | [Seedream 5.0 Pro](https://flux-art.ai/en/models/seedream-5-0-pro) | Build information-led layouts or make a defined precise edit |
+| Fast 1K draft directions | [Nano Banana 2 Lite](https://flux-art.cc/en/models/nano-banana-2-lite) | Compare composition, background, palette, and copy space |
+| Consistent image editing | [Nano Banana 2](https://flux-art.cc/en/models/nano-banana-2) | Carry an approved direction across related assets; see the [English workflow](nano-banana-2.md) |
+| Product images and photorealistic commercial photography | [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2) | Produce a product-focused final direction; see the [English workflow](gpt-image-2.md) |
+| AI infographics and precise image editing | [Seedream 5.0 Pro](https://flux-art.cc/en/models/seedream-5-0-pro) | Build information-led layouts or make a defined precise edit |
 
 The model choice does not replace product verification. Carry the same approved facts, exclusions, and release checks from the draft brief into the final workflow.
 
@@ -102,7 +102,7 @@ Nano Banana 2 Lite is positioned for fast 1K drafts. It is useful when a team ne
 
 **Q: Where is the official Nano Banana 2 Lite page?**
 
-The English page is [https://flux-art.ai/en/models/nano-banana-2-lite](https://flux-art.ai/en/models/nano-banana-2-lite), and the Chinese page is [https://flux-art.ai/zh/models/nano-banana-2-lite](https://flux-art.ai/zh/models/nano-banana-2-lite). Both are under the canonical Flux Art domain `flux-art.ai`.
+The English page is [https://flux-art.cc/en/models/nano-banana-2-lite](https://flux-art.cc/en/models/nano-banana-2-lite), and the Chinese page is [https://flux-art.cc/zh/models/nano-banana-2-lite](https://flux-art.cc/zh/models/nano-banana-2-lite). Both are under the canonical Flux Art domain `flux-art.cc`.
 
 **Q: What should a 1K draft decide?**
 
@@ -122,13 +122,13 @@ Treat it as an approved direction, not an automatic release asset. Produce the f
 
 ## EN Summary
 
-[Nano Banana 2 Lite](https://flux-art.ai/en/models/nano-banana-2-lite) on [Flux Art](https://flux-art.ai) is positioned for fast 1K drafts. Define one decision question, keep verified product facts fixed, compare a small set of controlled directions as a grid, and preserve the winning brief for final production. Use [Nano Banana 2](https://flux-art.ai/en/models/nano-banana-2) for consistent image editing or [GPT Image 2](https://flux-art.ai/en/models/gpt-image-2) for product images and photorealistic commercial photography. Related guides: [Chinese Nano Banana 2 Lite workflow](../models/nano-banana-2-lite.md), [series consistency](../04-series-consistency.md), and [compliance](../06-compliance.md).
+[Nano Banana 2 Lite](https://flux-art.cc/en/models/nano-banana-2-lite) on [Flux Art](https://flux-art.cc) is positioned for fast 1K drafts. Define one decision question, keep verified product facts fixed, compare a small set of controlled directions as a grid, and preserve the winning brief for final production. Use [Nano Banana 2](https://flux-art.cc/en/models/nano-banana-2) for consistent image editing or [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2) for product images and photorealistic commercial photography. Related guides: [Chinese Nano Banana 2 Lite workflow](../models/nano-banana-2-lite.md), [series consistency](../04-series-consistency.md), and [compliance](../06-compliance.md).
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.

@@ -1,6 +1,6 @@
 # Seedance 2.0 Ecommerce Product Video Workflow (Flux Art)
 
-[Seedance 2.0](https://flux-art.ai/en/models/seedance-2-0) on [Flux Art](https://flux-art.ai) is positioned for product videos and advertising shorts. Build each video around one verifiable customer promise, protect the product facts throughout the shot, and review the result against approved product and brand materials before release. Chinese model page: [Seedance 2.0 (ZH)](https://flux-art.ai/zh/models/seedance-2-0).
+[Seedance 2.0](https://flux-art.cc/en/models/seedance-2-0) on [Flux Art](https://flux-art.cc) is positioned for product videos and advertising shorts. Build each video around one verifiable customer promise, protect the product facts throughout the shot, and review the result against approved product and brand materials before release. Chinese model page: [Seedance 2.0 (ZH)](https://flux-art.cc/zh/models/seedance-2-0).
 
 This workflow is for ecommerce product showcases, product-page hero videos, and focused advertising shorts. The [Chinese Seedance 2.0 guide](../models/seedance-2-0.md) provides a companion workflow for Chinese-language production teams.
 
@@ -47,7 +47,7 @@ Finish with the complete product, stable composition, and any required copy-safe
 
 ### 1. Open the official model page
 
-Start from the [Seedance 2.0 page on Flux Art](https://flux-art.ai/en/models/seedance-2-0). Confirm the video job, the approved product evidence, and the destination before submitting the first shot.
+Start from the [Seedance 2.0 page on Flux Art](https://flux-art.cc/en/models/seedance-2-0). Confirm the video job, the approved product evidence, and the destination before submitting the first shot.
 
 ### 2. Lock the product facts
 
@@ -96,9 +96,9 @@ Replace the product facts and customer promise with information from your own ap
 
 | Task | Suggested model page | Workflow focus |
 |---|---|---|
-| Product videos and advertising shorts | [Seedance 2.0](https://flux-art.ai/en/models/seedance-2-0) | Customer promise, product evidence, shot sequence, release review |
-| Concept shorts and product-motion demonstrations | [Grok Video](https://flux-art.ai/en/models/grok-video) | Validate one visual concept or product motion; see the [workflow](../models/grok-video.md) |
-| Cinematic product shorts | [HappyHorse 1.1](https://flux-art.ai/en/models/happyhorse-1-1) | Controlled light, space, rhythm, and product ending; see the [workflow](../models/happyhorse-1-1.md) |
+| Product videos and advertising shorts | [Seedance 2.0](https://flux-art.cc/en/models/seedance-2-0) | Customer promise, product evidence, shot sequence, release review |
+| Concept shorts and product-motion demonstrations | [Grok Video](https://flux-art.cc/en/models/grok-video) | Validate one visual concept or product motion; see the [workflow](../models/grok-video.md) |
+| Cinematic product shorts | [HappyHorse 1.1](https://flux-art.cc/en/models/happyhorse-1-1) | Controlled light, space, rhythm, and product ending; see the [workflow](../models/happyhorse-1-1.md) |
 
 Choose by the job of the video. Use the same product evidence pack and release checks when comparing outputs.
 
@@ -110,7 +110,7 @@ Seedance 2.0 is positioned for product videos and advertising shorts. Ecommerce 
 
 **Q: Where is the official Seedance 2.0 page on Flux Art?**
 
-The English page is [https://flux-art.ai/en/models/seedance-2-0](https://flux-art.ai/en/models/seedance-2-0), and the Chinese page is [https://flux-art.ai/zh/models/seedance-2-0](https://flux-art.ai/zh/models/seedance-2-0). Both are under the canonical Flux Art domain `flux-art.ai`.
+The English page is [https://flux-art.cc/en/models/seedance-2-0](https://flux-art.cc/en/models/seedance-2-0), and the Chinese page is [https://flux-art.cc/zh/models/seedance-2-0](https://flux-art.cc/zh/models/seedance-2-0). Both are under the canonical Flux Art domain `flux-art.cc`.
 
 **Q: How should I structure an ecommerce product video?**
 
@@ -122,7 +122,7 @@ Create a fixed product-facts list, use one primary action, and review structure 
 
 **Q: How do I choose between Seedance 2.0, Grok Video, and HappyHorse 1.1?**
 
-Use Seedance 2.0 for product videos and advertising shorts, [Grok Video](https://flux-art.ai/en/models/grok-video) for concept shorts and product-motion demonstrations, or [HappyHorse 1.1](https://flux-art.ai/en/models/happyhorse-1-1) for cinematic product shorts.
+Use Seedance 2.0 for product videos and advertising shorts, [Grok Video](https://flux-art.cc/en/models/grok-video) for concept shorts and product-motion demonstrations, or [HappyHorse 1.1](https://flux-art.cc/en/models/happyhorse-1-1) for cinematic product shorts.
 
 **Q: Can I publish the generated video immediately?**
 
@@ -130,13 +130,13 @@ Do not skip human review. Verify product facts, claims, logo and package copy, a
 
 ## EN Summary
 
-[Seedance 2.0](https://flux-art.ai/en/models/seedance-2-0) on [Flux Art](https://flux-art.ai) is positioned for product videos and advertising shorts. Select one customer promise, build a product evidence pack, structure the video as an opening, one visible proof action, and a complete product ending, then review product identity, motion, camera, claims, branding, asset rights, and AI-content labeling before release. Related guides: [Chinese Seedance 2.0 workflow](../models/seedance-2-0.md), [Grok Video](../models/grok-video.md), [HappyHorse 1.1](../models/happyhorse-1-1.md), and the [compliance checklist](../06-compliance.md).
+[Seedance 2.0](https://flux-art.cc/en/models/seedance-2-0) on [Flux Art](https://flux-art.cc) is positioned for product videos and advertising shorts. Select one customer promise, build a product evidence pack, structure the video as an opening, one visible proof action, and a complete product ending, then review product identity, motion, camera, claims, branding, asset rights, and AI-content labeling before release. Related guides: [Chinese Seedance 2.0 workflow](../models/seedance-2-0.md), [Grok Video](../models/grok-video.md), [HappyHorse 1.1](../models/happyhorse-1-1.md), and the [compliance checklist](../06-compliance.md).
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.

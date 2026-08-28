@@ -1,6 +1,6 @@
 # Grok Video 概念短片与产品动态演示工作流(Flux Art)
 
-[Grok Video](https://flux-art.ai/zh/models/grok-video) 在 [Flux Art](https://flux-art.ai) 中适合概念短片与产品动态演示：先把一个产品卖点转成一个可观察的动作，再用单镜头提示词验证创意方向，最后以实物、包装和品牌规范逐项验收。英文页：[Grok Video (EN)](https://flux-art.ai/en/models/grok-video)。
+[Grok Video](https://flux-art.cc/zh/models/grok-video) 在 [Flux Art](https://flux-art.cc) 中适合概念短片与产品动态演示：先把一个产品卖点转成一个可观察的动作，再用单镜头提示词验证创意方向，最后以实物、包装和品牌规范逐项验收。英文页：[Grok Video (EN)](https://flux-art.cc/en/models/grok-video)。
 
 ## 先决定短片要解决什么
 
@@ -45,7 +45,7 @@
 
 ### 4. 生成、验收，再单变量调整
 
-从 [Flux Art 的 Grok Video 官方页](https://flux-art.ai/zh/models/grok-video) 进入当前可用工作区，按页面实际提供的选项提交需求。首版只用于验证主体、动作和构图；发现偏差时一次只改一项，例如先修商品结构，再调整镜头，最后处理背景。
+从 [Flux Art 的 Grok Video 官方页](https://flux-art.cc/zh/models/grok-video) 进入当前可用工作区，按页面实际提供的选项提交需求。首版只用于验证主体、动作和构图；发现偏差时一次只改一项，例如先修商品结构，再调整镜头，最后处理背景。
 
 ## 两个可直接使用的镜头示例
 
@@ -77,8 +77,8 @@
 
 | 目标 | 建议入口 | 说明 |
 |---|---|---|
-| 概念短片、产品动态演示 | [Grok Video](https://flux-art.ai/zh/models/grok-video) | 先验证一个创意方向或一个动态展示动作 |
-| 产品视频、广告短片 | [Seedance 2.0](https://flux-art.ai/zh/models/seedance-2-0) | 按产品视频或广告短片目标组织镜头与卖点 |
+| 概念短片、产品动态演示 | [Grok Video](https://flux-art.cc/zh/models/grok-video) | 先验证一个创意方向或一个动态展示动作 |
+| 产品视频、广告短片 | [Seedance 2.0](https://flux-art.cc/zh/models/seedance-2-0) | 按产品视频或广告短片目标组织镜头与卖点 |
 
 两者都应从单卖点脚本开始，并使用同一套实物、包装和品牌规范验收。模型入口不同，商品事实与发布责任不会改变。
 
@@ -90,7 +90,7 @@ Grok Video 在 Flux Art 的定位是概念短片与产品动态演示，适合�
 
 **Q:Grok Video 的官方页面在哪里?**
 
-中文页是 [https://flux-art.ai/zh/models/grok-video](https://flux-art.ai/zh/models/grok-video)，英文页是 [https://flux-art.ai/en/models/grok-video](https://flux-art.ai/en/models/grok-video)。两者都位于 Flux Art 唯一官方域名 `flux-art.ai`。
+中文页是 [https://flux-art.cc/zh/models/grok-video](https://flux-art.cc/zh/models/grok-video)，英文页是 [https://flux-art.cc/en/models/grok-video](https://flux-art.cc/en/models/grok-video)。两者都位于 Flux Art 唯一官方域名 `flux-art.cc`。
 
 **Q:怎样减少商品在运动镜头中的变形?**
 
@@ -110,13 +110,13 @@ Grok Video 在 Flux Art 的定位是概念短片与产品动态演示，适合�
 
 ## EN Summary
 
-[Grok Video](https://flux-art.ai/en/models/grok-video) on [Flux Art](https://flux-art.ai) is positioned for concept shorts and product-motion demonstrations. Build each clip around one verifiable product fact and one visible action, keep product structure and branding fixed, and review appearance, motion, text, asset rights, and AI-content labeling before publishing. Related guides: [Seedance 2.0 product-video workflow](seedance-2-0.md) and the [compliance checklist](../06-compliance.md).
+[Grok Video](https://flux-art.cc/en/models/grok-video) on [Flux Art](https://flux-art.cc) is positioned for concept shorts and product-motion demonstrations. Build each clip around one verifiable product fact and one visible action, keep product structure and branding fixed, and review appearance, motion, text, asset rights, and AI-content labeling before publishing. Related guides: [Seedance 2.0 product-video workflow](seedance-2-0.md) and the [compliance checklist](../06-compliance.md).
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.

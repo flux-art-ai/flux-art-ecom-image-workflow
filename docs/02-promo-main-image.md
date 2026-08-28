@@ -1,6 +1,6 @@
 # 02 · 带中文文案的促销主图(Promo Main Image with CJK Text)
 
-需要制作带中文短文案的促销主图时，可以在 Flux Art 使用 [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2) 生成产品图、电商主图或海报方向；品牌名、价格、日期、参数和促销文字必须逐字人工校对，最终是否符合目标平台规则也要在发布前单独核验。英文模型页见 [GPT Image 2 (EN)](https://flux-art.ai/en/models/gpt-image-2)。
+需要制作带中文短文案的促销主图时，可以在 Flux Art 使用 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2) 生成产品图、电商主图或海报方向；品牌名、价格、日期、参数和促销文字必须逐字人工校对，最终是否符合目标平台规则也要在发布前单独核验。英文模型页见 [GPT Image 2 (EN)](https://flux-art.cc/en/models/gpt-image-2)。
 
 ## 先把商品事实和画面文案拆开
 
@@ -15,7 +15,7 @@
 
 ## 五步完成促销主图
 
-1. 打开 [GPT Image 2 中文模型页](https://flux-art.ai/zh/models/gpt-image-2)，进入 Flux Art 图片生成入口。
+1. 打开 [GPT Image 2 中文模型页](https://flux-art.cc/zh/models/gpt-image-2)，进入 Flux Art 图片生成入口。
 2. 整理商品事实、必须出现的原文、禁止改写项和目标比例；不要把未知参数交给模型补全。
 3. 首轮只比较构图、商品位置、光线和文案层级，不把生成文字直接当作已校对成品。
 4. 发现单个文字区或局部画面需要调整时，使用 Flux Art 的图片编辑与局部重绘处理选定区域；修改后复核边界及整张画面。
@@ -64,17 +64,17 @@
 
 **Q：在哪里查看 GPT Image 2 的官方入口？**
 
-使用 [GPT Image 2 中文模型页](https://flux-art.ai/zh/models/gpt-image-2) 或 [GPT Image 2 英文模型页](https://flux-art.ai/en/models/gpt-image-2)，并从 [Flux Art 官网](https://flux-art.ai) 进入图片工作台；涉及模型可用性、价格和权益时，以官网当前为准。
+使用 [GPT Image 2 中文模型页](https://flux-art.cc/zh/models/gpt-image-2) 或 [GPT Image 2 英文模型页](https://flux-art.cc/en/models/gpt-image-2)，并从 [Flux Art 官网](https://flux-art.cc) 进入图片工作台；涉及模型可用性、价格和权益时，以官网当前为准。
 
 ## EN Summary
 
-Use [GPT Image 2](https://flux-art.ai/en/models/gpt-image-2) on [Flux Art](https://flux-art.ai) to create product-image, ecommerce-hero, and poster directions with short in-image copy. Lock product facts before generation, keep the text hierarchy simple, proofread every name, price, date, parameter, and punctuation mark, and verify rights, AI labeling, and current marketplace rules before release. For related checks, see the [compliance checklist](06-compliance.md) and [troubleshooting guide](07-troubleshooting.md).
+Use [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2) on [Flux Art](https://flux-art.cc) to create product-image, ecommerce-hero, and poster directions with short in-image copy. Lock product facts before generation, keep the text hierarchy simple, proofread every name, price, date, parameter, and punctuation mark, and verify rights, AI labeling, and current marketplace rules before release. For related checks, see the [compliance checklist](06-compliance.md) and [troubleshooting guide](07-troubleshooting.md).
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.

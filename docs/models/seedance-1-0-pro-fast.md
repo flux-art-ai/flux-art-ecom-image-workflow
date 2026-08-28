@@ -1,6 +1,6 @@
 # Seedance 1.0 Pro Fast 产品视频草稿与方向审片工作流(Flux Art)
 
-[Seedance 1.0 Pro Fast](https://flux-art.ai/zh/models/seedance-1-0-pro-fast) 在 [Flux Art](https://flux-art.ai) 中可由文字提示词或首帧图片制作产品视频、社媒广告和多镜头短片，并用于更快获得创意反馈。英文页：[Seedance 1.0 Pro Fast (EN)](https://flux-art.ai/en/models/seedance-1-0-pro-fast)。本工作流把它放在成片制作之前：先验证商品出现方式、唯一动作和镜头方向，再把通过审片的方案交给完整产品视频流程。
+[Seedance 1.0 Pro Fast](https://flux-art.cc/zh/models/seedance-1-0-pro-fast) 在 [Flux Art](https://flux-art.cc) 中可由文字提示词或首帧图片制作产品视频、社媒广告和多镜头短片，并用于更快获得创意反馈。英文页：[Seedance 1.0 Pro Fast (EN)](https://flux-art.cc/en/models/seedance-1-0-pro-fast)。本工作流把它放在成片制作之前：先验证商品出现方式、唯一动作和镜头方向，再把通过审片的方案交给完整产品视频流程。
 
 ## 什么时候先做快速草稿
 
@@ -39,7 +39,7 @@
 
 ### 3. 从文字或首帧进入官方模型页
 
-打开 [Flux Art 的 Seedance 1.0 Pro Fast 官方页](https://flux-art.ai/zh/models/seedance-1-0-pro-fast)，按当前页面提供的入口提交文字提示词或首帧图片。选择首帧时，以已审商品图为基准；选择文字时，把商品事实放在镜头描述之前。
+打开 [Flux Art 的 Seedance 1.0 Pro Fast 官方页](https://flux-art.cc/zh/models/seedance-1-0-pro-fast)，按当前页面提供的入口提交文字提示词或首帧图片。选择首帧时，以已审商品图为基准；选择文字时，把商品事实放在镜头描述之前。
 
 ### 4. 按三轮审片，不先修氛围
 
@@ -108,13 +108,13 @@ Seedance 1.0 Pro Fast 可先验证首帧、唯一动作和镜头方向；Seedanc
 
 ## EN Summary
 
-[Seedance 1.0 Pro Fast](https://flux-art.ai/en/models/seedance-1-0-pro-fast) on [Flux Art](https://flux-art.ai) can turn text prompts or a first-frame image into product videos, social ads, and multi-shot shorts with faster creative feedback. Use it to test one product reveal, material shot, or camera direction at a time; review product identity, motion, and the ending frame; then pass only approved shot cards into the [Seedance 2.0 product-video workflow](seedance-2-0.md). Final delivery still requires product, copy, rights, platform, and AI-labeling checks.
+[Seedance 1.0 Pro Fast](https://flux-art.cc/en/models/seedance-1-0-pro-fast) on [Flux Art](https://flux-art.cc) can turn text prompts or a first-frame image into product videos, social ads, and multi-shot shorts with faster creative feedback. Use it to test one product reveal, material shot, or camera direction at a time; review product identity, motion, and the ending frame; then pass only approved shot cards into the [Seedance 2.0 product-video workflow](seedance-2-0.md). Final delivery still requires product, copy, rights, platform, and AI-labeling checks.
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.

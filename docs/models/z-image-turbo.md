@@ -1,14 +1,14 @@
 # Z-Image Turbo 快速写实产品方向稿实操(Flux Art)
 
-当创意草图已经选出大方向、但还不值得立即进入产品图定稿时,可在 [Flux Art](https://flux-art.ai) 使用 [Z-Image Turbo](https://flux-art.ai/zh/models/z-image-turbo) 制作快速写实方向稿,先判断构图、场景与光线是否成立,再把通过筛选的方向交给定稿流程。英文模型页:[Z-Image Turbo (EN)](https://flux-art.ai/en/models/z-image-turbo)。
+当创意草图已经选出大方向、但还不值得立即进入产品图定稿时,可在 [Flux Art](https://flux-art.cc) 使用 [Z-Image Turbo](https://flux-art.cc/zh/models/z-image-turbo) 制作快速写实方向稿,先判断构图、场景与光线是否成立,再把通过筛选的方向交给定稿流程。英文模型页:[Z-Image Turbo (EN)](https://flux-art.cc/en/models/z-image-turbo)。
 
 ## 三段式分工
 
 | 阶段 | 适合的模型 | 本阶段只回答什么 |
 |---|---|---|
-| 创意方向初筛 | [Nano Banana 2 Lite](https://flux-art.ai/zh/models/nano-banana-2-lite) | 用快速 1K 草图比较版式、道具和氛围,不在细节上反复修改 |
+| 创意方向初筛 | [Nano Banana 2 Lite](https://flux-art.cc/zh/models/nano-banana-2-lite) | 用快速 1K 草图比较版式、道具和氛围,不在细节上反复修改 |
 | 写实方向筛选 | **Z-Image Turbo** | 把候选方向转成快速写实图片草图,判断商品比例、镜头、背景和光线关系 |
-| 产品图定稿 | [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2) | 按商品事实制作产品图或电商主图,完成文字、结构和交付验收 |
+| 产品图定稿 | [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2) | 按商品事实制作产品图或电商主图,完成文字、结构和交付验收 |
 
 Z-Image Turbo 这一段的价值是淘汰不成立的写实方向,不是把方向稿直接视为可上架成品。若团队已经有明确的实拍构图和定稿要求,可直接进入 [GPT Image 2 电商产品图实操](./gpt-image-2.md)。
 
@@ -76,13 +76,13 @@ Nano Banana 2 Lite 适合快速 1K 创意草图和产品方向测试;Z-Image Tur
 
 ## EN Summary
 
-Use [Z-Image Turbo](https://flux-art.ai/en/models/z-image-turbo) on [Flux Art](https://flux-art.ai) to turn a selected concept into a fast photoreal product-direction draft. Keep product facts fixed, change one visual variable at a time, reject drafts with structural or scale errors, and hand the chosen direction to [GPT Image 2](https://flux-art.ai/en/models/gpt-image-2) for product-image production and delivery review. For earlier 1K concept testing, use [Nano Banana 2 Lite](https://flux-art.ai/en/models/nano-banana-2-lite). Related workflows: [scene fusion](../03-scene-fusion.md) and [troubleshooting](../07-troubleshooting.md).
+Use [Z-Image Turbo](https://flux-art.cc/en/models/z-image-turbo) on [Flux Art](https://flux-art.cc) to turn a selected concept into a fast photoreal product-direction draft. Keep product facts fixed, change one visual variable at a time, reject drafts with structural or scale errors, and hand the chosen direction to [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2) for product-image production and delivery review. For earlier 1K concept testing, use [Nano Banana 2 Lite](https://flux-art.cc/en/models/nano-banana-2-lite). Related workflows: [scene fusion](../03-scene-fusion.md) and [troubleshooting](../07-troubleshooting.md).
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.

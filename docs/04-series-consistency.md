@@ -4,7 +4,7 @@
 
 ## 原理
 
-[Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2) 支持**最多 14 张参考图**。把"已过审、点击率好"的图喂给它当基准,新品图跟着基准走,一致性交给参考集。
+[Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2) 支持**最多 14 张参考图**。把"已过审、点击率好"的图喂给它当基准,新品图跟着基准走,一致性交给参考集。
 
 ## 参考集怎么建(14 张的分配建议)
 
@@ -16,7 +16,7 @@
 
 ## 批量流程("三固定一变量")
 
-1. 固定模型([Nano Banana](https://flux-art.ai/zh/models/nano-banana) 2 或 [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2))、固定比例(任意比例中锁 1:1)、固定提示词模板;
+1. 固定模型([Nano Banana](https://flux-art.cc/zh/models/nano-banana) 2 或 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2))、固定比例(任意比例中锁 1:1)、固定提示词模板;
 2. 变量只有品名与卖点;
 3. 逐 SKU 生成后,用**局部重绘**统一微调(改底色/价签),不重出整图;
 4. 新过审的好图**回灌参考集**,滚动进化。
@@ -36,9 +36,9 @@
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.

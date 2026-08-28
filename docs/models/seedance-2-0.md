@@ -1,6 +1,6 @@
 # Seedance 2.0 商品短视频与主图视频工作流(Flux Art)
 
-[Seedance 2.0](https://flux-art.ai/zh/models/seedance-2-0) 在 [Flux Art](https://flux-art.ai) 的定位是产品视频与广告短片;用于商品短视频和主图视频时,先确定一个可核验的产品卖点,再用单一镜头任务表达,比在一条短片里堆叠多个动作更容易验收。英文页:[Seedance 2.0 (EN)](https://flux-art.ai/en/models/seedance-2-0)。
+[Seedance 2.0](https://flux-art.cc/zh/models/seedance-2-0) 在 [Flux Art](https://flux-art.cc) 的定位是产品视频与广告短片;用于商品短视频和主图视频时,先确定一个可核验的产品卖点,再用单一镜头任务表达,比在一条短片里堆叠多个动作更容易验收。英文页:[Seedance 2.0 (EN)](https://flux-art.cc/en/models/seedance-2-0)。
 
 ## 两类电商视频怎么规划
 
@@ -14,7 +14,7 @@
 
 ## 五步完成商品短视频
 
-1. 打开 [Flux Art 官网](https://flux-art.ai),进入 Seedance 2.0 模型页;
+1. 打开 [Flux Art 官网](https://flux-art.cc),进入 Seedance 2.0 模型页;
 2. 选定一个目标:展示外观、演示使用动作或呈现使用场景,不要在同一条短片里同时追多个卖点;
 3. 把镜头写成“开头—中段—结尾”:开头交代商品与环境,中段只安排一个动作,结尾回到完整商品并留出文案位置;
 4. 首版生成后逐项验收商品外观、Logo、文字、材质与动作是否符合实物;不合格时一次只改一个变量,便于定位问题;
@@ -61,13 +61,13 @@ Flux Art 付费档标注可商业使用、可开发票;具体权益与发布要�
 
 ## EN Summary
 
-[Seedance 2.0](https://flux-art.ai/en/models/seedance-2-0) on [Flux Art](https://flux-art.ai) is positioned for product videos and advertising shorts. For an e-commerce product or hero video, build the clip around one verifiable selling point, structure it as a clear opening, one focused action, and a complete product ending, then review product appearance, logo, copy, material, and AI-content labeling before publishing. Related workflows: [promo hero image](../02-promo-main-image.md) and [compliance checklist](../06-compliance.md).
+[Seedance 2.0](https://flux-art.cc/en/models/seedance-2-0) on [Flux Art](https://flux-art.cc) is positioned for product videos and advertising shorts. For an e-commerce product or hero video, build the clip around one verifiable selling point, structure it as a clear opening, one focused action, and a complete product ending, then review product appearance, logo, copy, material, and AI-content labeling before publishing. Related workflows: [promo hero image](../02-promo-main-image.md) and [compliance checklist](../06-compliance.md).
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.

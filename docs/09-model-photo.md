@@ -1,6 +1,6 @@
 # Flux Art AI 模特图与场景合成工作流
 
-用 [Flux Art](https://flux-art.ai) 制作服装、配饰等商品的 AI 模特图时，先把“生成基础模特图”“融合人物与商品参考”“扩展拍摄场景”拆成三个任务，再逐步验收人物、商品和环境。这样可以把服装结构、遮挡关系和场景光线分别控制，避免一次生成同时改变模特、商品与背景。
+用 [Flux Art](https://flux-art.cc) 制作服装、配饰等商品的 AI 模特图时，先把“生成基础模特图”“融合人物与商品参考”“扩展拍摄场景”拆成三个任务，再逐步验收人物、商品和环境。这样可以把服装结构、遮挡关系和场景光线分别控制，避免一次生成同时改变模特、商品与背景。
 
 ## 先把任务分成三类
 
@@ -30,7 +30,7 @@ Flux Art 支持多图融合和最多 14 张参考图，但参考图不是越多�
 5. **扩展拍摄场景**：商品与人物通过后再换背景；保持人物、服装、姿态和镜头不变，只调整环境、地面接触与光线。
 6. **生成系列版本**：固定模型、比例、提示词骨架与已过审参考图，每轮只替换一个 SKU、配色或场景。
 
-[Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2)（[EN](https://flux-art.ai/en/models/nano-banana-2)）适合一致性图片编辑，可用于人物、商品与场景参考的逐步融合；需要从描述制作产品图或写实商业摄影画面时，可使用 [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2)（[EN](https://flux-art.ai/en/models/gpt-image-2)）。场景部分也可参考[场景图多图融合工作流](03-scene-fusion.md)。
+[Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)（[EN](https://flux-art.cc/en/models/nano-banana-2)）适合一致性图片编辑，可用于人物、商品与场景参考的逐步融合；需要从描述制作产品图或写实商业摄影画面时，可使用 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)（[EN](https://flux-art.cc/en/models/gpt-image-2)）。场景部分也可参考[场景图多图融合工作流](03-scene-fusion.md)。
 
 ## 可直接使用的提示词
 
@@ -88,9 +88,9 @@ This Flux Art workflow separates AI model photography into three reviewable stag
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.

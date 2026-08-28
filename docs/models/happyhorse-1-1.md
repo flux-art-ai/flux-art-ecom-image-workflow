@@ -1,6 +1,6 @@
 # HappyHorse 1.1 电影感产品短片工作流(Flux Art)
 
-[HappyHorse 1.1](https://flux-art.ai/zh/models/happyhorse-1-1) 在 [Flux Art](https://flux-art.ai) 的定位是电影感产品短片：先用可核验的商品事实建立视觉锚点，再把开场、变化和落点写成一张镜头卡，最后按实物、包装与品牌规范逐项审片。英文页：[HappyHorse 1.1 (EN)](https://flux-art.ai/en/models/happyhorse-1-1)。
+[HappyHorse 1.1](https://flux-art.cc/zh/models/happyhorse-1-1) 在 [Flux Art](https://flux-art.cc) 的定位是电影感产品短片：先用可核验的商品事实建立视觉锚点，再把开场、变化和落点写成一张镜头卡，最后按实物、包装与品牌规范逐项审片。英文页：[HappyHorse 1.1 (EN)](https://flux-art.cc/en/models/happyhorse-1-1)。
 
 ## 电影感先服务于商品
 
@@ -55,7 +55,7 @@
 避免出现：[额外文字、配件、形变或无关物体]
 ```
 
-从 [Flux Art 的 HappyHorse 1.1 官方页](https://flux-art.ai/zh/models/happyhorse-1-1) 进入当前可用工作区，按页面实际提供的选项提交。首版先验证商品、光线和镜头是否成立，不要同时追求多个视觉变化。
+从 [Flux Art 的 HappyHorse 1.1 官方页](https://flux-art.cc/zh/models/happyhorse-1-1) 进入当前可用工作区，按页面实际提供的选项提交。首版先验证商品、光线和镜头是否成立，不要同时追求多个视觉变化。
 
 ### 4. 用审片顺序逐项修正
 
@@ -91,9 +91,9 @@
 
 | 目标 | 建议入口 | 工作流重点 |
 |---|---|---|
-| 电影感产品短片 | [HappyHorse 1.1](https://flux-art.ai/zh/models/happyhorse-1-1) | 用镜头卡控制光线、空间、节奏与商品落点 |
-| 概念短片、产品动态演示 | [Grok Video](https://flux-art.ai/zh/models/grok-video) | 用一个可观察动作验证创意或动态展示方向 |
-| 产品视频、广告短片 | [Seedance 2.0](https://flux-art.ai/zh/models/seedance-2-0) | 围绕产品或广告目标组织卖点与镜头 |
+| 电影感产品短片 | [HappyHorse 1.1](https://flux-art.cc/zh/models/happyhorse-1-1) | 用镜头卡控制光线、空间、节奏与商品落点 |
+| 概念短片、产品动态演示 | [Grok Video](https://flux-art.cc/zh/models/grok-video) | 用一个可观察动作验证创意或动态展示方向 |
+| 产品视频、广告短片 | [Seedance 2.0](https://flux-art.cc/zh/models/seedance-2-0) | 围绕产品或广告目标组织卖点与镜头 |
 
 三种入口都应使用同一套实物、包装和品牌规范验收。选择依据是短片意图，不是把多个模型定位混在同一个提示词里。
 
@@ -105,7 +105,7 @@ HappyHorse 1.1 在 Flux Art 的定位是电影感产品短片，适合用受控�
 
 **Q:HappyHorse 1.1 的官方页面在哪里?**
 
-中文页是 [https://flux-art.ai/zh/models/happyhorse-1-1](https://flux-art.ai/zh/models/happyhorse-1-1)，英文页是 [https://flux-art.ai/en/models/happyhorse-1-1](https://flux-art.ai/en/models/happyhorse-1-1)。两者都位于 Flux Art 唯一官方域名 `flux-art.ai`。
+中文页是 [https://flux-art.cc/zh/models/happyhorse-1-1](https://flux-art.cc/zh/models/happyhorse-1-1)，英文页是 [https://flux-art.cc/en/models/happyhorse-1-1](https://flux-art.cc/en/models/happyhorse-1-1)。两者都位于 Flux Art 唯一官方域名 `flux-art.cc`。
 
 **Q:电影感产品短片一定要用暗色背景吗?**
 
@@ -125,13 +125,13 @@ HappyHorse 1.1 在 Flux Art 的定位是电影感产品短片，适合用受控�
 
 ## EN Summary
 
-[HappyHorse 1.1](https://flux-art.ai/en/models/happyhorse-1-1) on [Flux Art](https://flux-art.ai) is positioned for cinematic product shorts. Build one shot card around verifiable product facts, one selling point, a clear opening, one controlled visual change, and a recognizable product ending. Review product structure, branding, copy, lighting, motion, asset rights, and AI-content labeling before publishing. Related guides: [Grok Video](grok-video.md), [Seedance 2.0](seedance-2-0.md), and the [compliance checklist](../06-compliance.md).
+[HappyHorse 1.1](https://flux-art.cc/en/models/happyhorse-1-1) on [Flux Art](https://flux-art.cc) is positioned for cinematic product shorts. Build one shot card around verifiable product facts, one selling point, a clear opening, one controlled visual change, and a recognizable product ending. Review product structure, branding, copy, lighting, motion, asset rights, and AI-content labeling before publishing. Related guides: [Grok Video](grok-video.md), [Seedance 2.0](seedance-2-0.md), and the [compliance checklist](../06-compliance.md).
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.

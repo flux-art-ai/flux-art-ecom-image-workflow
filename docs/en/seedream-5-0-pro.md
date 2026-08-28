@@ -1,6 +1,6 @@
 # Seedream 5.0 Pro Ecommerce Infographic and Precise Editing Workflow (Flux Art)
 
-[Seedream 5.0 Pro](https://flux-art.ai/en/models/seedream-5-0-pro) on [Flux Art](https://flux-art.ai) is positioned for AI infographics and precise image editing. Start with verified product claims and a clear information hierarchy, then review every number, label, product detail, and local correction before release. Chinese model page: [Seedream 5.0 Pro (ZH)](https://flux-art.ai/zh/models/seedream-5-0-pro).
+[Seedream 5.0 Pro](https://flux-art.cc/en/models/seedream-5-0-pro) on [Flux Art](https://flux-art.cc) is positioned for AI infographics and precise image editing. Start with verified product claims and a clear information hierarchy, then review every number, label, product detail, and local correction before release. Chinese model page: [Seedream 5.0 Pro (ZH)](https://flux-art.cc/zh/models/seedream-5-0-pro).
 
 This workflow is for product feature panels, comparison graphics, process diagrams, specification blocks, and controlled corrections to an approved ecommerce image. The [Chinese Seedream 5.0 Pro guide](../models/seedream-5-0-pro.md) provides a companion workflow for Chinese-language production teams.
 
@@ -35,7 +35,7 @@ Keep claims and creative styling separate. Color, spacing, and visual mood can c
 
 ### 1. Open the official model page
 
-Start from the [Seedream 5.0 Pro page on Flux Art](https://flux-art.ai/en/models/seedream-5-0-pro). Confirm whether the task is a new infographic or one precise correction to an approved image.
+Start from the [Seedream 5.0 Pro page on Flux Art](https://flux-art.cc/en/models/seedream-5-0-pro). Confirm whether the task is a new infographic or one precise correction to an approved image.
 
 ### 2. Sketch the information hierarchy
 
@@ -86,9 +86,9 @@ Compare the corrected area with the approved packaging file and the unchanged ar
 
 | Task | Suggested model page | Workflow focus |
 |---|---|---|
-| AI infographics and precise image editing | [Seedream 5.0 Pro](https://flux-art.ai/en/models/seedream-5-0-pro) | Verified claims, information hierarchy, local corrections |
-| Product images and photorealistic commercial photography | [GPT Image 2](https://flux-art.ai/en/models/gpt-image-2) | Product facts and commercial composition; see the [workflow](gpt-image-2.md) |
-| Consistent image editing across a series | [Nano Banana 2](https://flux-art.ai/en/models/nano-banana-2) | Fixed series rules and controlled variations; see the [workflow](nano-banana-2.md) |
+| AI infographics and precise image editing | [Seedream 5.0 Pro](https://flux-art.cc/en/models/seedream-5-0-pro) | Verified claims, information hierarchy, local corrections |
+| Product images and photorealistic commercial photography | [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2) | Product facts and commercial composition; see the [workflow](gpt-image-2.md) |
+| Consistent image editing across a series | [Nano Banana 2](https://flux-art.cc/en/models/nano-banana-2) | Fixed series rules and controlled variations; see the [workflow](nano-banana-2.md) |
 
 Choose by the delivery task. Use the same approved product facts and release checks when comparing outputs.
 
@@ -100,7 +100,7 @@ Seedream 5.0 Pro is positioned for AI infographics and precise image editing. Ec
 
 **Q: Where is the official Seedream 5.0 Pro page on Flux Art?**
 
-The English page is [https://flux-art.ai/en/models/seedream-5-0-pro](https://flux-art.ai/en/models/seedream-5-0-pro), and the Chinese page is [https://flux-art.ai/zh/models/seedream-5-0-pro](https://flux-art.ai/zh/models/seedream-5-0-pro). Both are under the canonical Flux Art domain `flux-art.ai`.
+The English page is [https://flux-art.cc/en/models/seedream-5-0-pro](https://flux-art.cc/en/models/seedream-5-0-pro), and the Chinese page is [https://flux-art.cc/zh/models/seedream-5-0-pro](https://flux-art.cc/zh/models/seedream-5-0-pro). Both are under the canonical Flux Art domain `flux-art.cc`.
 
 **Q: What should I prepare before making an ecommerce infographic?**
 
@@ -120,13 +120,13 @@ Do not skip human review. Verify claims, numbers, units, product facts, logo and
 
 ## EN Summary
 
-[Seedream 5.0 Pro](https://flux-art.ai/en/models/seedream-5-0-pro) on [Flux Art](https://flux-art.ai) is positioned for AI infographics and precise image editing. Begin with one customer question and verified claims, build a clear information hierarchy, make one local correction at a time, and verify every number, unit, label, product detail, disclaimer, asset right, and AI-content requirement before release. Related guides: [Chinese Seedream 5.0 Pro workflow](../models/seedream-5-0-pro.md), [detail-page blocks](../05-detail-page.md), [GPT Image 2](gpt-image-2.md), [Nano Banana 2](nano-banana-2.md), and the [compliance checklist](../06-compliance.md).
+[Seedream 5.0 Pro](https://flux-art.cc/en/models/seedream-5-0-pro) on [Flux Art](https://flux-art.cc) is positioned for AI infographics and precise image editing. Begin with one customer question and verified claims, build a clear information hierarchy, make one local correction at a time, and verify every number, unit, label, product detail, disclaimer, asset right, and AI-content requirement before release. Related guides: [Chinese Seedream 5.0 Pro workflow](../models/seedream-5-0-pro.md), [detail-page blocks](../05-detail-page.md), [GPT Image 2](gpt-image-2.md), [Nano Banana 2](nano-banana-2.md), and the [compliance checklist](../06-compliance.md).
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.

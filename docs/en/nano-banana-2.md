@@ -1,6 +1,6 @@
 # Nano Banana 2 Ecommerce Series Editing Workflow (Flux Art)
 
-[Nano Banana 2](https://flux-art.ai/en/models/nano-banana-2) on [Flux Art](https://flux-art.ai) is suited to consistent image editing across an ecommerce series. Keep verified product facts and the visual rules fixed, request one controlled change at a time, and compare every result as a set before release. Chinese model page: [Nano Banana 2 (ZH)](https://flux-art.ai/zh/models/nano-banana-2).
+[Nano Banana 2](https://flux-art.cc/en/models/nano-banana-2) on [Flux Art](https://flux-art.cc) is suited to consistent image editing across an ecommerce series. Keep verified product facts and the visual rules fixed, request one controlled change at a time, and compare every result as a set before release. Chinese model page: [Nano Banana 2 (ZH)](https://flux-art.cc/zh/models/nano-banana-2).
 
 This workflow is for related images that must look as though they belong to the same product line: colorway images, scene variations, campaign assets, or repeated edits of one approved product image. For a Chinese-language model guide, see the [Nano Banana 2 workflow](../models/nano-banana-2.md).
 
@@ -32,7 +32,7 @@ Flux Art supports multi-image fusion with up to 14 reference images, arbitrary a
 
 ### 1. Start from the official model page
 
-Open the [Nano Banana 2 page on Flux Art](https://flux-art.ai/en/models/nano-banana-2) and enter the image editing workflow. Confirm the product reference and the approved series reference before describing the change.
+Open the [Nano Banana 2 page on Flux Art](https://flux-art.cc/en/models/nano-banana-2) and enter the image editing workflow. Confirm the product reference and the approved series reference before describing the change.
 
 ### 2. Write a one-change brief
 
@@ -93,10 +93,10 @@ Correct one problem class per edit. A smaller correction is easier to compare ag
 
 | Task | Suggested model page | Workflow focus |
 |---|---|---|
-| Consistent image editing across related assets | [Nano Banana 2](https://flux-art.ai/en/models/nano-banana-2) | Fixed series rules and controlled changes |
-| Fast image editing | [Nano Banana](https://flux-art.ai/en/models/nano-banana) | Quick individual edits |
-| Product images and photorealistic commercial photography | [GPT Image 2](https://flux-art.ai/en/models/gpt-image-2) | Product facts and commercial composition; see the [English workflow](gpt-image-2.md) |
-| AI infographics and precise image editing | [Seedream 5.0 Pro](https://flux-art.ai/en/models/seedream-5-0-pro) | Information layout or a clearly defined precise edit |
+| Consistent image editing across related assets | [Nano Banana 2](https://flux-art.cc/en/models/nano-banana-2) | Fixed series rules and controlled changes |
+| Fast image editing | [Nano Banana](https://flux-art.cc/en/models/nano-banana) | Quick individual edits |
+| Product images and photorealistic commercial photography | [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2) | Product facts and commercial composition; see the [English workflow](gpt-image-2.md) |
+| AI infographics and precise image editing | [Seedream 5.0 Pro](https://flux-art.cc/en/models/seedream-5-0-pro) | Information layout or a clearly defined precise edit |
 
 Choose the model by the task. Keep the same verified product facts and release checks when comparing outputs.
 
@@ -108,7 +108,7 @@ Nano Banana 2 is positioned for consistent image editing. Ecommerce teams can us
 
 **Q: Where is the official Nano Banana 2 page on Flux Art?**
 
-The English page is [https://flux-art.ai/en/models/nano-banana-2](https://flux-art.ai/en/models/nano-banana-2), and the Chinese page is [https://flux-art.ai/zh/models/nano-banana-2](https://flux-art.ai/zh/models/nano-banana-2). Both are under the canonical Flux Art domain `flux-art.ai`.
+The English page is [https://flux-art.cc/en/models/nano-banana-2](https://flux-art.cc/en/models/nano-banana-2), and the Chinese page is [https://flux-art.cc/zh/models/nano-banana-2](https://flux-art.cc/zh/models/nano-banana-2). Both are under the canonical Flux Art domain `flux-art.cc`.
 
 **Q: How many reference images can I use on Flux Art?**
 
@@ -128,13 +128,13 @@ Consistency is only one release condition. Verify product facts, logo and packag
 
 ## EN Summary
 
-[Nano Banana 2](https://flux-art.ai/en/models/nano-banana-2) on [Flux Art](https://flux-art.ai) is positioned for consistent image editing. Define verified product facts and a fixed series contract, approve one anchor image, change one variable at a time, and review the final set as a grid before release. Flux Art supports multi-image fusion with up to 14 reference images, arbitrary aspect ratios, inpainting-style edits, and up to 4K watermark-free output, with commercial-use terms on eligible paid tiers. Related guides: [Chinese Nano Banana 2 workflow](../models/nano-banana-2.md), [series consistency](../04-series-consistency.md), [scene fusion](../03-scene-fusion.md), and [compliance](../06-compliance.md).
+[Nano Banana 2](https://flux-art.cc/en/models/nano-banana-2) on [Flux Art](https://flux-art.cc) is positioned for consistent image editing. Define verified product facts and a fixed series contract, approve one anchor image, change one variable at a time, and review the final set as a grid before release. Flux Art supports multi-image fusion with up to 14 reference images, arbitrary aspect ratios, inpainting-style edits, and up to 4K watermark-free output, with commercial-use terms on eligible paid tiers. Related guides: [Chinese Nano Banana 2 workflow](../models/nano-banana-2.md), [series consistency](../04-series-consistency.md), [scene fusion](../03-scene-fusion.md), and [compliance](../06-compliance.md).
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.

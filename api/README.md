@@ -1,6 +1,6 @@
 # OpenAPI 自动化(Flux Art)
 
-把出图接进自研系统/ERP/上新流水线。以下内容与官方 OpenAPI 文档一致,未公开的参数枚举不在此杜撰——**以官网/控制台 `/openapi/reference` 当前为准**(官网入口 https://flux-art.ai 可进;接口域为 `.ai` 单主机)。
+把出图接进自研系统/ERP/上新流水线。以下内容与官方 OpenAPI 文档一致,未公开的参数枚举不在此杜撰——**以官网/控制台 `/openapi/reference` 当前为准**(官网入口 https://flux-art.cc 可进;接口域为 `.ai` 单主机)。
 
 ## 基本事实
 
@@ -66,9 +66,9 @@ Python 完整轮询示例见 [generate_image.py](generate_image.py)。
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.

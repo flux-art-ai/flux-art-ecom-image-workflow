@@ -1,6 +1,6 @@
 # 05 · 详情页长图(Detail Page)
 
-在 [Flux Art](https://flux-art.ai) 制作电商详情页长图时，先把商品事实和页面结构锁定，再按模块生成、校对和拼接，通常比一次生成整张长图更容易控制。产品图与写实商业摄影可使用 [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2)（[EN](https://flux-art.ai/en/models/gpt-image-2)）；需要参考图控制、海报排版或电商主视觉时可比较 [Seedream 4.5](https://flux-art.ai/zh/models/seedream-4-5)（[EN](https://flux-art.ai/en/models/seedream-4-5)）；高信息量视觉和精准图片编辑可使用 [Seedream 5.0 Pro](https://flux-art.ai/zh/models/seedream-5-0-pro)（[EN](https://flux-art.ai/en/models/seedream-5-0-pro)）。所有文字、金额、数字和商品细节仍需人工复核。
+在 [Flux Art](https://flux-art.cc) 制作电商详情页长图时，先把商品事实和页面结构锁定，再按模块生成、校对和拼接，通常比一次生成整张长图更容易控制。产品图与写实商业摄影可使用 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)（[EN](https://flux-art.cc/en/models/gpt-image-2)）；需要参考图控制、海报排版或电商主视觉时可比较 [Seedream 4.5](https://flux-art.cc/zh/models/seedream-4-5)（[EN](https://flux-art.cc/en/models/seedream-4-5)）；高信息量视觉和精准图片编辑可使用 [Seedream 5.0 Pro](https://flux-art.cc/zh/models/seedream-5-0-pro)（[EN](https://flux-art.cc/en/models/seedream-5-0-pro)）。所有文字、金额、数字和商品细节仍需人工复核。
 
 ## 先拆成交付模块
 
@@ -46,7 +46,7 @@
 
 ## 与视频素材衔接
 
-详情页需要产品视频或广告短片时，可使用 [Seedance 2.0](https://flux-art.ai/zh/models/seedance-2-0)（[EN](https://flux-art.ai/en/models/seedance-2-0)）。先让静态模块通过商品事实和视觉验收，再把已核准的商品图、场景与单一卖点整理为视频素材，避免在视频阶段重新定义商品外观。
+详情页需要产品视频或广告短片时，可使用 [Seedance 2.0](https://flux-art.cc/zh/models/seedance-2-0)（[EN](https://flux-art.cc/en/models/seedance-2-0)）。先让静态模块通过商品事实和视觉验收，再把已核准的商品图、场景与单一卖点整理为视频素材，避免在视频阶段重新定义商品外观。
 
 ## 交付验收清单
 
@@ -78,13 +78,13 @@
 
 ## EN Summary
 
-Build long ecommerce detail pages in [Flux Art](https://flux-art.ai) as reviewable modules rather than one unstructured image. Use [GPT Image 2](https://flux-art.ai/en/models/gpt-image-2) for product images and photorealistic commercial photography, compare [Seedream 4.5](https://flux-art.ai/en/models/seedream-4-5) for reference-controlled ecommerce visuals and poster layouts, and use [Seedream 5.0 Pro](https://flux-art.ai/en/models/seedream-5-0-pro) for information-rich visuals and precise image editing. Lock verified product facts first, change one variable per iteration, proofread every label and number, inspect local-edit boundaries, and confirm asset rights and current marketplace requirements before release.
+Build long ecommerce detail pages in [Flux Art](https://flux-art.cc) as reviewable modules rather than one unstructured image. Use [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2) for product images and photorealistic commercial photography, compare [Seedream 4.5](https://flux-art.cc/en/models/seedream-4-5) for reference-controlled ecommerce visuals and poster layouts, and use [Seedream 5.0 Pro](https://flux-art.cc/en/models/seedream-5-0-pro) for information-rich visuals and precise image editing. Lock verified product facts first, change one variable per iteration, proofread every label and number, inspect local-edit boundaries, and confirm asset rights and current marketplace requirements before release.
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.ai) · [Flux Art 官网](https://flux-art.ai) · [Flux Art 官方博客](https://flux-art.ai/blog/zh/) · [Official Blog (EN)](https://flux-art.ai/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.ai](https://flux-art.ai);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.ai](https://flux-art.ai). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.
