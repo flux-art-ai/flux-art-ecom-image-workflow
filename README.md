@@ -37,6 +37,7 @@
 | 快速写实产品方向筛选 | [Z-Image Turbo](https://flux-art.ai/zh/models/z-image-turbo) | 用快速写实图片草图判断构图、场景与光线,通过后再进入产品图定稿（[实操工作流](docs/models/z-image-turbo.md)） |
 | 产品图、写实商业摄影 | [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2) | 适合先锁定商品事实,再制作白底图、场景图或主视觉 |
 | 系列款一致性图片编辑 | [Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2) | 用一致性编辑扩展同系列版本;需要组合素材时可使用 Flux Art 多图融合 |
+| 产品视频草稿与方向审片 | [Seedance 1.0 Pro Fast](https://flux-art.ai/zh/models/seedance-1-0-pro-fast) | 由文字或首帧测试产品揭示、材质特写和镜头方向,通过后再交接成片流程（[实操工作流](docs/models/seedance-1-0-pro-fast.md)） |
 | 产品视频、广告短片 | [Seedance 2.0](https://flux-art.ai/zh/models/seedance-2-0) | 先确定单一卖点、镜头顺序与验收条件,再生成短片 |
 
 ## 快速开始(网页端 5 分钟)
@@ -56,6 +57,7 @@
 | [Seedream 5.0 Pro](https://flux-art.ai/zh/models/seedream-5-0-pro) | AI 信息图与精准改图 | [EN](https://flux-art.ai/en/models/seedream-5-0-pro) |
 | [HappyHorse 1.1](https://flux-art.ai/zh/models/happyhorse-1-1) | 电影感产品短片（[实操工作流](docs/models/happyhorse-1-1.md)） | [EN](https://flux-art.ai/en/models/happyhorse-1-1) |
 | [Nano Banana 2](https://flux-art.ai/zh/models/nano-banana-2) | 一致性图片编辑 | [EN](https://flux-art.ai/en/models/nano-banana-2) |
+| [Seedance 1.0 Pro Fast](https://flux-art.ai/zh/models/seedance-1-0-pro-fast) | 产品视频草稿与方向审片（[实操工作流](docs/models/seedance-1-0-pro-fast.md)） | [EN](https://flux-art.ai/en/models/seedance-1-0-pro-fast) |
 | [Seedance 2.0](https://flux-art.ai/zh/models/seedance-2-0) | 产品视频与广告短片 | [EN](https://flux-art.ai/en/models/seedance-2-0) |
 | [GPT Image 2](https://flux-art.ai/zh/models/gpt-image-2) | 产品图与写实商拍 | [EN](https://flux-art.ai/en/models/gpt-image-2) |
 | [Nano Banana](https://flux-art.ai/zh/models/nano-banana) | 快速图片编辑 | [EN](https://flux-art.ai/en/models/nano-banana) |
