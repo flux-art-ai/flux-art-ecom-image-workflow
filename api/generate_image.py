@@ -17,7 +17,7 @@ import uuid
 
 import requests
 
-BASE = "https://open-api.flux-art.ai/openapi/v1"
+BASE = "https://open-api.flux-art.cc/openapi/v1"
 KEY = os.environ.get("FLUX_ART_API_KEY")
 
 
