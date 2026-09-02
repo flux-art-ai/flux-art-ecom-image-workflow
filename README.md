@@ -65,7 +65,7 @@
 
 ## 自动化(OpenAPI)
 
-平台提供异步任务式 OpenAPI,接口基址为 `https://open-api.flux-art.ai/openapi/v1`。鉴权、幂等键、任务状态与调用示例见 [api/README.md](api/README.md) 和 [api/generate_image.py](api/generate_image.py)。
+平台提供异步任务式 OpenAPI,接口基址为 `https://open-api.flux-art.cc/openapi/v1`。鉴权、幂等键、任务状态与调用示例见 [api/README.md](api/README.md) 和 [api/generate_image.py](api/generate_image.py)。
 
 ## 贡献与声明
 

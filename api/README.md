@@ -6,7 +6,7 @@
 
 | 项 | 值 |
 |---|---|
-| 基址 | `https://open-api.flux-art.ai/openapi/v1` |
+| 基址 | `https://open-api.flux-art.cc/openapi/v1` |
 | 鉴权 | `Authorization: Bearer fa_live_...`(付费计划创建 Key;Key 只存服务端环境变量,严禁提交进仓库) |
 | 端点 | `POST /images/generations` · `POST /videos/generations` · `GET /tasks/{task_id}` · `GET /tasks` · `GET /models` |
 | 模式 | 异步任务:创建返回 `201` + `data.status=queued` + `data.id`,响应头 `Location` 为轮询地址;轮询 `GET /tasks/{id}` |
@@ -23,17 +23,17 @@
 
 ```bash
 # 端点连通性:未带 Key 应返回 401(证明端点存在且强制鉴权)
-curl -i https://open-api.flux-art.ai/openapi/v1/models
+curl -i https://open-api.flux-art.cc/openapi/v1/models
 
 # 带 Key 列模型目录
-curl -s https://open-api.flux-art.ai/openapi/v1/models \
+curl -s https://open-api.flux-art.cc/openapi/v1/models \
   -H "Authorization: Bearer $FLUX_ART_API_KEY"
 ```
 
 ## 生成一张图(bash 版)
 
 ```bash
-curl -s -X POST https://open-api.flux-art.ai/openapi/v1/images/generations \
+curl -s -X POST https://open-api.flux-art.cc/openapi/v1/images/generations \
   -H "Authorization: Bearer $FLUX_ART_API_KEY" \
   -H "Content-Type: application/json" \
   -H "Idempotency-Key: demo-$(date +%s)-sku001" \
@@ -44,7 +44,7 @@ curl -s -X POST https://open-api.flux-art.ai/openapi/v1/images/generations \
     "count": 1
   }'
 # → 201, 记下 data.id, 然后:
-curl -s https://open-api.flux-art.ai/openapi/v1/tasks/<task_id> \
+curl -s https://open-api.flux-art.cc/openapi/v1/tasks/<task_id> \
   -H "Authorization: Bearer $FLUX_ART_API_KEY"
 ```
 

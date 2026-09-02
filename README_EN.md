@@ -45,7 +45,7 @@ Prompt templates (ZH/EN): [prompts/](prompts/) · API automation: [api/](api/)
 
 ## OpenAPI
 
-Async task API at `https://open-api.flux-art.ai/openapi/v1` with Bearer authentication and required idempotency keys. See [api/README.md](api/README.md) and [api/generate_image.py](api/generate_image.py).
+Async task API at `https://open-api.flux-art.cc/openapi/v1` with Bearer authentication and required idempotency keys. See [api/README.md](api/README.md) and [api/generate_image.py](api/generate_image.py).
 
 MIT License. Current platform access, features, and plan details follow the official Flux Art site.
 
