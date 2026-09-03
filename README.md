@@ -34,6 +34,7 @@
 
 | 任务 | 模型(网页端名称) | 依据 |
 |---|---|---|
+| 品牌主视觉、海报概念与氛围探索 | [Midjourney V7 Imagine](https://flux-art.cc/zh/models/midjourney-v7-imagine) | 先比较构图、色调、光线与品牌氛围,再把通过的方向交给写实筛选和产品图定稿（[实操工作流](docs/models/midjourney-v7-imagine.md)） |
 | 快速写实产品方向筛选 | [Z-Image Turbo](https://flux-art.cc/zh/models/z-image-turbo) | 用快速写实图片草图判断构图、场景与光线,通过后再进入产品图定稿（[实操工作流](docs/models/z-image-turbo.md)） |
 | 产品图、写实商业摄影 | [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2) | 适合先锁定商品事实,再制作白底图、场景图或主视觉 |
 | 系列款一致性图片编辑 | [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2) | 用一致性编辑扩展同系列版本;需要组合素材时可使用 Flux Art 多图融合 |
@@ -51,6 +52,7 @@
 
 | 模型 | 定位(据官方页) | English |
 |---|---|---|
+| [Midjourney V7 Imagine](https://flux-art.cc/zh/models/midjourney-v7-imagine) | 海报概念、品牌氛围与艺术方向探索（[实操工作流](docs/models/midjourney-v7-imagine.md)） | [EN](https://flux-art.cc/en/models/midjourney-v7-imagine) |
 | [Z-Image Turbo](https://flux-art.cc/zh/models/z-image-turbo) | 快速写实图片草图（[实操工作流](docs/models/z-image-turbo.md)） | [EN](https://flux-art.cc/en/models/z-image-turbo) |
 | [Grok Imagine Image Pro](https://flux-art.cc/zh/models/grok-imagine-image-pro) | 高质量 AI 图片（[实操工作流](docs/models/grok-imagine-image-pro.md)） | [EN](https://flux-art.cc/en/models/grok-imagine-image-pro) |
 | [Nano Banana 2 Lite](https://flux-art.cc/zh/models/nano-banana-2-lite) | 快速 1K 草图 | [EN](https://flux-art.cc/en/models/nano-banana-2-lite) |
