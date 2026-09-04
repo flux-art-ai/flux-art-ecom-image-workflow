@@ -20,6 +20,7 @@ Reproducible e-commerce AI image workflows built on **Flux Art** — a multi-mod
 | [04 Series consistency](docs/04-series-consistency.md) | Align a whole product line via ≤14 reference images |
 | [05 Detail page](docs/05-detail-page.md) | Long-page blocks; pick the right quality/resolution tier |
 | [06 Compliance](docs/06-compliance.md) | AI-content labeling (CN regs), commercial use, marketplace checks |
+| [07 Troubleshooting](docs/en/07-troubleshooting.md) | Diagnose edges, shadows, reflections, text, and series drift before regenerating |
 
 Prompt templates (ZH/EN): [prompts/](prompts/) · API automation: [api/](api/)
 
