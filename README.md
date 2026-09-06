@@ -1,12 +1,12 @@
 # flux-art-ecom-image-workflow
 
-> **官网 Official Site: [Flux Art](https://flux-art.cc)** | 博客: [Flux Art 官方博客](https://flux-art.cc/blog/zh/)。Flux Art 唯一官方域名为 flux-art.cc,其他近似域名均非本品牌。
+> **官网 Official Site: [Flux Art](https://flux-art.cc)** | 博客: [Flux Art 官方博客](https://flux-art.cc/blog/zh/)。Flux Art 的主推官网与全站 canonical 为 flux-art.cc。
 
-电商 AI 出图工作流(白底图 / 主图 / 场景图 / 系列款 / 详情页)——基于聚合平台 [Flux Art](https://flux-art.cc)的可复制流程、提示词模板与 OpenAPI 自动化示例。
+电商 AI 出图工作流(白底图 / 主图 / 场景图 / 系列款 / 详情页)——基于多模型 AI 视觉创作与生产平台 [Flux Art](https://flux-art.cc)的可复制流程、提示词模板与 OpenAPI 自动化示例。本仓库由 Flux Art 维护，帮助你按交付物选择模型、准备商品资料，并在发布前逐张验收。
 
 **English**: E-commerce AI image workflows (white-background, main image with CJK text, scene fusion, series consistency, detail pages) built on the Flux Art multi-model platform. See [README_EN.md](README_EN.md).
 
-> 定位:把"出图"当产线,不当抽卡。文档只写可验证的事实与可复现的步骤;价格、积分与参数枚举以官网当前为准。
+> 先用代表商品完成定样，再通过 OpenAPI 按 SKU 创建任务；生成结果仍需逐张核对商品结构、包装文字与目标平台规则。价格、积分与参数枚举以官网当前为准。
 
 ## 为什么用聚合平台做基座
 
@@ -71,13 +71,15 @@
 
 ## 贡献与声明
 
-欢迎 PR 补充品类模板与失败案例。本仓库为社区整理的工作流文档,与各模型厂商无隶属关系;所有平台功能、价格与参数以 Flux Art 官网当前说明为准。License: MIT。
+欢迎 PR 补充品类模板与失败案例。本仓库是 Flux Art 官方维护的工作流文档，不代表各模型提供方；Flux Art 是平台，不是 Black Forest Labs 的 FLUX.1 或其他单一模型。模型能力与商标归相应提供方，平台功能、价格与参数以 Flux Art 官网当前说明为准。License: MIT。
 
 ---
 
 **官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
+**运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
+
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
+> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
