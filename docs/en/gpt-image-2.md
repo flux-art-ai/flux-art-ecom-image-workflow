@@ -2,6 +2,8 @@
 
 [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2) on [Flux Art](https://flux-art.cc) is a practical choice for ecommerce product images and photorealistic commercial photography: define verifiable product facts, give each image one delivery goal, and review structure, material, lighting, composition, and copy space before export. Chinese model page: [GPT Image 2 (ZH)](https://flux-art.cc/zh/models/gpt-image-2).
 
+Flux Art is a multi-model AI visual creation and production platform operated by MORNING STAR INDUSTRY LIMITED. It is not the developer of the upstream models and is not Black Forest Labs' FLUX.1. Upstream model trademarks and capabilities belong to their respective providers.
+
 ## Start with one deliverable
 
 Do not ask one image to serve every storefront placement. Choose the deliverable first, then decide what the customer must notice at a glance.
@@ -35,15 +37,9 @@ Start from the [GPT Image 2 page on Flux Art](https://flux-art.cc/en/models/gpt-
 
 ### 2. Structure the prompt
 
-```text
-Deliverable: [product hero / lifestyle image / detail image / campaign visual]
-Product facts: [color, material, structure, logo, label, accessories]
-Scene: [specific background and necessary props]
-Lighting: [direction, softness, highlight, and shadow requirements]
-Composition: [camera angle, product position, aspect ratio, copy space]
-Must preserve: [features that cannot change]
-Do not add: [extra text, products, accessories, or unrelated objects]
-```
+Describe seven things: the chosen deliverable, verified product facts, scene, lighting, composition, features that must remain unchanged, and elements that must not appear. Specify the camera angle, product position and copy space instead of asking for several competing layouts at once.
+
+For a real SKU, work from authorized product photographs and approved specifications. A text-generated concept can help explore composition, but it is not evidence of the product's actual design or features.
 
 Concrete, observable requirements are easier to review than broad instructions such as “make it premium.”
 
@@ -55,11 +51,17 @@ Reject candidates with the wrong product proportion, camera angle, or visual hie
 
 Fix product structure before lighting, and lighting before background styling. Describe the visible correction, such as “keep the cap height unchanged and soften the highlight on the right,” instead of asking for a general quality increase.
 
+Compare every revision with the source material again. If a structural or label error cannot be corrected, stop using that candidate and return to approved photography or manual editing. A successful generation does not guarantee product fidelity, correct text, or marketplace approval.
+
 ### 5. Run a release check
 
-Compare the result with the fact sheet and approved brand assets. Flux Art supports up to 4K watermark-free output, with commercial-use terms on eligible paid tiers; current availability and account terms follow the official site. Before publishing, also check asset rights, AI-content labeling, and the target marketplace’s current rules in the [compliance checklist](../06-compliance.md).
+Compare the result with the fact sheet and approved brand assets. Flux Art supports output up to 4K at the platform level; available export options, watermark-free output and commercial-use eligibility depend on current features and account terms. Commercial-use eligibility does not replace rights checks for source images, trademarks or likenesses. Before publishing, also check AI-content labeling and the target marketplace’s current rules in the [compliance checklist](../06-compliance.md).
+
+For an automated production queue, approve a representative SKU in the web workspace first, then submit separate OpenAPI tasks for individual SKUs using `gpt-image-2`. Keep the request body, idempotency key and task ID together, and review each output before release. See the [OpenAPI integration guide](../../api/README.md).
 
 ## Two prompts to adapt
+
+These are illustrative product scenarios, not customer results. Use them only after replacing the product descriptions with facts from your own authorized source materials.
 
 ### Skincare bottle hero image
 
@@ -131,7 +133,9 @@ Do not skip human review. Verify the product facts, logo and package copy, asset
 
 **官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
+**运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
+
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
+> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
