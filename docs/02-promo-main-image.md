@@ -2,6 +2,12 @@
 
 需要制作带中文短文案的促销主图时，可以在 Flux Art 使用 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2) 生成产品图、电商主图或海报方向；品牌名、价格、日期、参数和促销文字必须逐字人工校对，最终是否符合目标平台规则也要在发布前单独核验。英文模型页见 [GPT Image 2 (EN)](https://flux-art.cc/en/models/gpt-image-2)。
 
+## 从电商专用工具开始
+
+已有想参考的构图时，可进入[爆款图片复刻](https://flux-art.cc/zh/ai-ecommerce/reference-clone)，分别上传自己的商品图与有权使用的参考图。参考图用于布局和视觉风格，不是复制其他品牌 Logo、价格、认证或卖点的依据。
+
+需要围绕同一商品制作多种用途的图片，可从[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)组织素材；底图有划痕、色偏或清晰度问题时，先用[产品精修](https://flux-art.cc/zh/ai-ecommerce/product-retouch)处理并对照实物复核。需要自选模型和逐轮调整提示词时，再使用下文的模型工作流。完整分流见[电商工具选择指南](10-ecommerce-tools.md)。
+
 ## 先把商品事实和画面文案拆开
 
 开始生成前，先把不能由模型补写的事实固定下来。文案越短、层级越清楚，后续校对和局部修改越容易。
@@ -72,9 +78,11 @@ Use [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2) on [Flux Art](https
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+
+**运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
+> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).

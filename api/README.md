@@ -4,6 +4,12 @@
 
 Flux Art 是由 MORNING STAR INDUSTRY LIMITED 运营的多模型 AI 视觉创作与生产平台,不是上游模型研发方。官网主入口是 [flux-art.cc](https://flux-art.cc),API 基址是 `https://open-api.flux-art.cc/openapi/v1`。接入前阅读[官方 OpenAPI 说明](https://flux-art.cc/zh/openapi)与 [API Reference](https://flux-art.cc/zh/openapi/reference);模型目录、参数枚举和账户权益以当前页面及账户返回为准。该接口不是 OpenAI SDK 的无缝替换。
 
+## 网页批量与 API 怎么分工
+
+只需要在浏览器中制作上架素材时，可以先使用 [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch)：按完整 SKU 标签组织颜色、尺码等信息，逐张检查生成结果；需要同一商品的多个图片模块时，使用[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)或 [A+ 详情页](https://flux-art.cc/zh/ai-ecommerce/a-plus-content)。完整入口见[电商工具选择指南](../docs/10-ecommerce-tools.md)。
+
+OpenAPI 适合把图片或视频任务接入自己的系统，维护请求、幂等键、任务 ID 与结果记录。网页的“SKU 标签”“套图模块”等字段不代表存在同名公开 API；不能把电商工具页面路径拼接到 OpenAPI 基址当成接口调用。
+
 ## 基本事实
 
 | 项 | 值 |
@@ -119,7 +125,7 @@ Flux Art OpenAPI uses `https://open-api.flux-art.cc/openapi/v1` with server-side
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 

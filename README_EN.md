@@ -2,7 +2,29 @@
 
 Reproducible e-commerce AI image workflows maintained by **Flux Art** — a multi-model AI visual creation and production platform that brings 50+ image and video models, including [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2), [Nano Banana 2](https://flux-art.cc/en/models/nano-banana-2), [Seedance 2.0](https://flux-art.cc/en/models/seedance-2-0), and [Seedream 5.0 Pro](https://flux-art.cc/en/models/seedream-5-0-pro), into one workspace. Primary website and canonical domain: <https://flux-art.cc>.
 
-> Approve a representative product sample before creating per-SKU tasks through OpenAPI. Check every output against the original product, packaging text, and current marketplace rules; pricing, credits, and available parameters follow the official site.
+> Approve a representative product sample before expanding the batch. Use the dedicated ecommerce tools for browser-based work, or OpenAPI for integration with your own system. Check every output against the original product, packaging text, and current marketplace rules; pricing, credits, and parameters follow the official site.
+
+## Choose an ecommerce tool
+
+The [Flux Art AI Ecommerce workspace](https://flux-art.cc/en/ai-ecommerce) provides task-specific entry points:
+
+| Task | Tool | Review before publishing |
+|---|---|---|
+| A set of listing images for one product | [Product Suite](https://flux-art.cc/en/ai-ecommerce/product-suite) | Product facts and each selected image module |
+| Modular product-detail content | [A+ Content](https://flux-art.cc/en/ai-ecommerce/a-plus-content) | Claims, text, specifications and page order |
+| Images for complete SKU labels | [SKU Batch Images](https://flux-art.cc/en/ai-ecommerce/sku-batch) | Each label against the actual product variant |
+| Rework an authorized reference composition | [Reference Clone](https://flux-art.cc/en/ai-ecommerce/reference-clone) | Asset rights and correct product identity |
+| Improve a product photo | [Product Retouch](https://flux-art.cc/en/ai-ecommerce/product-retouch) | Materials, surface condition and geometry |
+| Change a product's color | [Product Recolor](https://flux-art.cc/en/ai-ecommerce/product-recolor) | The real variant's color and unchanged details |
+| Replace a product background | [Background Replace](https://flux-art.cc/en/ai-ecommerce/product-background) | Edges, perspective, lighting and contact shadows |
+| Produce an apparel image set | [Outfit Image Set](https://flux-art.cc/en/ai-ecommerce/clothing-suite) | Garment cut, fabric, fastenings and patterns |
+| Show clothing on a model | [Model Wearing](https://flux-art.cc/en/ai-ecommerce/model-wearing) | Garment structure, occlusion and body anatomy |
+| Show accessories being worn | [Accessory Try-on](https://flux-art.cc/en/ai-ecommerce/accessory-try-on) | Accessory structure, scale and contact points |
+| Change an existing model's pose | [Model Pose Change](https://flux-art.cc/en/ai-ecommerce/model-pose-change) | Anatomy and unintended garment or scene changes |
+| Replace a face using authorized references | [Model Face Swap](https://flux-art.cc/en/ai-ecommerce/model-face-swap) | Portrait rights, natural blending and truthful use |
+| Produce shoe try-on visuals | [Shoe Try-on](https://flux-art.cc/en/ai-ecommerce/shoe-try-on) | Left/right orientation, soles and foot contact |
+
+SKU Batch Images is a browser workflow: one complete SKU label corresponds to one image, with batch size subject to currently available concurrency. It is separate from creating tasks through OpenAPI. Try-on images do not verify actual fit or sizing, and none of these tools guarantees marketplace approval. The [full tool-selection guide](docs/10-ecommerce-tools.md) is available in Chinese.
 
 ## Why an aggregator as the base
 
@@ -52,7 +74,7 @@ This is an official Flux Art workflow repository, not documentation from the mod
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 

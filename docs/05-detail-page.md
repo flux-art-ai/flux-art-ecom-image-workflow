@@ -2,6 +2,12 @@
 
 在 [Flux Art](https://flux-art.cc) 制作电商详情页长图时，先把商品事实和页面结构锁定，再按模块生成、校对和拼接，通常比一次生成整张长图更容易控制。产品图与写实商业摄影可使用 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)（[EN](https://flux-art.cc/en/models/gpt-image-2)）；需要参考图控制、海报排版或电商主视觉时可比较 [Seedream 4.5](https://flux-art.cc/zh/models/seedream-4-5)（[EN](https://flux-art.cc/en/models/seedream-4-5)）；高信息量视觉和精准图片编辑可使用 [Seedream 5.0 Pro](https://flux-art.cc/zh/models/seedream-5-0-pro)（[EN](https://flux-art.cc/en/models/seedream-5-0-pro)）。所有文字、金额、数字和商品细节仍需人工复核。
 
+## 使用 A+ 详情页入口组织模块
+
+希望直接按电商模块制作内容，可进入 [A+ 详情页](https://flux-art.cc/zh/ai-ecommerce/a-plus-content)，准备真实商品图片、商品名称、品类与已核实信息，再按页面当前提供的选项选择模块。需要同一商品的其他展示图片时，可配合[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)；原图需要清理时先用[产品精修](https://flux-art.cc/zh/ai-ecommerce/product-retouch)，不要通过修图增加实物没有的结构。
+
+A+ 图片生成不代表平台审核通过，也不替代文案、参数和素材授权检查。专用工具与自选模型的分工见[电商工具选择指南](10-ecommerce-tools.md)。工具费用、积分与账户权益以官网当前为准。
+
 ## 先拆成交付模块
 
 | 模块 | 需要锁定的内容 | 制作与验收重点 |
@@ -35,13 +41,13 @@
 ### 参考图控制的详情页首屏
 
 ```text
-为[商品名称]制作电商详情页首屏主视觉。参考图 1 只用于保持商品结构、颜色、Logo 和配件位置；参考图 2 只用于品牌配色与留白节奏。商品居中偏下，使用[场景描述]，顶部保留标题区域。不得新增参考资料中没有的接口、配件、认证、参数或促销信息。完成后检查商品外观、透视、接触阴影和文字留白。
+为上传图片中的台灯制作电商详情页首屏主视觉。商品结构、颜色、Logo 和配件位置以商品图为准。台灯放在简洁书桌上，主体居中偏下，顶部保留标题区域。不得新增参考资料中没有的接口、配件、认证、参数或促销信息。保持透视和接触阴影自然，不生成文字。
 ```
 
 ### 带信息层级的功能块
 
 ```text
-为[商品名称]制作 4:5 功能说明图。标题为“[已核实标题]”，按从上到下的顺序设置三个信息区：“[卖点一]”“[卖点二]”“[卖点三]”。产品外观、颜色、Logo 和包装文字以参考图为准，不补写未知参数。保持清晰层级和充足留白；所有文字、数字、单位和产品细节在交付前逐项人工核对。
+为上传图片中的台灯制作 4:5 细节展示图。标题为“细节展示”，依次安排整体外观、灯罩和底座三个区域。产品外观、颜色、Logo 和包装文字以参考图为准，不展示原图没有提供的内部结构，不补写功率、价格或认证。保持清晰层级，在图片旁保留文字排版空间，方便后续加入已经核实的商品说明。
 ```
 
 ## 与视频素材衔接
@@ -82,9 +88,11 @@ Build long ecommerce detail pages in [Flux Art](https://flux-art.cc) as reviewab
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+
+**运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
+> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).

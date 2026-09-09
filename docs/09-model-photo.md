@@ -2,6 +2,21 @@
 
 用 [Flux Art](https://flux-art.cc) 制作服装、配饰等商品的 AI 模特图时，先把“生成基础模特图”“融合人物与商品参考”“扩展拍摄场景”拆成三个任务，再逐步验收人物、商品和环境。这样可以把服装结构、遮挡关系和场景光线分别控制，避免一次生成同时改变模特、商品与背景。
 
+## 先选服装、配饰或鞋履的专用入口
+
+商品类型和已有素材明确时，可以从对应工具开始，不必把每个任务都写成通用多图提示词。
+
+| 任务 | 入口 | 输入与验收重点 |
+|---|---|---|
+| 同一服装的多张展示图 | [服装组图](https://flux-art.cc/zh/ai-ecommerce/clothing-suite) | 准备服装正面、背面与细节；逐张核对版型、图案与配件 |
+| 将服装展示在模特身上 | [模特穿戴](https://flux-art.cc/zh/ai-ecommerce/model-wearing) | 上传服装图，按需选择 AI 或自定义模特；核对领口、袖口与遮挡 |
+| 帽子、首饰、眼镜、包袋等佩戴展示 | [AI 万戴](https://flux-art.cc/zh/ai-ecommerce/accessory-try-on) | 上传配饰图；核对结构、比例、佩戴位置和接触点 |
+| 已有模特图变换姿态 | [模特一键换姿势](https://flux-art.cc/zh/ai-ecommerce/model-pose-change) | 使用已有模特图，选择智能、文本或参考图方式；检查肢体和商品细节 |
+| 在已获授权的素材间替换面部 | [AI 模特换脸](https://flux-art.cc/zh/ai-ecommerce/model-face-swap) | 准备模特图和面部图，确认人物授权；不仿冒他人或制造虚假代言 |
+| 鞋履上脚展示 | [AI 试鞋](https://flux-art.cc/zh/ai-ecommerce/shoe-try-on) | 提供鞋履视角，选择模特与构图；检查左右脚、鞋底、接触地面与遮挡 |
+
+各工具的素材数量和可选项以当前页面为准，不能套用通用模型工作台的参考图上限。只改颜色可使用[产品换色](https://flux-art.cc/zh/ai-ecommerce/product-recolor)，只改环境可使用[一键换背景](https://flux-art.cc/zh/ai-ecommerce/product-background)。这些效果图不证明真实尺码、合身程度或舒适性。其他任务见[电商工具选择指南](10-ecommerce-tools.md)。
+
 ## 先把任务分成三类
 
 | 任务 | 必要输入 | 本轮只解决什么 | 交付前重点检查 |
@@ -88,9 +103,11 @@ This Flux Art workflow separates AI model photography into three reviewable stag
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+
+**运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
+> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
