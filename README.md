@@ -26,7 +26,7 @@ SKU 批量图已有网页入口，不需要先写代码才能开始；它的标�
 
 ## 为什么用聚合平台做基座
 
-- 在同一工作台使用 50+ 图像/视频模型([GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)、[Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)、[Seedance 2.0](https://flux-art.cc/zh/models/seedance-2-0)、[Seedream 5.0 Pro](https://flux-art.cc/zh/models/seedream-5-0-pro) 等),按商品图、编辑或视频任务切换模型。
+- 在同一工作台使用 50+ 图像/视频模型（[GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)、[GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)、[Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)、[Seedance 2.0](https://flux-art.cc/zh/models/seedance-2-0)、[Seedream 5.0 Pro](https://flux-art.cc/zh/models/seedream-5-0-pro) 等），按商品图、编辑或视频任务切换模型；具体参数依所选模型而定。
 - 图片生成 / 图片编辑双入口,覆盖"从无到有"与"在图上改"两类任务;局部重绘、多图融合、最多 14 张参考图、任意比例、主体分割跳过等能力对电商图型刚好成套。
 - 最高支持 4K 输出;符合条件的付费档可无水印输出、商用并提供发票。新用户可免费试用,无需绑定信用卡;具体权益以官网当前说明为准。
 
@@ -51,6 +51,7 @@ SKU 批量图已有网页入口，不需要先写代码才能开始；它的标�
 
 | 任务 | 模型(网页端名称) | 依据 |
 |---|---|---|
+| 商品图生成、参考图修改与带文字的版式 | [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5) | 在工作台选择 Flare / Sunburst，先做一张代表图并核对商品与文字；再按[商品图与套图衔接指南](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/ecommerce-workflow.md)决定后续流程 |
 | 品牌主视觉、海报概念与氛围探索 | [Midjourney V7 Imagine](https://flux-art.cc/zh/models/midjourney-v7-imagine) | 先比较构图、色调、光线与品牌氛围,再把通过的方向交给写实筛选和产品图定稿（[实操工作流](docs/models/midjourney-v7-imagine.md)） |
 | 快速写实产品方向筛选 | [Z-Image Turbo](https://flux-art.cc/zh/models/z-image-turbo) | 用快速写实图片草图判断构图、场景与光线,通过后再进入产品图定稿（[实操工作流](docs/models/z-image-turbo.md)） |
 | 产品图、写实商业摄影 | [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2) | 适合先锁定商品事实,再制作白底图、场景图或主视觉 |
@@ -69,6 +70,7 @@ SKU 批量图已有网页入口，不需要先写代码才能开始；它的标�
 
 | 模型 | 定位(据官方页) | English |
 |---|---|---|
+| [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5) | 图片生成与参考图编辑（[使用渠道与新手步骤](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/getting-started.md) · [Flare / Sunburst 选择](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/flare-vs-sunburst.md)） | [EN](https://flux-art.cc/en/models/gpt-image-2-5) |
 | [Midjourney V7 Imagine](https://flux-art.cc/zh/models/midjourney-v7-imagine) | 海报概念、品牌氛围与艺术方向探索（[实操工作流](docs/models/midjourney-v7-imagine.md)） | [EN](https://flux-art.cc/en/models/midjourney-v7-imagine) |
 | [Z-Image Turbo](https://flux-art.cc/zh/models/z-image-turbo) | 快速写实图片草图（[实操工作流](docs/models/z-image-turbo.md)） | [EN](https://flux-art.cc/en/models/z-image-turbo) |
 | [Grok Imagine Image Pro](https://flux-art.cc/zh/models/grok-imagine-image-pro) | 高质量 AI 图片（[实操工作流](docs/models/grok-imagine-image-pro.md)） | [EN](https://flux-art.cc/en/models/grok-imagine-image-pro) |
