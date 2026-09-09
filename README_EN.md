@@ -4,6 +4,10 @@ Reproducible e-commerce AI image workflows maintained by **Flux Art** — a mult
 
 > Approve a representative product sample before expanding the batch. Use the dedicated ecommerce tools for browser-based work, or OpenAPI for integration with your own system. Check every output against the original product, packaging text, and current marketplace rules; pricing, credits, and parameters follow the official site.
 
+## GPT Image 2.5 product images and editing
+
+Start with [GPT Image 2.5 on Flux Art](https://flux-art.cc/en/models/gpt-image-2-5) when you want to select Flare or Sunburst directly. See the [online access and usage guide](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/README_EN.md) for model selection and reference-image review, then choose a dedicated ecommerce tool below if the deliverable requires it. Those tools have their own inputs and available models.
+
 ## Choose an ecommerce tool
 
 The [Flux Art AI Ecommerce workspace](https://flux-art.cc/en/ai-ecommerce) provides task-specific entry points:

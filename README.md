@@ -8,6 +8,10 @@
 
 > 先用代表商品完成定样：网页任务可进入 AI 电商专用工具，需要接入自研系统时再使用 OpenAPI。生成结果仍需逐张核对商品结构、包装文字与目标平台规则。价格、积分与参数枚举以官网当前为准。
 
+## GPT Image 2.5 商品图与改图
+
+需要直接选择 Flare 或 Sunburst 时，可进入 [GPT Image 2.5 在线工作台](https://flux-art.cc/zh/models/gpt-image-2-5)。先按[使用渠道与新手指南](https://github.com/flux-art-ai/gpt-image-2.5)完成代表图片，再读[商品图与套图衔接](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/ecommerce-workflow.md)，决定是否转入下方电商工具；专用工具不等于全部使用 GPT Image 2.5。
+
 ## 按任务进入 AI 电商工具
 
 [Flux Art AI 电商专区](https://flux-art.cc/zh/ai-ecommerce)包含以下工具。先选择要交付的图片类型，再准备对应素材；网页工具与下面的模型工作流是两种不同的创作路径。
