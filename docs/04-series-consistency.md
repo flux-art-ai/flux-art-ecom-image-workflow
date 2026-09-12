@@ -26,6 +26,21 @@
 
 只修改现有商品的颜色时，使用[产品换色](https://flux-art.cc/zh/ai-ecommerce/product-recolor)填写目标颜色及区域；需要一组商品展示模块时则进入[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)。三种任务不要混为同一种批量功能。
 
+## 建立 SKU 文件映射表
+
+生成前先为每个完整 SKU 分配一个稳定标识，下载后再把图片用途和版本追加到文件名。这样可以在返修时找到正确原图，也能避免把同色但不同容量、尺码或配件的商品混在一起。
+
+| SKU 记录 | 输出文件示例 | 验收状态怎么记 |
+|---|---|---|
+| `cup-blue-500ml` | `cup-blue-500ml-hero-v01.webp` | `review`：等待核对商品与文字 |
+| `cup-blue-500ml` | `cup-blue-500ml-hero-v02-fix-label.webp` | `review`：本轮只返修标签区域 |
+| `cup-blue-500ml` | `cup-blue-500ml-hero-v03-approved.webp` | `approved`：按当前团队清单通过，可进入交付 |
+| `cup-blue-750ml` | `cup-blue-750ml-hero-v01.webp` | 单独验收，不能沿用 500ml 的结论 |
+
+映射表至少记录完整 SKU、原始商品图、输出文件、图片用途、所用入口、修改要求、版本和验收结论。使用模型工作台时，可记录 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)、[GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5) 或 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2) 及实际选择；2.5 应再区分 Flare / Sunburst。使用网页 SKU 批量图时记录工具名称，不把它猜成某个底层模型。
+
+`approved` 只是团队的当前交付状态，不代表平台审核或商品事实自动正确。返修后版本号递增，并重新检查整张图片；不要覆盖最后一个已通过版本。
+
 ## 批量流程("三固定一变量")
 
 1. 在模型工作台固定所选模型、目标比例与画面要求；可评估 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)（[EN](https://flux-art.cc/en/models/gpt-image-2)）制作产品图，或使用 Nano Banana 2 编辑已有素材。
