@@ -21,7 +21,21 @@ AI 出图进产线前,把合规做成默认流程项,不靠记忆。
 - [ ] 规格:比例/尺寸/格式符合目标平台当前要求
 - [ ] 一致:图片与实物颜色材质一致,避免"货不对板"纠纷
 
-## 4. 数据与承诺纪律(写给团队)
+## 4. 渠道包交付与退回条件
+
+生成或编辑完成后，先保留已验收母版，再按目标渠道建立独立文件包。渠道尺寸、比例、格式与标识要求应在交付当天从目标平台当前规则取得，不把旧模板当作长期事实。
+
+| 检查项 | 渠道包必须记录 | 需要退回的情况 |
+|---|---|---|
+| 商品身份 | 完整 SKU、对应实物资料与已验收母版版本 | 文件与 SKU 对不上，或无法找到事实来源 |
+| 图片用途 | 主图、白底图、场景图、详情模块等明确用途 | 一张图被用于未验收的新用途 |
+| 导出规格 | 当前渠道、类目、像素、比例、格式及规则核对日期 | 规格来源不明，裁切导致商品或文字缺失 |
+| 生成与编辑记录 | [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)、[GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)、[Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)或实际电商工具，以及本轮修改目标 | 入口或修改范围不明，无法判断哪些区域需复核 |
+| 责任与结论 | 负责人、验收日期、结论与退回原因 | 只有“已完成”状态，没有验收人与检查记录 |
+
+使用[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)、[SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch)或 [A+ 详情页](https://flux-art.cc/zh/ai-ecommerce/a-plus-content)时，按实际交付物记录工具名，不把专用工具统一写成某个模型。任何压缩、裁切、改字或换色都应形成新版本，并重新检查整张图片。
+
+## 5. 数据与承诺纪律(写给团队)
 
 - 不对外承诺"过审率 XX%"之类的数据——过审与否以平台审核为准;
 - 涉及隐私与训练数据的问题,一律指向平台官网条款当前版本,自己不代答;
@@ -31,7 +45,9 @@ AI 出图进产线前,把合规做成默认流程项,不靠记忆。
 
 **官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
 
+**运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
+
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
+> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
