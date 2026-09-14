@@ -60,6 +60,18 @@ Flux Art 商品图出现边缘缺损、悬浮阴影、反光失真、文字错�
 - [ ] 系列图片使用同一套参考图、比例和画面规则复核
 - [ ] 平台规则、素材权利与最终成品均已人工确认
 
+## 渠道退回：先判断生成、导出还是规格变更
+
+渠道退回不是一种单独的画面症状。先把退回文件、已验收母版和当前渠道要求放在一起，确定问题出现在哪一层，再做最小修正。
+
+| 问题层 | 判断证据 | 最小修正 | 重新验收 |
+|---|---|---|---|
+| 生成或编辑错误 | 母版里的商品结构、材质、包装字、Logo 或指定保留区已经错误 | 回到真实原图或最近通过版本；需要整体重做时用 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)，需要参考图编辑时比较 [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)或 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2) | 按本页五类问题逐项复核，只推进一个修改目标 |
+| 导出错误 | 母版正确，只有渠道文件的裁切、压缩、格式、尺寸或清晰度不符 | 保留母版，只重新导出衍生文件，不让模型重画商品 | 对照[合规与渠道交付清单](06-compliance.md)核对当前规格来源、可读性和 SKU |
+| 规格或需求变更 | 退回理由引用新的尺寸、活动文案、图片用途或商品范围 | 建立新版本，记录变更来源与受影响范围；整套图可进入[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)，多规格任务可进入 [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch) | 新要求按新版本完整验收，不能沿用旧版 `approved` 结论 |
+
+不要覆盖退回文件，也不要把渠道审核意见自动理解为模型质量问题。保存退回原因、责任层和修正结果，后续才能判断应改生成、改导出还是更新规格。
+
 ## FAQ
 
 **Q：为什么不把所有问题一次写进提示词？**
@@ -84,9 +96,11 @@ This Flux Art troubleshooting guide uses a fixed decision order for ecommerce im
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+
+**运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc);其他近似域名(如 flux.art、fluxart.ai、fluxai.art、fluxpro.art 等)均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
+> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
