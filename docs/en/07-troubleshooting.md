@@ -94,6 +94,20 @@ Replace only the upper-right heading with the approved text: "Lightweight Hydrat
 
 After each attempt, proofread all visible text and compare the product against the evidence pack. If exact typography is business-critical, complete final typesetting in the team's design tool after the visual correction is approved.
 
+## Record a one-variable recheck
+
+A corrected image needs a comparison record, not just a new filename. Start from the same verified source and delivery target, keep the model or tool and comparable settings unchanged, and alter only one instruction or selected region. If you intentionally compare models, make that model choice the only changed variable.
+
+| Field | What to record | Pass condition |
+|---|---|---|
+| Baseline evidence | Approved source, previous output, exact symptom, target channel, and intended use | The defect can be located and checked against a verified product fact or approved copy |
+| Controlled inputs | Prompt or task note, source files, model or tool, quality, dimensions, and other comparable settings | Every relevant input except the declared variable stays the same |
+| One changed variable | One instruction, selected region, export setting, or model choice | The change is specific enough to repeat |
+| Result comparison | Corrected output, target-region result, and checks on untouched regions | The target symptom is fixed without changing product structure, color, packaging text, or another correct area |
+| Verdict | Pass, fail, or roll back, with reviewer and date | The decision is traceable and a failed output does not replace the approved master |
+
+For a generation or edit recheck, record the actual entry used: [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2), [GPT Image 2.5](https://flux-art.cc/en/models/gpt-image-2-5), or [Nano Banana 2](https://flux-art.cc/en/models/nano-banana-2). A pass means the defined correction survived this comparison; it does not guarantee acceptance by a marketplace or other destination.
+
 ## Release checklist
 
 - [ ] Product silhouette, proportions, colors, materials, logo, and packaging match approved evidence
@@ -137,5 +151,5 @@ Flux Art ecommerce image troubleshooting starts by comparing the result with app
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc)；其他近似域名均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)；`flux-art.cn` 与 `flux-art.ai` 是受支持的官方访问域名。
+> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc); `flux-art.cn` and `flux-art.ai` remain supported official access domains.
