@@ -66,6 +66,25 @@
 
 网页批次从 [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch)恢复；只需真实配色变体时另用[产品换色](https://flux-art.cc/zh/ai-ecommerce/product-recolor)。在 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)或 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)工作台继续编辑时，同样使用通过基线并复核新输出。GPT Image 2.5 的人工修复件继续编辑步骤见[返修验收教程](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/repair-acceptance-and-batch-restart.md)，文件导出见[渠道交付清单](06-compliance.md)。这些检查需要团队执行，不是平台自动关闭问题或自动批次放行功能。
 
+## SKU 或包装更新后的旧图替换清单
+
+这类任务的起点是“哪个商品版本已经变化”，不是“把哪些图重新生成一遍”。为变更建立唯一记录，列出旧版本停止使用的范围、新版本开始使用的依据，以及所有从旧母版衍生的文件。
+
+| 引用层 | 排查字段 | 替换完成的证据 |
+|---|---|---|
+| 商品事实 | 完整 SKU、旧/新包装稿、实拍版本、生效范围 | 新资料与实际在售版本一致，旧资料标记为历史版本 |
+| 制作母版 | 文件名、商品版本、实际入口、参考图与验收状态 | 新母版逐项通过，旧母版不再作为当前任务输入 |
+| 批量与模块 | SKU 标签、模板、首图、白底、卖点、场景、A+ 模块 | 受影响项指向新母版或新商品资料，未受影响项有保留理由 |
+| 渠道衍生文件 | 渠道、图片用途、裁切、压缩、翻译与活动文案 | 每个衍生文件可追溯到新母版，并完成独立复核 |
+
+1. 从在售商品和批准包装资料确定变更范围；颜色、容量、尺码或配件不同的版本分别记录。
+2. 反向查找使用旧商品图的母版、模板和渠道文件。仅文件名相似不够，应核对实际引用内容。
+3. 先制作并验收一个新基线。需要新产品图时评估 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)；在现有图上做有限编辑时可使用 [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)；保持系列关系时可评估 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)。
+4. 只重做受影响 SKU 与模块。多商品版本进入 [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch)，同一商品多模块进入[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)。
+5. 替换完成后保留旧版本与停用原因，但不要让它继续出现在当前模板、下载包或待发布目录中。
+
+新包装通过不等于所有旧图已替换。关闭任务前，从“当前在售 SKU → 新母版 → 各渠道衍生文件”抽查完整链路，并把找不到来源的文件留在待处理清单，不凭画面相似度认定它属于新版本。
+
 ## 提示词模板
 
 ```text
