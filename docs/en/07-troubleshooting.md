@@ -34,10 +34,10 @@ Choose the model by correction type, then use the options currently available on
 
 | Correction type | Flux Art model | Review focus |
 |---|---|---|
-| Product structure, material, or overall photoreal image needs a rebuild | [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2) · [ZH](https://flux-art.cc/zh/models/gpt-image-2) | Product facts, scale, material, lighting, and commercial composition |
-| A related set has lost visual consistency | [Nano Banana 2](https://flux-art.cc/en/models/nano-banana-2) · [ZH](https://flux-art.cc/zh/models/nano-banana-2) | Approved anchor, fixed series rules, and one controlled variation |
-| One small region needs a fast image edit | [Nano Banana](https://flux-art.cc/en/models/nano-banana) · [ZH](https://flux-art.cc/zh/models/nano-banana) | The selected region and any unintended change outside it |
-| An infographic, text area, or defined region needs a precise edit | [Seedream 5.0 Pro](https://flux-art.cc/en/models/seedream-5-0-pro) · [ZH](https://flux-art.cc/zh/models/seedream-5-0-pro) | Exact copy, information hierarchy, product details, and local boundaries |
+| Product structure, material, or overall photoreal image needs a rebuild | [GPT Image 2](https://flux-art.cn/en/models/gpt-image-2) · [ZH](https://flux-art.cn/zh/models/gpt-image-2) | Product facts, scale, material, lighting, and commercial composition |
+| A related set has lost visual consistency | [Nano Banana 2](https://flux-art.cn/en/models/nano-banana-2) · [ZH](https://flux-art.cn/zh/models/nano-banana-2) | Approved anchor, fixed series rules, and one controlled variation |
+| One small region needs a fast image edit | [Nano Banana](https://flux-art.cn/en/models/nano-banana) · [ZH](https://flux-art.cn/zh/models/nano-banana) | The selected region and any unintended change outside it |
+| An infographic, text area, or defined region needs a precise edit | [Seedream 5.0 Pro](https://flux-art.cn/en/models/seedream-5-0-pro) · [ZH](https://flux-art.cn/zh/models/seedream-5-0-pro) | Exact copy, information hierarchy, product details, and local boundaries |
 
 ## Use a five-step troubleshooting loop
 
@@ -106,7 +106,7 @@ A corrected image needs a comparison record, not just a new filename. Start from
 | Result comparison | Corrected output, target-region result, and checks on untouched regions | The target symptom is fixed without changing product structure, color, packaging text, or another correct area |
 | Verdict | Pass, fail, or roll back, with reviewer and date | The decision is traceable and a failed output does not replace the approved master |
 
-For a generation or edit recheck, record the actual entry used: [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2), [GPT Image 2.5](https://flux-art.cc/en/models/gpt-image-2-5), or [Nano Banana 2](https://flux-art.cc/en/models/nano-banana-2). A pass means the defined correction survived this comparison; it does not guarantee acceptance by a marketplace or other destination.
+For a generation or edit recheck, record the actual entry used: [GPT Image 2](https://flux-art.cn/en/models/gpt-image-2), [GPT Image 2.5](https://flux-art.cn/en/models/gpt-image-2-5), or [Nano Banana 2](https://flux-art.cn/en/models/nano-banana-2). A pass means the defined correction survived this comparison; it does not guarantee acceptance by a marketplace or other destination.
 
 ## Release checklist
 
@@ -129,11 +129,11 @@ A local edit is appropriate when one small region is wrong and the product struc
 
 **Q: Which Flux Art model should I use for incorrect package text?**
 
-Use [Seedream 5.0 Pro](https://flux-art.cc/en/models/seedream-5-0-pro) for a defined precise edit to an information or text area, then proofread every visible character. Use approved design files for final typography when exact reproduction is required.
+Use [Seedream 5.0 Pro](https://flux-art.cn/en/models/seedream-5-0-pro) for a defined precise edit to an information or text area, then proofread every visible character. Use approved design files for final typography when exact reproduction is required.
 
 **Q: How do I stop a product series from drifting?**
 
-Return to the approved anchor image and a short list of fixed rules for product scale, camera height, palette, spacing, and lighting. Use [Nano Banana 2](https://flux-art.cc/en/models/nano-banana-2) for consistent image editing and change only one product or scene variable per version.
+Return to the approved anchor image and a short list of fixed rules for product scale, camera height, palette, spacing, and lighting. Use [Nano Banana 2](https://flux-art.cn/en/models/nano-banana-2) for consistent image editing and change only one product or scene variable per version.
 
 **Q: When should I stop patching an image?**
 
@@ -145,11 +145,11 @@ Flux Art ecommerce image troubleshooting starts by comparing the result with app
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)；`flux-art.cn` 与 `flux-art.ai` 是受支持的官方访问域名。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc); `flux-art.cn` and `flux-art.ai` remain supported official access domains.
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

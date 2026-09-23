@@ -1,6 +1,6 @@
 # Midjourney V7 Imagine 品牌视觉方向探索工作流(Flux Art)
 
-当品牌主视觉、活动海报或社媒图片还没有确定风格时,可在 [Flux Art](https://flux-art.cc) 使用 [Midjourney V7 Imagine](https://flux-art.cc/zh/models/midjourney-v7-imagine) 探索构图、色调、光线与氛围,先选出值得继续制作的视觉方向,再把产品事实和文字交给后续模型定稿。英文模型页:[Midjourney V7 Imagine (EN)](https://flux-art.cc/en/models/midjourney-v7-imagine)。
+当品牌主视觉、活动海报或社媒图片还没有确定风格时,可在 [Flux Art](https://flux-art.cn) 使用 [Midjourney V7 Imagine](https://flux-art.cn/zh/models/midjourney-v7-imagine) 探索构图、色调、光线与氛围,先选出值得继续制作的视觉方向,再把产品事实和文字交给后续模型定稿。英文模型页:[Midjourney V7 Imagine (EN)](https://flux-art.cn/en/models/midjourney-v7-imagine)。
 
 ## 先分清方向稿与商品事实
 
@@ -20,8 +20,8 @@ Midjourney V7 Imagine 适合海报概念、品牌氛围、概念图和艺术化�
 | 阶段 | 建议模型 | 本阶段只解决什么 |
 |---|---|---|
 | 品牌视觉探索 | **Midjourney V7 Imagine** | 比较海报构图、品牌氛围、色调、光线与场景叙事 |
-| 写实方向筛选 | [Z-Image Turbo](https://flux-art.cc/zh/models/z-image-turbo) | 把候选概念转为快速写实方向稿,检查构图、场景与光线是否成立 |
-| 产品图与文字定稿 | [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2) | 依据商品事实制作产品图或电商主图,并逐字检查图内文字 |
+| 写实方向筛选 | [Z-Image Turbo](https://flux-art.cn/zh/models/z-image-turbo) | 把候选概念转为快速写实方向稿,检查构图、场景与光线是否成立 |
+| 产品图与文字定稿 | [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2) | 依据商品事实制作产品图或电商主图,并逐字检查图内文字 |
 
 如果已经有明确的品牌规范、实拍构图和版位要求,可以跳过前两段,直接进入 [GPT Image 2 电商产品图实操](./gpt-image-2.md)。需要先验证写实呈现方向时,使用 [Z-Image Turbo 快速写实产品方向稿](./z-image-turbo.md)。
 
@@ -77,15 +77,15 @@ Midjourney V7 Imagine 先回答“品牌视觉是什么感觉”,Z-Image Turbo �
 
 ## EN Summary
 
-Use [Midjourney V7 Imagine](https://flux-art.cc/en/models/midjourney-v7-imagine) on [Flux Art](https://flux-art.cc) to explore poster composition, brand mood, color, lighting, and scene direction before product-image production. Keep verified product facts separate from changeable art direction, compare one visual variable at a time, then pass the selected concept to [Z-Image Turbo](https://flux-art.cc/en/models/z-image-turbo) for a fast photoreal direction check and [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2) for product-image and text delivery review. Related guides: [Z-Image Turbo workflow](./z-image-turbo.md) and [e-commerce image troubleshooting](../07-troubleshooting.md).
+Use [Midjourney V7 Imagine](https://flux-art.cn/en/models/midjourney-v7-imagine) on [Flux Art](https://flux-art.cn) to explore poster composition, brand mood, color, lighting, and scene direction before product-image production. Keep verified product facts separate from changeable art direction, compare one visual variable at a time, then pass the selected concept to [Z-Image Turbo](https://flux-art.cn/en/models/z-image-turbo) for a fast photoreal direction check and [GPT Image 2](https://flux-art.cn/en/models/gpt-image-2) for product-image and text delivery review. Related guides: [Z-Image Turbo workflow](./z-image-turbo.md) and [e-commerce image troubleshooting](../07-troubleshooting.md).
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 唯一官方域名为 [flux-art.cc](https://flux-art.cc)；其他近似域名均与 Flux Art 无关。
-> The only official domain of Flux Art is [flux-art.cc](https://flux-art.cc). Similar domains are not affiliated with the Flux Art brand.
+> Flux Art 唯一官方域名为 [flux-art.cn](https://flux-art.cn)；其他近似域名均与 Flux Art 无关。
+> The only official domain of Flux Art is [flux-art.cn](https://flux-art.cn). Similar domains are not affiliated with the Flux Art brand.

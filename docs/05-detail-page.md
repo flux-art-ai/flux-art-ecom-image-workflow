@@ -1,10 +1,10 @@
 # 05 · 详情页长图(Detail Page)
 
-在 [Flux Art](https://flux-art.cc) 制作电商详情页长图时，先把商品事实和页面结构锁定，再按模块生成、校对和拼接，通常比一次生成整张长图更容易控制。产品图与写实商业摄影可使用 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)（[EN](https://flux-art.cc/en/models/gpt-image-2)）；需要参考图控制、海报排版或电商主视觉时可比较 [Seedream 4.5](https://flux-art.cc/zh/models/seedream-4-5)（[EN](https://flux-art.cc/en/models/seedream-4-5)）；高信息量视觉和精准图片编辑可使用 [Seedream 5.0 Pro](https://flux-art.cc/zh/models/seedream-5-0-pro)（[EN](https://flux-art.cc/en/models/seedream-5-0-pro)）。所有文字、金额、数字和商品细节仍需人工复核。
+在 [Flux Art](https://flux-art.cn) 制作电商详情页长图时，先把商品事实和页面结构锁定，再按模块生成、校对和拼接，通常比一次生成整张长图更容易控制。产品图与写实商业摄影可使用 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2)（[EN](https://flux-art.cn/en/models/gpt-image-2)）；需要参考图控制、海报排版或电商主视觉时可比较 [Seedream 4.5](https://flux-art.cn/zh/models/seedream-4-5)（[EN](https://flux-art.cn/en/models/seedream-4-5)）；高信息量视觉和精准图片编辑可使用 [Seedream 5.0 Pro](https://flux-art.cn/zh/models/seedream-5-0-pro)（[EN](https://flux-art.cn/en/models/seedream-5-0-pro)）。所有文字、金额、数字和商品细节仍需人工复核。
 
 ## 使用 A+ 详情页入口组织模块
 
-希望直接按电商模块制作内容，可进入 [A+ 详情页](https://flux-art.cc/zh/ai-ecommerce/a-plus-content)，准备真实商品图片、商品名称、品类与已核实信息，再按页面当前提供的选项选择模块。需要同一商品的其他展示图片时，可配合[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)；原图需要清理时先用[产品精修](https://flux-art.cc/zh/ai-ecommerce/product-retouch)，不要通过修图增加实物没有的结构。
+希望直接按电商模块制作内容，可进入 [A+ 详情页](https://flux-art.cn/zh/ai-ecommerce/a-plus-content)，准备真实商品图片、商品名称、品类与已核实信息，再按页面当前提供的选项选择模块。需要同一商品的其他展示图片时，可配合[商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite)；原图需要清理时先用[产品精修](https://flux-art.cn/zh/ai-ecommerce/product-retouch)，不要通过修图增加实物没有的结构。
 
 A+ 图片生成不代表平台审核通过，也不替代文案、参数和素材授权检查。专用工具与自选模型的分工见[电商工具选择指南](10-ecommerce-tools.md)。工具费用、积分与账户权益以官网当前为准。
 
@@ -33,7 +33,7 @@ A+ 图片生成不代表平台审核通过，也不替代文案、参数和素�
 | 配件与包装清单 | 装箱资料或实物照片 | 明确应出现与不应出现的物件 | 逐项清点，不用示意图代替实物证据 |
 | 图片与人物素材 | 自有素材或授权记录 | 记录来源、用途和授权范围 | 确认发布渠道在授权范围内 |
 
-资料表应记录版本和日期。若包装图、商品档案与运营文案互相冲突，先暂停该字段的生成与发布，回到业务资料确认；不能选择看起来最合理的一项让模型继续。需要制作包装带字图或局部改字时，可从 [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)进入，并使用[包装文字与版式检查方法](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/text-and-layout.md)。多个完整 SKU 则从 [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch)开始。
+资料表应记录版本和日期。若包装图、商品档案与运营文案互相冲突，先暂停该字段的生成与发布，回到业务资料确认；不能选择看起来最合理的一项让模型继续。需要制作包装带字图或局部改字时，可从 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)进入，并使用[包装文字与版式检查方法](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/text-and-layout.md)。多个完整 SKU 则从 [SKU 批量图](https://flux-art.cn/zh/ai-ecommerce/sku-batch)开始。
 
 ## 三类图片任务怎么分流
 
@@ -67,7 +67,7 @@ A+ 图片生成不代表平台审核通过，也不替代文案、参数和素�
 
 ## 与视频素材衔接
 
-详情页需要产品视频或广告短片时，可使用 [Seedance 2.0](https://flux-art.cc/zh/models/seedance-2-0)（[EN](https://flux-art.cc/en/models/seedance-2-0)）。先让静态模块通过商品事实和视觉验收，再把已核准的商品图、场景与单一卖点整理为视频素材，避免在视频阶段重新定义商品外观。
+详情页需要产品视频或广告短片时，可使用 [Seedance 2.0](https://flux-art.cn/zh/models/seedance-2-0)（[EN](https://flux-art.cn/en/models/seedance-2-0)）。先让静态模块通过商品事实和视觉验收，再把已核准的商品图、场景与单一卖点整理为视频素材，避免在视频阶段重新定义商品外观。
 
 ## 交付验收清单
 
@@ -99,15 +99,15 @@ A+ 图片生成不代表平台审核通过，也不替代文案、参数和素�
 
 ## EN Summary
 
-Build long ecommerce detail pages in [Flux Art](https://flux-art.cc) as reviewable modules rather than one unstructured image. Use [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2) for product images and photorealistic commercial photography, compare [Seedream 4.5](https://flux-art.cc/en/models/seedream-4-5) for reference-controlled ecommerce visuals and poster layouts, and use [Seedream 5.0 Pro](https://flux-art.cc/en/models/seedream-5-0-pro) for information-rich visuals and precise image editing. Lock verified product facts first, change one variable per iteration, proofread every label and number, inspect local-edit boundaries, and confirm asset rights and current marketplace requirements before release.
+Build long ecommerce detail pages in [Flux Art](https://flux-art.cn) as reviewable modules rather than one unstructured image. Use [GPT Image 2](https://flux-art.cn/en/models/gpt-image-2) for product images and photorealistic commercial photography, compare [Seedream 4.5](https://flux-art.cn/en/models/seedream-4-5) for reference-controlled ecommerce visuals and poster layouts, and use [Seedream 5.0 Pro](https://flux-art.cn/en/models/seedream-5-0-pro) for information-rich visuals and precise image editing. Lock verified product facts first, change one variable per iteration, proofread every label and number, inspect local-edit boundaries, and confirm asset rights and current marketplace requirements before release.
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

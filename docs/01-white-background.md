@@ -1,12 +1,12 @@
 # 01 · 白底图工作流(White Background)
 
-在 [Flux Art](https://flux-art.cc) 制作白底商品图，可以从[一键换背景](https://flux-art.cc/zh/ai-ecommerce/product-background)处理已有实拍，也可以在[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)中准备一组上架素材。先保留真实商品资料，再检查背景、边缘和商品细节；生成工具不会自动保证平台审核或商品外观不变。
+在 [Flux Art](https://flux-art.cn) 制作白底商品图，可以从[一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background)处理已有实拍，也可以在[商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite)中准备一组上架素材。先保留真实商品资料，再检查背景、边缘和商品细节；生成工具不会自动保证平台审核或商品外观不变。
 
 ## 步骤
 
 1. **实拍打底**：使用清晰、完整、光线均匀的商品照片，保留原图用于核对。构图与上传规格按目标渠道当前要求确定。
-2. **选择入口**：在[一键换背景](https://flux-art.cc/zh/ai-ecommerce/product-background)上传商品图，选择文字换背景并描述纯白摄影背景。若原图存在光影或清晰度问题，可先评估[产品精修](https://flux-art.cc/zh/ai-ecommerce/product-retouch)，不能用精修掩盖真实成色。
-3. **需要自由选模型时**：也可在图片编辑工作台评估 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)（[EN](https://flux-art.cc/en/models/nano-banana-2)）。专用电商工具和模型编辑工作台的选项不同，不能互相照搬字段。
+2. **选择入口**：在[一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background)上传商品图，选择文字换背景并描述纯白摄影背景。若原图存在光影或清晰度问题，可先评估[产品精修](https://flux-art.cn/zh/ai-ecommerce/product-retouch)，不能用精修掩盖真实成色。
+3. **需要自由选模型时**：也可在图片编辑工作台评估 [Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2)（[EN](https://flux-art.cn/en/models/nano-banana-2)）。专用电商工具和模型编辑工作台的选项不同，不能互相照搬字段。
 4. **列明保留项**：记录商品轮廓、部件数量、材质、颜色、包装文字和 Logo。任何编辑选项都不能代替结果对照；出现结构变化时回到原图处理。
 5. **提示词**(可直接复制):
 
@@ -35,7 +35,7 @@ Replace the background of the uploaded product photo with a pure white studio ba
 |---|---|
 | 边缘缺失 | 回到原图检查轮廓与背景对比，再做局部处理；关键结构无法恢复时保留实拍 |
 | 阴影或底色不自然 | 明确目标背景和光线要求，只处理背景后重新检查接触位置 |
-| 反光件失真 | 优先保留实拍材质；需要重新比较写实方向时可评估 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)（[EN](https://flux-art.cc/en/models/gpt-image-2)），但仍须核对实物 |
+| 反光件失真 | 优先保留实拍材质；需要重新比较写实方向时可评估 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2)（[EN](https://flux-art.cn/en/models/gpt-image-2)），但仍须核对实物 |
 
 ## FAQ
 
@@ -53,15 +53,15 @@ Replace the background of the uploaded product photo with a pure white studio ba
 
 ## EN Summary
 
-Use Flux Art [Background Replace](https://flux-art.cc/en/ai-ecommerce/product-background) for a white-background edit, [Product Retouch](https://flux-art.cc/en/ai-ecommerce/product-retouch) for photo cleanup, or [Product Suite](https://flux-art.cc/en/ai-ecommerce/product-suite) for a set of listing assets. Start from real product photographs and review edges, packaging, materials and current marketplace requirements; an editing option does not guarantee product preservation or approval.
+Use Flux Art [Background Replace](https://flux-art.cn/en/ai-ecommerce/product-background) for a white-background edit, [Product Retouch](https://flux-art.cn/en/ai-ecommerce/product-retouch) for photo cleanup, or [Product Suite](https://flux-art.cn/en/ai-ecommerce/product-suite) for a set of listing assets. Start from real product photographs and review edges, packaging, materials and current marketplace requirements; an editing option does not guarantee product preservation or approval.
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

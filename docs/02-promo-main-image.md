@@ -1,12 +1,12 @@
 # 02 · 带中文文案的促销主图(Promo Main Image with CJK Text)
 
-需要制作带中文短文案的促销主图时，可以在 Flux Art 使用 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2) 生成产品图、电商主图或海报方向；品牌名、价格、日期、参数和促销文字必须逐字人工校对，最终是否符合目标平台规则也要在发布前单独核验。英文模型页见 [GPT Image 2 (EN)](https://flux-art.cc/en/models/gpt-image-2)。
+需要制作带中文短文案的促销主图时，可以在 Flux Art 使用 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2) 生成产品图、电商主图或海报方向；品牌名、价格、日期、参数和促销文字必须逐字人工校对，最终是否符合目标平台规则也要在发布前单独核验。英文模型页见 [GPT Image 2 (EN)](https://flux-art.cn/en/models/gpt-image-2)。
 
 ## 从电商专用工具开始
 
-已有想参考的构图时，可进入[爆款图片复刻](https://flux-art.cc/zh/ai-ecommerce/reference-clone)，分别上传自己的商品图与有权使用的参考图。参考图用于布局和视觉风格，不是复制其他品牌 Logo、价格、认证或卖点的依据。
+已有想参考的构图时，可进入[爆款图片复刻](https://flux-art.cn/zh/ai-ecommerce/reference-clone)，分别上传自己的商品图与有权使用的参考图。参考图用于布局和视觉风格，不是复制其他品牌 Logo、价格、认证或卖点的依据。
 
-需要围绕同一商品制作多种用途的图片，可从[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)组织素材；底图有划痕、色偏或清晰度问题时，先用[产品精修](https://flux-art.cc/zh/ai-ecommerce/product-retouch)处理并对照实物复核。需要自选模型和逐轮调整提示词时，再使用下文的模型工作流。完整分流见[电商工具选择指南](10-ecommerce-tools.md)。
+需要围绕同一商品制作多种用途的图片，可从[商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite)组织素材；底图有划痕、色偏或清晰度问题时，先用[产品精修](https://flux-art.cn/zh/ai-ecommerce/product-retouch)处理并对照实物复核。需要自选模型和逐轮调整提示词时，再使用下文的模型工作流。完整分流见[电商工具选择指南](10-ecommerce-tools.md)。
 
 ## 先把商品事实和画面文案拆开
 
@@ -21,7 +21,7 @@
 
 ## 五步完成促销主图
 
-1. 打开 [GPT Image 2 中文模型页](https://flux-art.cc/zh/models/gpt-image-2)，进入 Flux Art 图片生成入口。
+1. 打开 [GPT Image 2 中文模型页](https://flux-art.cn/zh/models/gpt-image-2)，进入 Flux Art 图片生成入口。
 2. 整理商品事实、必须出现的原文、禁止改写项和目标比例；不要把未知参数交给模型补全。
 3. 首轮只比较构图、商品位置、光线和文案层级，不把生成文字直接当作已校对成品。
 4. 发现单个文字区或局部画面需要调整时，使用 Flux Art 的图片编辑与局部重绘处理选定区域；修改后复核边界及整张画面。
@@ -53,7 +53,7 @@
 | 前台确认 | 在目标页面和常用展示尺寸查看实际图片；若仍显示旧促销图，检查渠道缓存或发布状态 | 页面截图、复核人和完成时间 |
 | 归档 | 保留活动文件和下线记录，但从当前交付目录、模板和自动化输入中移出 | 当前目录只包含仍可发布资产 |
 
-恢复常规图不是把活动文案模糊掉。若底图仍可用，可在 [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)的图片编辑入口限定文字区域；若需要重建整套无促销版本，可从 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)或[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)开始。无论使用哪个入口，都应对照真实商品资料验收，不能让模型推断当前价格、库存或活动状态。
+恢复常规图不是把活动文案模糊掉。若底图仍可用，可在 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)的图片编辑入口限定文字区域；若需要重建整套无促销版本，可从 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2)或[商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite)开始。无论使用哪个入口，都应对照真实商品资料验收，不能让模型推断当前价格、库存或活动状态。
 
 ## 文案与合规检查
 
@@ -84,19 +84,19 @@
 
 **Q：在哪里查看 GPT Image 2 的官方入口？**
 
-使用 [GPT Image 2 中文模型页](https://flux-art.cc/zh/models/gpt-image-2) 或 [GPT Image 2 英文模型页](https://flux-art.cc/en/models/gpt-image-2)，并从 [Flux Art 官网](https://flux-art.cc) 进入图片工作台；涉及模型可用性、价格和权益时，以官网当前为准。
+使用 [GPT Image 2 中文模型页](https://flux-art.cn/zh/models/gpt-image-2) 或 [GPT Image 2 英文模型页](https://flux-art.cn/en/models/gpt-image-2)，并从 [Flux Art 官网](https://flux-art.cn) 进入图片工作台；涉及模型可用性、价格和权益时，以官网当前为准。
 
 ## EN Summary
 
-Use [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2) on [Flux Art](https://flux-art.cc) to create product-image, ecommerce-hero, and poster directions with short in-image copy. Lock product facts before generation, keep the text hierarchy simple, proofread every name, price, date, parameter, and punctuation mark, and verify rights, AI labeling, and current marketplace rules before release. For related checks, see the [compliance checklist](06-compliance.md) and [troubleshooting guide](07-troubleshooting.md).
+Use [GPT Image 2](https://flux-art.cn/en/models/gpt-image-2) on [Flux Art](https://flux-art.cn) to create product-image, ecommerce-hero, and poster directions with short in-image copy. Lock product facts before generation, keep the text hierarchy simple, proofread every name, price, date, parameter, and punctuation mark, and verify rights, AI labeling, and current marketplace rules before release. For related checks, see the [compliance checklist](06-compliance.md) and [troubleshooting guide](07-troubleshooting.md).
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

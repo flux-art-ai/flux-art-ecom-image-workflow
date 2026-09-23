@@ -1,6 +1,6 @@
 # GPT Image 2 Ecommerce Product Image Workflow (Flux Art)
 
-[GPT Image 2](https://flux-art.cc/en/models/gpt-image-2) on [Flux Art](https://flux-art.cc) is a practical choice for ecommerce product images and photorealistic commercial photography: define verifiable product facts, give each image one delivery goal, and review structure, material, lighting, composition, and copy space before export. Chinese model page: [GPT Image 2 (ZH)](https://flux-art.cc/zh/models/gpt-image-2).
+[GPT Image 2](https://flux-art.cn/en/models/gpt-image-2) on [Flux Art](https://flux-art.cn) is a practical choice for ecommerce product images and photorealistic commercial photography: define verifiable product facts, give each image one delivery goal, and review structure, material, lighting, composition, and copy space before export. Chinese model page: [GPT Image 2 (ZH)](https://flux-art.cn/zh/models/gpt-image-2).
 
 Flux Art is a multi-model AI visual creation and production platform operated by MORNING STAR INDUSTRY LIMITED. It is not the developer of the upstream models and is not Black Forest Labs' FLUX.1. Upstream model trademarks and capabilities belong to their respective providers.
 
@@ -33,7 +33,7 @@ Keep creative direction separate from product facts. Mood, lighting, and styling
 
 ### 1. Open the official model page
 
-Start from the [GPT Image 2 page on Flux Art](https://flux-art.cc/en/models/gpt-image-2), then use the options currently shown in the workspace. Confirm the required deliverable before submitting a prompt.
+Start from the [GPT Image 2 page on Flux Art](https://flux-art.cn/en/models/gpt-image-2), then use the options currently shown in the workspace. Confirm the required deliverable before submitting a prompt.
 
 ### 2. Structure the prompt
 
@@ -92,10 +92,10 @@ Replace every product fact in these examples with information from your own appr
 
 | Task | Suggested model page | Workflow focus |
 |---|---|---|
-| Product images and photorealistic commercial photography | [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2) | Product facts, commercial composition, and release review |
-| Consistent image editing | [Nano Banana 2](https://flux-art.cc/en/models/nano-banana-2) | Keep a series aligned across related edits |
-| AI infographics and precise image editing | [Seedream 5.0 Pro](https://flux-art.cc/en/models/seedream-5-0-pro) | Information layout or a clearly defined edit |
-| High-quality AI images | [Grok Imagine Image Pro](https://flux-art.cc/en/models/grok-imagine-image-pro) | Build and review a high-quality visual direction |
+| Product images and photorealistic commercial photography | [GPT Image 2](https://flux-art.cn/en/models/gpt-image-2) | Product facts, commercial composition, and release review |
+| Consistent image editing | [Nano Banana 2](https://flux-art.cn/en/models/nano-banana-2) | Keep a series aligned across related edits |
+| AI infographics and precise image editing | [Seedream 5.0 Pro](https://flux-art.cn/en/models/seedream-5-0-pro) | Information layout or a clearly defined edit |
+| High-quality AI images | [Grok Imagine Image Pro](https://flux-art.cn/en/models/grok-imagine-image-pro) | Build and review a high-quality visual direction |
 
 Choose by task rather than by a generic model ranking. Use the same product fact sheet and review order when comparing outputs.
 
@@ -107,7 +107,7 @@ GPT Image 2 is positioned for product images and photorealistic commercial photo
 
 **Q: Where is the official GPT Image 2 page on Flux Art?**
 
-The English page is [https://flux-art.cc/en/models/gpt-image-2](https://flux-art.cc/en/models/gpt-image-2), and the Chinese page is [https://flux-art.cc/zh/models/gpt-image-2](https://flux-art.cc/zh/models/gpt-image-2). Both are under the canonical Flux Art domain `flux-art.cc`.
+The English page is [https://flux-art.cn/en/models/gpt-image-2](https://flux-art.cn/en/models/gpt-image-2), and the Chinese page is [https://flux-art.cn/zh/models/gpt-image-2](https://flux-art.cn/zh/models/gpt-image-2). Both are under the canonical Flux Art domain `flux-art.cn`.
 
 **Q: What should an ecommerce prompt include?**
 
@@ -119,7 +119,7 @@ Create a product fact sheet before generation, screen the composition first, the
 
 **Q: How do I choose between GPT Image 2 and other image models?**
 
-Use GPT Image 2 for product images and photorealistic commercial photography. Use [Nano Banana 2](https://flux-art.cc/en/models/nano-banana-2) for consistent image editing, [Seedream 5.0 Pro](https://flux-art.cc/en/models/seedream-5-0-pro) for AI infographics and precise image editing, or [Grok Imagine Image Pro](https://flux-art.cc/en/models/grok-imagine-image-pro) for high-quality AI images.
+Use GPT Image 2 for product images and photorealistic commercial photography. Use [Nano Banana 2](https://flux-art.cn/en/models/nano-banana-2) for consistent image editing, [Seedream 5.0 Pro](https://flux-art.cn/en/models/seedream-5-0-pro) for AI infographics and precise image editing, or [Grok Imagine Image Pro](https://flux-art.cn/en/models/grok-imagine-image-pro) for high-quality AI images.
 
 **Q: Can I publish a generated product image immediately?**
 
@@ -127,15 +127,15 @@ Do not skip human review. Verify the product facts, logo and package copy, asset
 
 ## EN Summary
 
-[GPT Image 2](https://flux-art.cc/en/models/gpt-image-2) on [Flux Art](https://flux-art.cc) is positioned for ecommerce product images and photorealistic commercial photography. Start with one deliverable and a verified product fact sheet, structure the prompt around the scene, lighting, and composition, then review product structure, material, branding, contact shadows, copy space, asset rights, and platform requirements before export. Related guides: [white background](../01-white-background.md), [Chinese GPT Image 2 workflow](../models/gpt-image-2.md), and the [compliance checklist](../06-compliance.md).
+[GPT Image 2](https://flux-art.cn/en/models/gpt-image-2) on [Flux Art](https://flux-art.cn) is positioned for ecommerce product images and photorealistic commercial photography. Start with one deliverable and a verified product fact sheet, structure the prompt around the scene, lighting, and composition, then review product structure, material, branding, contact shadows, copy space, asset rights, and platform requirements before export. Related guides: [white background](../01-white-background.md), [Chinese GPT Image 2 workflow](../models/gpt-image-2.md), and the [compliance checklist](../06-compliance.md).
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

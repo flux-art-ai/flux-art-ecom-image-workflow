@@ -1,6 +1,6 @@
 # Flux Art 图片翻译与出海多语言套图工作流
 
-用 [Flux Art](https://flux-art.cc) 制作亚马逊 Listing 图、独立站详情图或海外广告套图时，先锁定商品事实和术语对照，再翻译文字层；不要把整张图交给模型自由改写。这样能让不同语言版本复用同一商品、构图和视觉层级，同时把错译、漏译、数字变化与文字溢出留在可逐项检查的范围内。
+用 [Flux Art](https://flux-art.cn) 制作亚马逊 Listing 图、独立站详情图或海外广告套图时，先锁定商品事实和术语对照，再翻译文字层；不要把整张图交给模型自由改写。这样能让不同语言版本复用同一商品、构图和视觉层级，同时把错译、漏译、数字变化与文字溢出留在可逐项检查的范围内。
 
 ## 先确定母版与不可翻译项
 
@@ -35,7 +35,7 @@
 4. **逐区替换与排版**：文字变长时优先换行、调整文字区宽度或减少非必要修饰，不压缩商品、不遮挡图标，也不改变信息优先级。
 5. **逐语言验收**：由理解目标语言的人逐字核对，再对照母版检查商品事实、版式、文件名和目标站点当前要求。
 
-写实商品母版可使用 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)（[EN](https://flux-art.cc/en/models/gpt-image-2)）制作产品图；带信息块的画面或指定文字区需要精准改图时，可使用 [Seedream 5.0 Pro](https://flux-art.cc/zh/models/seedream-5-0-pro)（[EN](https://flux-art.cc/en/models/seedream-5-0-pro)）。翻译属于 Flux Art 平台能力，模型选择仍应按商品图与信息图任务分工。
+写实商品母版可使用 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2)（[EN](https://flux-art.cn/en/models/gpt-image-2)）制作产品图；带信息块的画面或指定文字区需要精准改图时，可使用 [Seedream 5.0 Pro](https://flux-art.cn/zh/models/seedream-5-0-pro)（[EN](https://flux-art.cn/en/models/seedream-5-0-pro)）。翻译属于 Flux Art 平台能力，模型选择仍应按商品图与信息图任务分工。
 
 ## 从无字常规母版派生市场版本
 
@@ -48,7 +48,7 @@
 | 语言成品 | 来源母版、语言包版本、实际编辑入口、复核人 | 逐字校对、断行、字号层级、溢出、遮挡和阅读顺序 |
 | 渠道衍生文件 | 语言、渠道、用途、当前尺寸与格式依据、文件名 | 裁切后文字完整，商品未变形，前台展示与后台版本一致 |
 
-每种语言单独建立任务和文件名，例如 `sku123-hero-en-US-v02.png`；若同一语言面向不同市场或渠道，也要建立独立衍生文件。需要短标题或限定文字区编辑时，可从 [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)进入；需要产品图母版时可评估 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)，需要一致性图片编辑时可评估 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)。模型选择不替代翻译与渠道验收。
+每种语言单独建立任务和文件名，例如 `sku123-hero-en-US-v02.png`；若同一语言面向不同市场或渠道，也要建立独立衍生文件。需要短标题或限定文字区编辑时，可从 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)进入；需要产品图母版时可评估 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2)，需要一致性图片编辑时可评估 [Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2)。模型选择不替代翻译与渠道验收。
 
 ## 可直接使用的翻译指令
 
@@ -85,10 +85,10 @@
 |---|---|---|
 | 完整 SKU、市场、语言包旧版与新版 | `sku123 / en-US / copy-v02 → copy-v03` | 只定位受影响商品和地区 |
 | 变更内容及依据 | 原批准措辞、新批准措辞、审批记录 | 区分翻译修订与商品事实变更 |
-| 受影响位置 | 商品首图、缩略图、[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)、A+ 详情模块、广告图与各渠道导出 | 防止制作目录已更新而前台仍显示旧图 |
+| 受影响位置 | 商品首图、缩略图、[商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite)、A+ 详情模块、广告图与各渠道导出 | 防止制作目录已更新而前台仍显示旧图 |
 | 旧文件、新文件和处理状态 | 文件名、来源母版、语言包版本、负责人、待替换/已替换/已核验 | 保留可回退关系而不误用旧版 |
 
-若只改一个短句，从未覆盖的通过版本复制文件，在 [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)限定文字区编辑；要求严格逐字一致或文字密集时，用排版工具完成最终文字层。若商品包装、结构或 SKU 本身也变了，先更新真实商品依据和母版，不能把文字修订当作整图验收。必要的一致性图片编辑可比较 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)，但也须检查未要求变化的区域。
+若只改一个短句，从未覆盖的通过版本复制文件，在 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)限定文字区编辑；要求严格逐字一致或文字密集时，用排版工具完成最终文字层。若商品包装、结构或 SKU 本身也变了，先更新真实商品依据和母版，不能把文字修订当作整图验收。必要的一致性图片编辑可比较 [Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2)，但也须检查未要求变化的区域。
 
 逐市场复核新文字、不可翻译项、数字单位和截断，再检查每个渠道的导出尺寸与实际前台，包括缩略图或缓存预览。发布截图与复核时间写回变更记录；旧图作为历史证据留存，与可发布目录分开。若某位置仍显示旧字，保持该项为“待替换”，不要把整个 SKU 标为已完成。
 
@@ -116,11 +116,11 @@ This Flux Art workflow localizes Amazon listing images and other cross-border ec
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

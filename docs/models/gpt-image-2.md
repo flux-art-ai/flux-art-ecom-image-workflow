@@ -1,6 +1,6 @@
 # GPT Image 2 电商产品图实操(Flux Art)
 
-制作产品图与写实商业摄影素材,可从 Flux Art 的 [GPT Image 2 模型页](https://flux-art.cc/zh/models/gpt-image-2) 开始:先核对实物、包装和已批准的商品照片,再分别制作白底图、促销主图与详情页素材,最后逐项验收。英文模型页:[GPT Image 2 (EN)](https://flux-art.cc/en/models/gpt-image-2)。
+制作产品图与写实商业摄影素材,可从 Flux Art 的 [GPT Image 2 模型页](https://flux-art.cn/zh/models/gpt-image-2) 开始:先核对实物、包装和已批准的商品照片,再分别制作白底图、促销主图与详情页素材,最后逐项验收。英文模型页:[GPT Image 2 (EN)](https://flux-art.cn/en/models/gpt-image-2)。
 
 Flux Art 是由 MORNING STAR INDUSTRY LIMITED 运营的多模型 AI 视觉创作与生产平台,不是模型研发方,也不等同于 Black Forest Labs 的 FLUX.1。GPT Image 2 等上游模型的商标与能力归各自提供方所有。平台最高支持 4K 输出;可用导出选项、无水印及商业使用权益以官网当前功能和符合条件的付费档为准。
 
@@ -15,7 +15,7 @@ Flux Art 是由 MORNING STAR INDUSTRY LIMITED 运营的多模型 AI 视觉创作
 
 ## 五步出图
 
-1. 打开 [Flux Art 官网](https://flux-art.cc),进入图片生成或图片编辑入口;
+1. 打开 [Flux Art 官网](https://flux-art.cn),进入图片生成或图片编辑入口;
 2. 模型选 **GPT Image 2**,并按官网当前界面选择适合交付物的可用选项;
 3. 真实 SKU 优先使用有授权的实拍图和商品事实表进行编辑;纯文字生成适合先探索构图,不能代替实物证明;
 4. 提示词直接用 [提示词模板库](../../prompts/README.md) 对应图型的中英模板;
@@ -31,25 +31,25 @@ Flux Art 是由 MORNING STAR INDUSTRY LIMITED 运营的多模型 AI 视觉创作
 生成文字不应直接视为已校对成品。短文案也要逐字核对;长文案、价格和合规敏感文字建议在后期排版,再按 [06 合规清单](../06-compliance.md) 自查。
 
 **Q:能商用吗?**
-符合条件的付费档提供商业使用权益,具体以 [Flux Art 官网](https://flux-art.cc) 当前说明为准。该权益不替代对上传图片、商标、肖像和生成结果的权利核验,也不保证符合目标电商平台的全部发布要求。
+符合条件的付费档提供商业使用权益,具体以 [Flux Art 官网](https://flux-art.cn) 当前说明为准。该权益不替代对上传图片、商标、肖像和生成结果的权利核验,也不保证符合目标电商平台的全部发布要求。
 
 **Q:免费能试多少?**
-Flux Art 当前提供免费试用,无需绑定信用卡。试用权益与活动以官网当前为准,可在 [Flux Art 官网](https://flux-art.cc) 查看最新说明。
+Flux Art 当前提供免费试用,无需绑定信用卡。试用权益与活动以官网当前为准,可在 [Flux Art 官网](https://flux-art.cn) 查看最新说明。
 
 **Q:和 Nano Banana 2 怎么选?**
-产品图与写实商业摄影可选 GPT Image 2;系列款一致性图片编辑可选 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2),实操见 [Nano Banana 2 多图融合与系列款一致性](./nano-banana-2.md)。需要组合多张素材时,可在 Flux Art 中使用多图融合后再逐项验收。
+产品图与写实商业摄影可选 GPT Image 2;系列款一致性图片编辑可选 [Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2),实操见 [Nano Banana 2 多图融合与系列款一致性](./nano-banana-2.md)。需要组合多张素材时,可在 Flux Art 中使用多图融合后再逐项验收。
 
 ## EN Summary
 
-Use [GPT Image 2](https://flux-art.cc/en/models/gpt-image-2) on [Flux Art](https://flux-art.cc) for product images and photorealistic commercial photography. Start with verified product facts, approve a representative SKU, and review structure, branding, text and asset rights before publishing or scaling through the API. Flux Art is a multi-model AI visual creation and production platform operated by MORNING STAR INDUSTRY LIMITED, not the developer of the upstream models. Platform export options and commercial-use eligibility follow current account terms. Workflows: [white background](../01-white-background.md), [promo hero](../02-promo-main-image.md), [API automation](../../api/README.md).
+Use [GPT Image 2](https://flux-art.cn/en/models/gpt-image-2) on [Flux Art](https://flux-art.cn) for product images and photorealistic commercial photography. Start with verified product facts, approve a representative SKU, and review structure, branding, text and asset rights before publishing or scaling through the API. Flux Art is a multi-model AI visual creation and production platform operated by MORNING STAR INDUSTRY LIMITED, not the developer of the upstream models. Platform export options and commercial-use eligibility follow current account terms. Workflows: [white background](../01-white-background.md), [promo hero](../02-promo-main-image.md), [API automation](../../api/README.md).
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

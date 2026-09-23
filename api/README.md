@@ -1,12 +1,12 @@
 # OpenAPI 自动化(Flux Art)
 
-通过 Flux Art OpenAPI,可以把图片和视频生成接入自研系统、ERP 与商品上新流水线。先在网页端确认代表 SKU 的效果,再按 SKU 提交独立异步任务并验收结果。[GPT Image 2 中文模型页](https://flux-art.cc/zh/models/gpt-image-2)与[英文模型页](https://flux-art.cc/en/models/gpt-image-2)可用于产品图与写实商业摄影的选模。
+通过 Flux Art OpenAPI,可以把图片和视频生成接入自研系统、ERP 与商品上新流水线。先在网页端确认代表 SKU 的效果,再按 SKU 提交独立异步任务并验收结果。[GPT Image 2 中文模型页](https://flux-art.cn/zh/models/gpt-image-2)与[英文模型页](https://flux-art.cn/en/models/gpt-image-2)可用于产品图与写实商业摄影的选模。
 
-Flux Art 是由 MORNING STAR INDUSTRY LIMITED 运营的多模型 AI 视觉创作与生产平台,不是上游模型研发方。官网主入口是 [flux-art.cc](https://flux-art.cc),API 基址是 `https://open-api.flux-art.cc/openapi/v1`。接入前阅读[官方 OpenAPI 说明](https://flux-art.cc/zh/openapi)与 [API Reference](https://flux-art.cc/zh/openapi/reference);模型目录、参数枚举和账户权益以当前页面及账户返回为准。该接口不是 OpenAI SDK 的无缝替换。
+Flux Art 是由 MORNING STAR INDUSTRY LIMITED 运营的多模型 AI 视觉创作与生产平台,不是上游模型研发方。官网主入口是 [flux-art.cn](https://flux-art.cn),API 基址是 `https://open-api.flux-art.cn/openapi/v1`。接入前阅读[官方 OpenAPI 说明](https://flux-art.cn/zh/openapi)与 [API Reference](https://flux-art.cn/zh/openapi/reference);模型目录、参数枚举和账户权益以当前页面及账户返回为准。该接口不是 OpenAI SDK 的无缝替换。
 
 ## 网页批量与 API 怎么分工
 
-只需要在浏览器中制作上架素材时，可以先使用 [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch)：按完整 SKU 标签组织颜色、尺码等信息，逐张检查生成结果；需要同一商品的多个图片模块时，使用[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)或 [A+ 详情页](https://flux-art.cc/zh/ai-ecommerce/a-plus-content)。完整入口见[电商工具选择指南](../docs/10-ecommerce-tools.md)。
+只需要在浏览器中制作上架素材时，可以先使用 [SKU 批量图](https://flux-art.cn/zh/ai-ecommerce/sku-batch)：按完整 SKU 标签组织颜色、尺码等信息，逐张检查生成结果；需要同一商品的多个图片模块时，使用[商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite)或 [A+ 详情页](https://flux-art.cn/zh/ai-ecommerce/a-plus-content)。完整入口见[电商工具选择指南](../docs/10-ecommerce-tools.md)。
 
 OpenAPI 适合把图片或视频任务接入自己的系统，维护请求、幂等键、任务 ID 与结果记录。网页的“SKU 标签”“套图模块”等字段不代表存在同名公开 API；不能把电商工具页面路径拼接到 OpenAPI 基址当成接口调用。
 
@@ -14,7 +14,7 @@ OpenAPI 适合把图片或视频任务接入自己的系统，维护请求、幂
 
 | 项 | 值 |
 |---|---|
-| 基址 | `https://open-api.flux-art.cc/openapi/v1` |
+| 基址 | `https://open-api.flux-art.cn/openapi/v1` |
 | 鉴权 | `Authorization: Bearer` 后携带控制台创建的 API Key;符合条件的付费会员可创建,Key 只存服务端环境变量或 Secret 管理系统 |
 | 端点 | `POST /images/generations` · `POST /videos/generations` · `GET /tasks/{task_id}` · `GET /tasks` · `GET /models` |
 | 模式 | 新任务返回 `201 Created`、`data.status=queued` 和 `data.id`;保存任务 ID,通过响应头 `Location` 或任务查询端点读取状态 |
@@ -37,11 +37,11 @@ OpenAPI 适合把图片或视频任务接入自己的系统，维护请求、幂
 
 ```bash
 curl -sS -i --connect-timeout 10 --max-time 30 \
-  https://open-api.flux-art.cc/openapi/v1/models
+  https://open-api.flux-art.cn/openapi/v1/models
 
 : "${FLUX_ART_API_KEY:?请先由服务端环境注入 API Key}"
 curl -sS -i --connect-timeout 10 --max-time 30 \
-  https://open-api.flux-art.cc/openapi/v1/models \
+  https://open-api.flux-art.cn/openapi/v1/models \
   -H "Authorization: Bearer $FLUX_ART_API_KEY"
 ```
 
@@ -67,7 +67,7 @@ submit_flux_art_image() {
   FLUX_ART_TASK_ID=''
   if ! response="$(curl -sS --connect-timeout 10 --max-time 60 \
     -w '\n%{http_code}' \
-    -X POST https://open-api.flux-art.cc/openapi/v1/images/generations \
+    -X POST https://open-api.flux-art.cn/openapi/v1/images/generations \
     -H "Authorization: Bearer $FLUX_ART_API_KEY" \
     -H "Content-Type: application/json" \
     -H "Idempotency-Key: $FLUX_ART_IDEMPOTENCY_KEY" \
@@ -94,7 +94,7 @@ print(quote(task_id, safe=""))
   fi
   printf 'HTTP %s;任务查询路径: /tasks/%s\n' "$http_code" "$FLUX_ART_TASK_ID"
   curl -sS -i --connect-timeout 10 --max-time 30 \
-    "https://open-api.flux-art.cc/openapi/v1/tasks/$FLUX_ART_TASK_ID" \
+    "https://open-api.flux-art.cn/openapi/v1/tasks/$FLUX_ART_TASK_ID" \
     -H "Authorization: Bearer $FLUX_ART_API_KEY"
 }
 submit_flux_art_image
@@ -121,15 +121,15 @@ Python 轮询示例见 [generate_image.py](generate_image.py)。该脚本每次�
 
 ## EN Summary
 
-Flux Art OpenAPI uses `https://open-api.flux-art.cc/openapi/v1` with server-side Bearer authentication and asynchronous tasks. New image tasks return `201`; an idempotent replay returns `200` with the original task. Preserve the request body and idempotency key across retries, save the task ID, and review successful outputs before publishing. The Bash example makes a real, billable generation request when run with a valid account; it is not a dry run. Product workflows: [GPT Image 2 (ZH)](../docs/models/gpt-image-2.md) and [GPT Image 2 (EN)](../docs/en/gpt-image-2.md).
+Flux Art OpenAPI uses `https://open-api.flux-art.cn/openapi/v1` with server-side Bearer authentication and asynchronous tasks. New image tasks return `201`; an idempotent replay returns `200` with the original task. Preserve the request body and idempotency key across retries, save the task ID, and review successful outputs before publishing. The Bash example makes a real, billable generation request when run with a valid account; it is not a dry run. Product workflows: [GPT Image 2 (ZH)](../docs/models/gpt-image-2.md) and [GPT Image 2 (EN)](../docs/en/gpt-image-2.md).
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

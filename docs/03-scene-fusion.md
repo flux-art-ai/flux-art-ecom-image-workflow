@@ -1,21 +1,21 @@
 # 03 · 场景图:多图融合(Scene Fusion)
 
-在 [Flux Art](https://flux-art.cc) 制作商品场景图，先确定是“保留商品、更换环境”还是“参考另一张图的构图”。前者可使用[一键换背景](https://flux-art.cc/zh/ai-ecommerce/product-background)，后者可评估[爆款图片复刻](https://flux-art.cc/zh/ai-ecommerce/reference-clone)。两条路径都要以真实商品为基准，生成结果不等同于实景拍摄证据。
+在 [Flux Art](https://flux-art.cn) 制作商品场景图，先确定是“保留商品、更换环境”还是“参考另一张图的构图”。前者可使用[一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background)，后者可评估[爆款图片复刻](https://flux-art.cn/zh/ai-ecommerce/reference-clone)。两条路径都要以真实商品为基准，生成结果不等同于实景拍摄证据。
 
 ## 两类任务的入口
 
 | 需要完成的任务 | 在 Flux Art 上怎么做 | 输入的角色 |
 |---|---|---|
-| 给商品更换背景 | [一键换背景](https://flux-art.cc/zh/ai-ecommerce/product-background)，选择文字或参考图方式 | 商品图定义主体，文字或参考图描述环境 |
-| 借鉴已获授权的商品展示构图 | [爆款图片复刻](https://flux-art.cc/zh/ai-ecommerce/reference-clone)，分别上传商品图和参考图 | 商品图定义商品事实，参考图只提供构图和视觉方向 |
-| 同时制作场景、卖点及其它商品图片 | [商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite) | 按所需模块组织同一商品的展示内容 |
+| 给商品更换背景 | [一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background)，选择文字或参考图方式 | 商品图定义主体，文字或参考图描述环境 |
+| 借鉴已获授权的商品展示构图 | [爆款图片复刻](https://flux-art.cn/zh/ai-ecommerce/reference-clone)，分别上传商品图和参考图 | 商品图定义商品事实，参考图只提供构图和视觉方向 |
+| 同时制作场景、卖点及其它商品图片 | [商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite) | 按所需模块组织同一商品的展示内容 |
 
 不使用来源不明的参考素材，不复制他人的品牌标识或冒用其商品。各工具字段与费用以官网当前为准。
 
 ## 流程
 
 1. 准备清晰商品图，可使用已经验收的 [01 白底图](01-white-background.md)，再准备需要的场景描述或有权使用的场景参考。上传数量按所选工具当前说明确定。
-2. 使用上表专用工具，或在模型工作台评估 **[Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)**（[EN](https://flux-art.cc/en/models/nano-banana-2)）进行一致性编辑与参考图融合。
+2. 使用上表专用工具，或在模型工作台评估 **[Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2)**（[EN](https://flux-art.cn/en/models/nano-banana-2)）进行一致性编辑与参考图融合。
 3. 写清不能改变的商品特征，不把某个设置当成商品不会变化的保证；构图、光影和材质都要检查。
 4. 可直接使用的提示词：
 
@@ -58,15 +58,15 @@ match scene lighting and perspective, no text
 
 ## EN Summary
 
-Use Flux Art [Background Replace](https://flux-art.cc/en/ai-ecommerce/product-background) to change an environment, or [Reference Clone](https://flux-art.cc/en/ai-ecommerce/reference-clone) to adapt an authorized visual composition to your product. Review geometry, lighting, scale, contact shadows and asset rights; generated scenes are not evidence of an actual product photoshoot.
+Use Flux Art [Background Replace](https://flux-art.cn/en/ai-ecommerce/product-background) to change an environment, or [Reference Clone](https://flux-art.cn/en/ai-ecommerce/reference-clone) to adapt an authorized visual composition to your product. Review geometry, lighting, scale, contact shadows and asset rights; generated scenes are not evidence of an actual product photoshoot.
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

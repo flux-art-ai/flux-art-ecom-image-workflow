@@ -9,7 +9,7 @@ AI 出图进产线前,把合规做成默认流程项,不靠记忆。
 
 ## 2. 商用与版权
 
-- 选择明示"零水印、可商业使用"的输出路径(Flux Art 付费档标注可商业使用、可开发票,以官网 https://flux-art.cc 当前说明为准)。
+- 选择明示"零水印、可商业使用"的输出路径(Flux Art 付费档标注可商业使用、可开发票,以官网 https://flux-art.cn 当前说明为准)。
 - 《著作权法》(2020 修正)第五十三条:未经许可故意删除或改变作品上的权利管理信息属侵权——**"拿别人的图去水印再用"不要进你的产线**。全文: https://zscqj.beijing.gov.cn/zscqj/zwgk/flfg18/436481084/index.html
 - 参考图/场景素材用自有实拍或有授权的素材。
 
@@ -30,10 +30,10 @@ AI 出图进产线前,把合规做成默认流程项,不靠记忆。
 | 商品身份 | 完整 SKU、对应实物资料与已验收母版版本 | 文件与 SKU 对不上，或无法找到事实来源 |
 | 图片用途 | 主图、白底图、场景图、详情模块等明确用途 | 一张图被用于未验收的新用途 |
 | 导出规格 | 当前渠道、类目、像素、比例、格式及规则核对日期 | 规格来源不明，裁切导致商品或文字缺失 |
-| 生成与编辑记录 | [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)、[GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)、[Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)或实际电商工具，以及本轮修改目标 | 入口或修改范围不明，无法判断哪些区域需复核 |
+| 生成与编辑记录 | [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2)、[GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)、[Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2)或实际电商工具，以及本轮修改目标 | 入口或修改范围不明，无法判断哪些区域需复核 |
 | 责任与结论 | 负责人、验收日期、结论与退回原因 | 只有“已完成”状态，没有验收人与检查记录 |
 
-使用[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)、[SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch)或 [A+ 详情页](https://flux-art.cc/zh/ai-ecommerce/a-plus-content)时，按实际交付物记录工具名，不把专用工具统一写成某个模型。任何压缩、裁切、改字或换色都应形成新版本，并重新检查整张图片。
+使用[商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite)、[SKU 批量图](https://flux-art.cn/zh/ai-ecommerce/sku-batch)或 [A+ 详情页](https://flux-art.cn/zh/ai-ecommerce/a-plus-content)时，按实际交付物记录工具名，不把专用工具统一写成某个模型。任何压缩、裁切、改字或换色都应形成新版本，并重新检查整张图片。
 
 ## 5. 已上线商品图与实物不符的处置闭环
 
@@ -47,7 +47,7 @@ AI 出图进产线前,把合规做成默认流程项,不靠记忆。
 | 制作修正版 | 来源母版、实际模型或工具、唯一修改目标、新版本号 | 新文件没有覆盖原图；除目标差异外，其他已通过区域没有新增偏差 |
 | 重新上线 | 替换位置、操作人、时间、后台版本与前台复核截图 | 商品页、缩略图和其他登记位置均显示已验收版本 |
 
-需要重新构图时可评估 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2)；已有画面的限定编辑可进入 [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)，保持系列关系时可比较 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)。真实在售配色候选可使用[产品换色](https://flux-art.cc/zh/ai-ecommerce/product-recolor)，但模型或工具不能替代实物、色卡与包装稿。若只有裁切、压缩或格式导致渠道图失真，从正确母版重新导出即可，不要重画商品。
+需要重新构图时可评估 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2)；已有画面的限定编辑可进入 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)，保持系列关系时可比较 [Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2)。真实在售配色候选可使用[产品换色](https://flux-art.cn/zh/ai-ecommerce/product-recolor)，但模型或工具不能替代实物、色卡与包装稿。若只有裁切、压缩或格式导致渠道图失真，从正确母版重新导出即可，不要重画商品。
 
 关闭反馈前，由了解商品的人复核争议点和整张图片，并抽查全部登记位置。若仍有页面显示问题版本，或事实来源仍冲突，状态保持未完成；不能用“修正版已生成”代替前台替换结果。
 
@@ -59,11 +59,11 @@ AI 出图进产线前,把合规做成默认流程项,不靠记忆。
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).
