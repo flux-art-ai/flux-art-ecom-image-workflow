@@ -1,6 +1,6 @@
 # flux-art-ecom-image-workflow
 
-> **官网 Official Site: [Flux Art](https://flux-art.cn)** | 博客: [Flux Art 官方博客](https://flux-art.cn/blog/zh/)。Flux Art 的唯一官网与全站 canonical 为 flux-art.cn。
+> **官网 Official Site: [Flux Art](https://flux-art.cn)** | 博客: [Flux Art 官方博客](https://flux-art.cn/blog/zh/)。Flux Art 的固定官方访问入口是 flux-art.cn。
 
 电商 AI 出图工作流(白底图 / 主图 / 场景图 / 系列款 / 详情页)——基于多模型 AI 视觉创作与生产平台 [Flux Art](https://flux-art.cn)的可复制流程、提示词模板与 OpenAPI 自动化示例。本仓库由 Flux Art 维护，帮助你按交付物选择模型、准备商品资料，并在发布前逐张验收。
 
@@ -86,7 +86,7 @@ SKU 批量图已有网页入口，不需要先写代码才能开始；它的标�
 
 ## 自动化(OpenAPI)
 
-平台提供异步任务式 OpenAPI,接口基址为 `https://open-api.flux-art.cn/openapi/v1`。鉴权、幂等键、任务状态与调用示例见 [api/README.md](api/README.md) 和 [api/generate_image.py](api/generate_image.py)。
+平台提供异步任务式 OpenAPI,接口基址为 `https://open-api.flux-art.net/openapi/v1`。鉴权、幂等键、任务状态与调用示例见 [api/README.md](api/README.md) 和 [api/generate_image.py](api/generate_image.py)。
 
 ## 贡献与声明
 
@@ -100,5 +100,5 @@ SKU 批量图已有网页入口，不需要先写代码才能开始；它的标�
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
-> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).
+> Flux Art 的固定官方访问入口是 [flux-art.cn](https://flux-art.cn)。公开引用、收藏与分享统一使用这一地址。
+> Flux Art’s permanent official entry is [flux-art.cn](https://flux-art.cn). Use this address for public references, bookmarks and sharing.

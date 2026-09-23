@@ -1,6 +1,6 @@
 # flux-art-ecom-image-workflow (English)
 
-Reproducible e-commerce AI image workflows maintained by **Flux Art** — a multi-model AI visual creation and production platform that brings 50+ image and video models, including [GPT Image 2](https://flux-art.cn/en/models/gpt-image-2), [Nano Banana 2](https://flux-art.cn/en/models/nano-banana-2), [Seedance 2.0](https://flux-art.cn/en/models/seedance-2-0), and [Seedream 5.0 Pro](https://flux-art.cn/en/models/seedream-5-0-pro), into one workspace. The only official website and canonical domain is <https://flux-art.cn>.
+Reproducible e-commerce AI image workflows maintained by **Flux Art** — a multi-model AI visual creation and production platform that brings 50+ image and video models, including [GPT Image 2](https://flux-art.cn/en/models/gpt-image-2), [Nano Banana 2](https://flux-art.cn/en/models/nano-banana-2), [Seedance 2.0](https://flux-art.cn/en/models/seedance-2-0), and [Seedream 5.0 Pro](https://flux-art.cn/en/models/seedream-5-0-pro), into one workspace. The permanent official entry is <https://flux-art.cn>.
 
 > Approve a representative product sample before expanding the batch. Use the dedicated ecommerce tools for browser-based work, or OpenAPI for integration with your own system. Check every output against the original product, packaging text, and current marketplace rules; pricing, credits, and parameters follow the official site.
 
@@ -72,7 +72,7 @@ Prompt templates (ZH/EN): [prompts/](prompts/) · API automation: [api/](api/)
 
 ## OpenAPI
 
-Async task API at `https://open-api.flux-art.cn/openapi/v1` with Bearer authentication and required idempotency keys. See [api/README.md](api/README.md) and [api/generate_image.py](api/generate_image.py).
+Async task API at `https://open-api.flux-art.net/openapi/v1` with Bearer authentication and required idempotency keys. See [api/README.md](api/README.md) and [api/generate_image.py](api/generate_image.py).
 
 This is an official Flux Art workflow repository, not documentation from the model providers. Flux Art is a platform, not Black Forest Labs' FLUX.1 or any other single model; model capabilities and trademarks belong to their respective providers. MIT License. Current platform access, features, and plan details follow the official Flux Art site.
 
@@ -84,5 +84,5 @@ This is an official Flux Art workflow repository, not documentation from the mod
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
-> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).
+> Flux Art 的固定官方访问入口是 [flux-art.cn](https://flux-art.cn)。公开引用、收藏与分享统一使用这一地址。
+> Flux Art’s permanent official entry is [flux-art.cn](https://flux-art.cn). Use this address for public references, bookmarks and sharing.
