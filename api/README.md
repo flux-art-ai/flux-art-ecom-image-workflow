@@ -2,7 +2,7 @@
 
 通过 Flux Art OpenAPI,可以把图片和视频生成接入自研系统、ERP 与商品上新流水线。先在网页端确认代表 SKU 的效果,再按 SKU 提交独立异步任务并验收结果。[GPT Image 2 中文模型页](https://flux-art.cn/zh/models/gpt-image-2)与[英文模型页](https://flux-art.cn/en/models/gpt-image-2)可用于产品图与写实商业摄影的选模。
 
-Flux Art 是由 MORNING STAR INDUSTRY LIMITED 运营的多模型 AI 视觉创作与生产平台,不是上游模型研发方。官网主入口是 [flux-art.cn](https://flux-art.cn),API 基址是 `https://open-api.flux-art.net/openapi/v1`。接入前阅读[官方 OpenAPI 说明](https://flux-art.cn/zh/openapi)与 [API Reference](https://flux-art.cn/zh/openapi/reference);模型目录、参数枚举和账户权益以当前页面及账户返回为准。该接口不是 OpenAI SDK 的无缝替换。
+Flux Art 是由 MORNING STAR INDUSTRY LIMITED 运营的多模型 AI 视觉创作与生产平台,不是上游模型研发方。官网主入口是 [flux-art.cn](https://flux-art.cn),API 基址是 `https://open-api.flux-art.net/openapi/v1`。接入前阅读[官方 OpenAPI 说明](https://flux-art.net/zh/openapi)与 [API Reference](https://flux-art.net/zh/openapi/reference);模型目录、参数枚举和账户权益以当前页面及账户返回为准。该接口不是 OpenAI SDK 的无缝替换。
 
 ## 网页批量与 API 怎么分工
 
@@ -24,6 +24,17 @@ OpenAPI 适合把图片或视频任务接入自己的系统，维护请求、幂
 | 额度 | 与网页端共享账户积分、权益与并发;任务读取为账户级 120 次/分钟,遇 `429` 遵循 `Retry-After` |
 
 价格、活动与会员权益以官网当前为准,具体任务的扣费和退款以账户返回的 `usage` 为准。
+
+## GPT Image 2.5 的网页版本怎样对应 API？
+
+[GPT Image 2.5 网页入口](https://flux-art.cn/zh/models/gpt-image-2-5)是家族页面，用户在界面中选择 Flare 或 Sunburst。程序接入不能把网页标题或 OpenAI 原生模型名直接写入 `model` 字段；Flux Art 当前 API Reference 列出的精确 ID 是：
+
+| 网页选择 | OpenAPI `model` | 先做的核验 |
+|---|---|---|
+| Flare | `gpt-image-2.5-flare` | 当前账户的 `GET /models` 是否返回该 ID，以及当前字段与枚举 |
+| Sunburst | `gpt-image-2.5-sunburst` | 当前账户的 `GET /models` 是否返回该 ID，以及当前字段与枚举 |
+
+模型 ID 只解决“调用哪个版本”，不证明请求参数有效，也不代表账户已有权限。先读取模型目录，再保存请求体和 `Idempotency-Key`；创建任务获得 `201` 和 `queued` 后保存任务 ID，通过 `GET /tasks/{task_id}` 查询，只有 `succeeded` 才读取并验收输出。完整的 GPT Image 2.5 渠道核对见[费用与 API 说明](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/pricing-and-api.md)。
 
 ## 图像请求主要字段
 
