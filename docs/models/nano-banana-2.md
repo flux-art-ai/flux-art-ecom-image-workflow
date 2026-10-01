@@ -13,6 +13,19 @@ Nano Banana 2 是 Google 的 Gemini 3.1 Flash Image，Flux Art 提供模型使�
 | 换背景与局部修改 | 在编辑任务中限定修改内容，保留已确认的商品细节 | 背景变化后，主体和包装字是否被重画 |
 | 产品图与商业摄影方向 | 用同一份商品资料与 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2) 对照 | 不只看画面美感，还看实物结构和标签 |
 
+## 先选对 Nano Banana 版本，再安排电商流程
+
+四个版本不是从低到高自动替换的同一条流水线。先按当前交付问题选择入口；只有上一阶段通过验收，才把结果交给下一阶段。
+
+| 当前任务 | 版本与入口 | 交接条件 |
+|---|---|---|
+| 快速修一张已有图的局部内容 | [Nano Banana](https://flux-art.cn/zh/models/nano-banana)（[EN](https://flux-art.cn/en/models/nano-banana)） | 当前为 1K，编辑最多三张参考图；只保留与本轮修改直接相关的素材 |
+| 同时试几种构图、道具或氛围 | [Nano Banana 2 Lite](https://flux-art.cn/zh/models/nano-banana-2-lite)（[EN](https://flux-art.cn/en/models/nano-banana-2-lite)） | 当前 1K 草图只用于选方向；不能用未经核对的草图定义真实商品 |
+| 把已验收母版扩展为配色、场景或系列版本 | [Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2) | 当前可选 512、1K、2K、4K；逐图核对完整 SKU、标签、结构和未修改区域 |
+| 制作或编辑细节密集的 1K、2K、4K 最终资产 | [Nano Banana Pro](https://flux-art.cn/zh/models/nano-banana-pro)（[EN](https://flux-art.cn/en/models/nano-banana-pro)） | 用真实商品资料复核文字、事实和保护区域；Pro 名称本身不是放行依据 |
+
+一个安全的交接顺序可以是：Lite 先确定画面方向，Nano Banana 2 从已验收母版扩展系列，Pro 只在确有精细生成或编辑需求时制作最终候选。若任务只是单张局部快修，直接从初代 Nano Banana 开始，不必为了版本名把整个流程重跑。Google 提供 Nano Banana 模型；Flux Art 提供使用入口和工作台。
+
 ## 参考图先分工，不要只堆数量
 
 每张图片都应有明确用途。商品正面图负责外形和正面标签，细节图用于核对接口或纹理，场景参考只说明环境。把不同款商品混在同一组参考里，容易让目标变得含糊；上传数量与格式以所选模型当前界面为准。
@@ -77,7 +90,7 @@ Use [Nano Banana 2 on Flux Art](https://flux-art.cn/en/models/nano-banana-2) for
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.net/blog/zh/) · [Official Blog (EN)](https://flux-art.net/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
