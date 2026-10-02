@@ -73,6 +73,44 @@ Flux Art 支持多图融合和最多 14 张参考图，但参考图不是越多�
 
 修正后重新检查整件服装和人体遮挡；肩线、图案、缝线或穿法任一项发生新变化时，立即回退。
 
+## 配饰试戴图：先固定商品尺度、佩戴锚点和遮挡路径
+
+[AI 万戴](https://flux-art.cn/zh/ai-ecommerce/accessory-try-on)当前可上传配饰图，并选择 AI 模特或已获授权的自定义模特。页面提供智能识别，也可明确选择帽子、眼镜、围巾/披肩、项链、耳饰、手表、手链、腰带、手提包或单肩/斜挎包；人物属性、1:1、3:4、4:3、9:16、16:9 输出比例，以及场景、造型或佩戴方式补充说明都应按实际交付填写。
+
+这些选项用于组织生成任务，不等于配饰的真实尺寸或适配结论。正式制作前，为同一完整 SKU 建立配饰事实表：
+
+| 配饰类型 | 最少商品证据 | 佩戴锚点 | 应退回的错误 |
+|---|---|---|---|
+| 帽子 | 正面、侧面、帽檐、帽冠、帽带与尺寸依据 | 额头、头顶、耳部和头发边缘 | 帽檐方向错误、帽冠比例变化、耳部或头发穿插 |
+| 眼镜 | 正面、侧面、镜框、镜腿、鼻托、镜片形状与尺寸依据 | 鼻梁、耳侧与眉眼关系 | 镜腿消失、左右不对称、鼻托错位、镜框遮住不应遮挡的区域 |
+| 围巾/披肩 | 完整展开图、边缘、流苏、图案方向、长度和目标系法 | 颈部、肩部与衣领 | 缠绕路径中断、图案复制、流苏增删、无依据改变长度 |
+| 项链、耳饰 | 链体、吊坠、耳饰成对关系、扣件、五金与商品朝向 | 颈部、锁骨、耳垂 | 左右数量变化、吊坠翻转、链体穿入皮肤或衣物、扣件凭空改变 |
+| 手表、手链 | 表盘、表冠、表带、链节、扣件、佩戴方向与尺寸依据 | 手腕与袖口 | 表盘镜像、表冠换边、链节或扣件增删、穿过手腕或袖口 |
+| 腰带 | 带宽、扣头、孔位、尾端、Logo 与目标扣合方式 | 腰线、裤腰或裙腰 | 扣头结构改变、孔位无依据增删、腰带穿过衣物层 |
+| 手提包、单肩/斜挎包 | 正反面、侧面、底部、提手、肩带、五金、开合与目标背法 | 手部、肩部、躯干和服装表面 | 包体比例改变、提手或肩带断裂、五金漂移、斜挎路径穿过身体 |
+
+### 五步生成与验收
+
+1. **只使用同一 SKU**：不要把不同尺寸、配色、五金或肩带版本混进一组素材；每张参考图标明角度和用途。
+2. **选对配饰类型和展示方式**：先决定手提、单肩、斜挎、颈戴、耳戴、腕戴或头戴，再选择人物、裁切和比例。
+3. **写可观察的要求**：说明配饰朝向、佩戴位置、哪一面朝外、必须露出的结构和允许遮挡的范围；不写“更合适”“更舒适”等图片无法证明的结论。
+4. **先审商品，再审人物**：先核对结构、数量、比例、五金、Logo、图案和带体走向，再检查皮肤、头发、手部、服装与配饰的接触和遮挡。
+5. **只从通过版本继续**：换人物、背景或比例时，每次只改一个变量；候选未通过前不扩展系列图。
+
+可直接使用的 AI 万戴补充说明：
+
+```text
+使用同一款棕色斜挎包，肩带从人物左肩自然跨至右侧腰部，包体完整露出并位于右胯外侧。严格保留包体比例、翻盖、提手、肩带宽度、金属扣件、缝线、Logo 和颜色；肩带不得穿过身体、头发或服装，手部不得遮住主要五金。
+```
+
+候选整体已通过而只有一个接触点需要修正时，可从 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)（[EN](https://flux-art.cn/en/models/gpt-image-2-5)）选择 Flare 或 Sunburst，从同一张原始候选开始做有界比较：
+
+```text
+仅修正左肩处肩带与西装领口的接触关系，使肩带自然贴在服装外侧。保持包体、提手、肩带长度与宽度、五金、缝线、Logo、颜色、人物、姿势、手部、镜头和背景不变。若无法只修改该接触点，请保留原图。
+```
+
+配饰结构、尺度和多个锚点同时错误，或参考图无法证明扣件、背面、带长和五金关系时，应停止编辑并补拍或重新生成。试戴视觉不能证明眼镜或帽子的适配范围、首饰或腕表尺寸、包袋承重、材质性能、舒适性或真实佩戴体验。
+
 ## 鞋履上脚图：从多角度商品证据到可验收候选
 
 [AI 试鞋](https://flux-art.cn/zh/ai-ecommerce/shoe-try-on)当前支持上传 1–4 张鞋履图，并建议补充正面、侧面、背面或鞋底；页面还可以选择 AI 或自定义模特、展示范围，并补充姿势、场景、袜子或下装要求。自定义模特素材必须具有适用于当前用途的授权。
@@ -150,13 +188,17 @@ Flux Art 支持多图融合和最多 14 张参考图，但参考图不是越多�
 
 不能。AI 模特图可用于视觉表达，但版型、尺码、面料触感和真实穿着效果仍应由实物信息、测量数据和必要的真实拍摄支持。
 
+**Q：配饰试戴图通过后，还要检查哪些位置？**
+
+要检查配饰完整结构、相对尺度、佩戴锚点、带体或链体路径、人物和服装遮挡，以及整图中是否出现新的五金、Logo 或图案变化。画面不能替代真实尺寸、适配范围和佩戴体验资料。
+
 ## EN Summary
 
-This Flux Art workflow separates AI model photography into three reviewable stages: create and approve the base model image, fuse verified product references with the person, and extend the scene only after the person-product image passes review. Use the smallest useful reference set, change one variable per iteration, and inspect garment structure, logos, contact points, occlusion, body anatomy, cropping, perspective, shadows, and lighting. Nano Banana 2 is suited to consistent image editing, while GPT Image 2 can create product images and photorealistic commercial photography. AI model images do not replace verified sizing, material, fit, or real-product evidence.
+This Flux Art workflow separates AI model photography into reviewable stages: approve the base person, add one verified garment, accessory or shoe product, and extend the scene only after the product-person candidate passes review. For accessory try-on, verify product scale, hardware, orientation, contact anchors and strap or chain paths before judging styling. Use the smallest useful reference set, change one variable per iteration, and stop when the source does not prove the missing structure. AI model images do not replace verified sizing, material, fit, comfort or real-product evidence.
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.net/blog/zh/) · [Official Blog (EN)](https://flux-art.net/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
