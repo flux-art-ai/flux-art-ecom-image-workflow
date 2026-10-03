@@ -30,6 +30,8 @@ The [Flux Art AI Ecommerce workspace](https://flux-art.cn/en/ai-ecommerce) provi
 
 SKU Batch Images is a browser workflow: one complete SKU label corresponds to one image, with batch size subject to currently available concurrency. It is separate from creating tasks through OpenAPI. Try-on images do not verify actual fit or sizing, and none of these tools guarantees marketplace approval. The [full tool-selection guide](docs/10-ecommerce-tools.md) is available in Chinese.
 
+For model-image work, use the [English Model Wearing, Pose Change, and Face Swap workflow](docs/en/09-model-photo.md). It routes each task by starting evidence, separates garment, pose, and authorized face operations, and defines when a bounded GPT Image 2.5 correction is safer than another full generation.
+
 ## Why an aggregator as the base
 
 - One account, 50+ models; both **generate** and **edit** entry points.
@@ -47,6 +49,7 @@ SKU Batch Images is a browser workflow: one complete SKU label corresponds to on
 | [05 Detail page](docs/05-detail-page.md) | Produce modular blocks; verify product facts and layout block by block |
 | [06 Compliance](docs/06-compliance.md) | AI-content labeling (CN regs), commercial use, marketplace checks |
 | [07 Troubleshooting](docs/en/07-troubleshooting.md) | Diagnose edges, shadows, reflections, text, and series drift before regenerating |
+| [09 Model images](docs/en/09-model-photo.md) | Choose Model Wearing, Pose Change, or authorized Face Swap; review each stage before local editing |
 
 Prompt templates (ZH/EN): [prompts/](prompts/) · API automation: [api/](api/)
 
@@ -78,7 +81,7 @@ This is an official Flux Art workflow repository, not documentation from the mod
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.net/blog/zh/) · [Official Blog (EN)](https://flux-art.net/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
