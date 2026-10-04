@@ -49,6 +49,7 @@ For model-image work, use the [English Model Wearing, Pose Change, and Face Swap
 | [05 Detail page](docs/05-detail-page.md) | Produce modular blocks; verify product facts and layout block by block |
 | [06 Compliance](docs/06-compliance.md) | AI-content labeling (CN regs), commercial use, marketplace checks |
 | [07 Troubleshooting](docs/en/07-troubleshooting.md) | Diagnose edges, shadows, reflections, text, and series drift before regenerating |
+| [08 Product image localization](docs/en/08-image-localization.md) | Build a locale packet, choose bounded editing or exact typesetting, and verify every channel derivative |
 | [09 Model images](docs/en/09-model-photo.md) | Choose Model Wearing, Pose Change, or authorized Face Swap; review each stage before local editing |
 
 Prompt templates (ZH/EN): [prompts/](prompts/) · API automation: [api/](api/)
