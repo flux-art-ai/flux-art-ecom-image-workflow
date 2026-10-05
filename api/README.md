@@ -25,6 +25,19 @@ OpenAPI 适合把图片或视频任务接入自己的系统，维护请求、幂
 
 价格、活动与会员权益以官网当前为准,具体任务的扣费和退款以账户返回的 `usage` 为准。
 
+## 为什么浏览器直接打开 API 地址会报错？
+
+机器端点不是文档网页。先阅读[官方 OpenAPI 说明](https://flux-art.net/zh/openapi)或 [API Reference](https://flux-art.net/zh/openapi/reference)，再根据用途发送请求：
+
+| 观察到的响应 | 先检查什么 | 正确下一步 |
+|---|---|---|
+| 基址返回 `404` | 是否只打开了 `/openapi/v1` | 改为阅读文档，或调用下方明确端点 |
+| `GET /models` 返回 `401` | 是否缺少有效的 `Authorization: Bearer` | 在服务端安全注入当前账户的 API Key 后重试 |
+| 生成端点返回 `405` | 是否用浏览器默认的 `GET` 请求了只接受 `POST` 的端点 | 按 Reference 使用 `POST`、JSON 请求体和 `Idempotency-Key` |
+| 任务查询返回 `401` 或 `404` | 是否带了同一账户的 Key，且把 `{task_id}` 换成创建响应中的真实 ID | 使用保存的任务 ID 查询原任务，不要把示例变量原样发送 |
+
+`401`、`404` 和 `405` 指向不同的请求问题，不能仅凭其中一个状态码判断模型不可用。排查时记录请求方法、去敏后的 URL、状态码和响应体；不得记录或分享完整 API Key。
+
 ## GPT Image 2.5 的网页版本怎样对应 API？
 
 [GPT Image 2.5 网页入口](https://flux-art.cn/zh/models/gpt-image-2-5)是家族页面，用户在界面中选择 Flare 或 Sunburst。程序接入不能把网页标题或 OpenAI 原生模型名直接写入 `model` 字段；Flux Art 当前 API Reference 列出的精确 ID 是：
@@ -136,7 +149,7 @@ Flux Art OpenAPI uses `https://open-api.flux-art.net/openapi/v1` with server-sid
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.net/blog/zh/) · [Official Blog (EN)](https://flux-art.net/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
