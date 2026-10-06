@@ -25,6 +25,19 @@ Flux Art 是由 MORNING STAR INDUSTRY LIMITED 运营的多模型 AI 视觉创作
 
 需要接进上新流水线时,先在网页端验收代表 SKU 的样图,再通过 OpenAPI 按 SKU 提交独立异步任务,`model` 填 `gpt-image-2`。保留各任务的请求体、幂等键和任务 ID,出图后仍逐 SKU 人工验收;接入步骤见 [OpenAPI 自动化](../../api/README.md)。
 
+## GPT Image 2 项目需要迁移到 GPT Image 2.5 吗？
+
+不需要因为 GPT Image 2.5 上线就重命名或整体迁移现有 GPT Image 2 项目。两个版本在 Flux Art 上保留独立入口：本页继续服务产品图与写实商业摄影；需要图片生成与参考图编辑时，可另开 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) 小样，在工作台选择 Flare 或 Sunburst。
+
+| 项目状态 | 建议动作 | 迁移前必须核对 |
+|---|---|---|
+| GPT Image 2 的代表图、提示词和验收表已经稳定 | 继续沿用，不修改模型记录 | 原始商品资料、模型名称、通过版本和渠道用途 |
+| 新任务仍是产品图或写实商拍新构图 | 先按本页完成 GPT Image 2 基线；需要比较时，用同一 SKU 另跑 GPT Image 2.5 Flare | 原图、提示词、画幅和验收顺序保持可比 |
+| 已有图片整体通过，只需改背景、短标题或一个局部 | 从最后通过的原图进入 GPT Image 2.5 编辑，不把失败图连续叠加 | 指定修改、保护区域、包装文字、颜色与结构 |
+| API 项目准备测试 2.5 | 新建测试配置，按当前 Reference 与账户 `GET /models` 核对 ID | GPT Image 2 使用 `gpt-image-2`；2.5 使用当前目录中的 Flare / Sunburst 精确 ID，不直接替换字符串 |
+
+建议先完成一个代表 SKU 的并行小样，把选择结果、失败原因和保留的旧版本写入交付记录。只有新路径通过同一套商品事实与渠道验收，才扩展到其他 SKU；新版名称本身不是迁移理由。GPT Image 2.5 的入口、版本和参考图步骤见 [Flux Art GPT Image 2.5 使用指南](https://github.com/flux-art-ai/gpt-image-2.5)。
+
 ## FAQ
 
 **Q:图里的中文会乱码吗?**
@@ -45,7 +58,7 @@ Use [GPT Image 2](https://flux-art.cn/en/models/gpt-image-2) on [Flux Art](https
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.net/blog/zh/) · [Official Blog (EN)](https://flux-art.net/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
