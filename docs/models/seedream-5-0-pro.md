@@ -35,7 +35,17 @@
 
 以上传图片为基础,只把右侧卖点区的蓝色色块改为深绿色。产品位置、拍摄角度、标题文字、图标、背景、光线和阴影保持不变。完成后检查色块边缘是否自然,并确认其他区域没有发生意外变化。
 
-需要接进上新流水线批量生成信息图的,走 OpenAPI(model 填 `seedream-5-0-pro`),可运行示例见 [api/README](../../api/README.md)。
+## 网页入口与 OpenAPI 模型 ID
+
+浏览器使用 [Seedream 5.0 Pro 中文入口](https://flux-art.cn/zh/models/seedream-5-0-pro)；网页路径里的短名不是 API 参数。当前 [Flux Art API Reference](https://flux-art.net/zh/openapi/reference)列出的 `model` 值是 `doubao-seedream-5-0-pro-260628`。
+
+| 接入步骤 | 要保存的证据 |
+|---|---|
+| 用已鉴权账户调用 `GET /models` | 实际返回的模型 ID、可用字段与账户权限 |
+| 创建异步任务 | `doubao-seedream-5-0-pro-260628`、请求体、幂等键与任务 ID |
+| 查询任务并验收 | 最终状态、输出文件、信息图文字复核与商品事实检查结果 |
+
+不要用 `seedream-5-0-pro` 代替当前 Reference 的完整 ID，也不要把 `201` 或 `queued` 当作图片已经生成完成。可运行的异步任务示例见 [api/README](../../api/README.md)；API Key 只放在服务端环境或密钥管理系统。
 
 ## FAQ
 
@@ -57,7 +67,7 @@ Use [Seedream 5.0 Pro](https://flux-art.cn/en/models/seedream-5-0-pro) on [Flux 
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.net/blog/zh/) · [Official Blog (EN)](https://flux-art.net/blog/en/)
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
