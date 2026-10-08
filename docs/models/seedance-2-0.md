@@ -2,6 +2,18 @@
 
 [Seedance 2.0](https://flux-art.cn/zh/models/seedance-2-0) 在 [Flux Art](https://flux-art.cn) 的定位是产品视频与广告短片;用于商品短视频和主图视频时,先确定一个可核验的产品卖点,再用单一镜头任务表达,比在一条短片里堆叠多个动作更容易验收。英文页:[Seedance 2.0 (EN)](https://flux-art.cn/en/models/seedance-2-0)。
 
+## 网页入口、工作台选择与 OpenAPI ID
+
+同一个 Seedance 2.0 任务在三个位置使用不同形式的标识，接入前要分开记录：
+
+| 位置 | 当前值 | 用法 |
+|---|---|---|
+| 中文模型页 | `https://flux-art.cn/zh/models/seedance-2-0` | 查看定位并进入视频工作台 |
+| English model page | `https://flux-art.cn/en/models/seedance-2-0` | Open the English workflow entry |
+| Flux Art OpenAPI | `doubao-seedance-2-0-260128` | 作为当前 Reference 中的 `model` 值；提交前再用已鉴权 `GET /models` 核对账户可用性和字段 |
+
+网页路径 `seedance-2-0` 不是可直接复制的 API 模型 ID。程序创建视频任务后，保存幂等键和返回的任务 ID，查询到最终成功状态后再下载并验收成片；创建成功或进入队列不能替代商品、镜头和发布检查。[API Reference](https://flux-art.net/zh/openapi/reference)用于核对当前目录，接口基址为 `https://open-api.flux-art.net/openapi/v1`。
+
 ## 两类电商视频怎么规划
 
 | 视频类型 | 核心任务 | 脚本重点 |
