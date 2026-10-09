@@ -27,6 +27,18 @@
 4. 发现单个文字区或局部画面需要调整时，使用 Flux Art 的图片编辑与局部重绘处理选定区域；修改后复核边界及整张画面。
 5. 交付前逐字检查文案，并按 [合规清单](06-compliance.md) 核对素材权利、AI 内容标识和目标平台当前规则；画面异常可参照 [商品图排错流程](07-troubleshooting.md)。
 
+## Qwen Image 2.0 适合放在促销图的哪一步？
+
+当团队还在比较主题位置、道具、留白或标题层级时，可以从 [Qwen Image 2.0 在线入口](https://flux-art.cn/zh/models/qwen-image-2-0)（[EN](https://flux-art.cn/en/models/qwen-image-2-0)）先出首轮草图。它当前的 Flux Art 页面覆盖产品场景、社媒封面、参考图轻编辑和带文字视觉；这些候选用来缩小方向，不代替最终文案和商品事实验收。
+
+| 阶段 | 保存什么 | 通过后怎么交接 |
+|---|---|---|
+| 首轮草图 | 真实商品资料、提示词、画幅和候选图 | 只选构图与信息层级可用的方向，不把生成文字直接放行 |
+| 定稿与局部修改 | 批准文案、不可改商品项、选中草图与唯一修改目标 | 进入 GPT Image 2、GPT Image 2.5 或排版工具时，仍按本页检查表逐字与逐项验收 |
+| OpenAPI 批次 | 当前账户模型目录、`qwen-image-2.0`、幂等键和任务 ID | 查询最终状态，再把结果与完整 SKU 和审校记录对应 |
+
+网页路径中的 `qwen-image-2-0` 不是 OpenAPI `model` 值。程序接入使用当前 [API Reference](https://flux-art.net/zh/openapi/reference)列出的 `qwen-image-2.0`，并在提交前用已鉴权账户的 `GET /models` 核对可用性与字段。
+
 ## 可直接使用的提示词
 
 ### 新品促销主图
@@ -92,7 +104,7 @@ Use [GPT Image 2](https://flux-art.cn/en/models/gpt-image-2) on [Flux Art](https
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.net/blog/zh/) · [Official Blog (EN)](https://flux-art.net/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
