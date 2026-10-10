@@ -15,16 +15,19 @@ Nano Banana 2 是 Google 的 Gemini 3.1 Flash Image，Flux Art 提供模型使�
 
 ## 先选对 Nano Banana 版本，再安排电商流程
 
-四个版本不是从低到高自动替换的同一条流水线。先按当前交付问题选择入口；只有上一阶段通过验收，才把结果交给下一阶段。
+Nano Banana 家族的各个版本不是从低到高自动替换的同一条流水线。Nano Banana 2.1 已有独立入口，官网说明支持图片生成与编辑、最高 4K；Nano Banana 2 页面则列出 512、1K、2K、4K，并继续适用于已验收母版的系列版本扩展。先按当前交付问题选择入口；不要只凭版本号迁移已稳定的商品流程。
 
 | 当前任务 | 版本与入口 | 交接条件 |
 |---|---|---|
 | 快速修一张已有图的局部内容 | [Nano Banana](https://flux-art.cn/zh/models/nano-banana)（[EN](https://flux-art.cn/en/models/nano-banana)） | 当前为 1K，编辑最多三张参考图；只保留与本轮修改直接相关的素材 |
 | 同时试几种构图、道具或氛围 | [Nano Banana 2 Lite](https://flux-art.cn/zh/models/nano-banana-2-lite)（[EN](https://flux-art.cn/en/models/nano-banana-2-lite)） | 当前 1K 草图只用于选方向；不能用未经核对的草图定义真实商品 |
+| 试用新上线的生成或参考图编辑入口 | [Nano Banana 2.1](https://flux-art.cn/zh/models/nano-banana-2-1)（[EN](https://flux-art.cn/en/models/nano-banana-2-1)） | 页面列出生成、编辑和最高 4K；以同一真实 SKU 做代表样本，按相同清单检查商品和文字 |
 | 把已验收母版扩展为配色、场景或系列版本 | [Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2) | 当前可选 512、1K、2K、4K；逐图核对完整 SKU、标签、结构和未修改区域 |
 | 制作或编辑细节密集的 1K、2K、4K 最终资产 | [Nano Banana Pro](https://flux-art.cn/zh/models/nano-banana-pro)（[EN](https://flux-art.cn/en/models/nano-banana-pro)） | 用真实商品资料复核文字、事实和保护区域；Pro 名称本身不是放行依据 |
 
 一个安全的交接顺序可以是：Lite 先确定画面方向，Nano Banana 2 从已验收母版扩展系列，Pro 只在确有精细生成或编辑需求时制作最终候选。若任务只是单张局部快修，直接从初代 Nano Banana 开始，不必为了版本名把整个流程重跑。Google 提供 Nano Banana 模型；Flux Art 提供使用入口和工作台。
+
+试用 Nano Banana 2.1 时，先在它自己的[中文模型页](https://flux-art.cn/zh/models/nano-banana-2-1)确认当前设置，不要把 Nano Banana 2 的尺寸档位、API ID 或多参考图范围推定给 2.1。保留同一份真实商品图、商品资料、目标交付物与检查表，只更换模型入口做小样；结构、颜色、包装字或未修改区域不通过时，回到最近一次已验收基线。需要程序接入时，以[当前 API Reference](https://flux-art.net/zh/openapi/reference)及已鉴权 `GET /models` 为准，页面 slug 不是接口参数。
 
 ## 参考图先分工，不要只堆数量
 
