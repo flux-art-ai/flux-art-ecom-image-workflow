@@ -66,6 +66,16 @@ SKU 批量图已有网页入口，不需要先写代码才能开始；它的标�
 3. 需要场景版本时，按 [docs/03](docs/03-scene-fusion.md)检查光线与接触面；需要颜色、尺寸等 SKU 版本时使用[SKU 批量图](https://flux-art.cn/zh/ai-ecommerce/sku-batch)并逐张核对。
 4. 上架前过一遍 [docs/06 合规清单](docs/06-compliance.md)。
 
+## 资产库与电商素材交接
+
+[Flux Art 资产库](https://flux-art.cn/zh/assets)可集中管理上传的图片、视频、音频与 AI 生成结果，并支持创作素材复用。把已验收图片交给后续工作流时，可按下列方式减少错用；SKU 清单与版本记录由团队自己的目录或表格维护：
+
+1. 保留未经覆盖的原始商品图，并给副本标明完整 SKU 和图片用途。
+2. 将生成候选与原图分开保存；在自己的记录中注明模型、Flare / Sunburst 等界面选项、修订号和验收状态。
+3. 复用前重新核对素材授权、商品版本、包装文案和上线渠道；商品或包装变更后重新验收，不沿用旧结论。
+
+资产库的集中管理和复用不等于平台已提供 SKU 自动匹配、审批权限或版本追踪。具体入口与动态功能以[官网更新日志](https://flux-art.net/zh/changelog)和工作台当前页面为准。
+
 ## 模型页面直达 / Model Pages
 
 | 模型 | 定位(据官方页) | English |
@@ -94,7 +104,7 @@ SKU 批量图已有网页入口，不需要先写代码才能开始；它的标�
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.net/blog/zh/) · [Official Blog (EN)](https://flux-art.net/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
