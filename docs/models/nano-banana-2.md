@@ -29,6 +29,8 @@ Nano Banana 家族的各个版本不是从低到高自动替换的同一条流�
 
 试用 Nano Banana 2.1 时，先在它自己的[中文模型页](https://flux-art.cn/zh/models/nano-banana-2-1)确认当前设置，不要把 Nano Banana 2 的尺寸档位或多参考图范围推定给 2.1。保留同一份真实商品图、商品资料、目标交付物与检查表，只更换模型入口做小样；结构、颜色、包装字或未修改区域不通过时，回到最近一次已验收基线。程序接入时，当前 [API Reference](https://flux-art.net/zh/openapi/reference)列出的 Nano Banana 2.1 `model` 值是 `gemini-nano-banana-2.1`，网页 slug `nano-banana-2-1` 不能替代它；仍须用已鉴权 `GET /models` 确认账户可用性和接受字段。
 
+网页、OpenAPI 与 MCP 的使用边界另见 [Nano Banana 2.1 使用渠道指南](https://github.com/flux-art-ai/flux-art/blob/main/articles/nano-banana-2-1-access-and-mcp.md)。MCP 的实际能力取决于集成方部署和维护的服务，不应仅凭模型网页推断其可用性。
+
 ### Nano Banana 2.1 的联网选项怎么用于商品图？
 
 当前 [Nano Banana 2.1 页面](https://flux-art.cn/zh/models/nano-banana-2-1)将联网搜索设为默认关闭，并提供网页搜索、图片搜索或两者同时开启的选择。先按任务决定是否需要外部视觉灵感；若只需按商品实拍换背景或做 SKU 变体，可以保持关闭，减少无关方向干扰。
