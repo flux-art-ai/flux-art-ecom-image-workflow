@@ -1,6 +1,6 @@
 # flux-art-ecom-image-workflow
 
-> **官网 Official Site: [Flux Art](https://flux-art.cn)** | 博客: [Flux Art 官方博客](https://flux-art.cn/blog/zh/)。Flux Art 的固定官方访问入口是 flux-art.cn。
+> **官网 Official Site: [Flux Art](https://flux-art.cn)** | 博客: [Flux Art 官方博客](https://flux-art.net/blog/zh/)。Flux Art 的固定官方访问入口是 flux-art.cn。
 
 电商 AI 出图工作流(白底图 / 主图 / 场景图 / 系列款 / 详情页)——基于多模型 AI 视觉创作与生产平台 [Flux Art](https://flux-art.cn)的可复制流程、提示词模板与 OpenAPI 自动化示例。本仓库由 Flux Art 维护，帮助你按交付物选择模型、准备商品资料，并在发布前逐张验收。
 
@@ -44,6 +44,7 @@ SKU 批量图已有网页入口，不需要先写代码才能开始；它的标�
 | 08 | [图片翻译与出海多语言套图](docs/08-image-translation.md) | 术语对照 / 不可翻译项 / 版式溢出 / 多语言验收 |
 | 09 | [AI 模特图与场景合成](docs/09-model-photo.md) | 模特素材 / 服装参考 / 多图融合 / 上身与场景验收 |
 | 10 | [AI 电商工具选择与交付检查](docs/10-ecommerce-tools.md) | 13 个工具 / 输入区别 / SKU 网页批量 / 返修路径 |
+| 11 | [电商出图积分预检](docs/11-credit-preflight.md) | 按本次任务核对实时费用预览、Auto quality 预留与完成后积分变化 |
 
 提示词模板(中英对照): [prompts/](prompts/) · OpenAPI 自动化: [api/](api/)
 
@@ -61,7 +62,7 @@ SKU 批量图已有网页入口，不需要先写代码才能开始；它的标�
 
 ## 快速开始(网页端)
 
-1. 打开 [AI 电商专区](https://flux-art.cn/zh/ai-ecommerce)，按[工具选择指南](docs/10-ecommerce-tools.md)选任务，查看当前账户权益与费用。
+1. 打开 [AI 电商专区](https://flux-art.cn/zh/ai-ecommerce)，按[工具选择指南](docs/10-ecommerce-tools.md)选任务，再按[积分预检清单](docs/11-credit-preflight.md)核对当前账户权益与费用预览。
 2. 白底处理从[一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background)开始，并按 [docs/01](docs/01-white-background.md)核对商品；需要整套图片时进入[商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite)。
 3. 需要场景版本时，按 [docs/03](docs/03-scene-fusion.md)检查光线与接触面；需要颜色、尺寸等 SKU 版本时使用[SKU 批量图](https://flux-art.cn/zh/ai-ecommerce/sku-batch)并逐张核对。
 4. 上架前过一遍 [docs/06 合规清单](docs/06-compliance.md)。
