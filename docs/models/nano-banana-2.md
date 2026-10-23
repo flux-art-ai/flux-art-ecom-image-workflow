@@ -31,6 +31,17 @@ Nano Banana 家族的各个版本不是从低到高自动替换的同一条流�
 
 网页、OpenAPI 与 MCP 的使用边界另见 [Nano Banana 2.1 使用渠道指南](https://github.com/flux-art-ai/flux-art/blob/main/articles/nano-banana-2-1-access-and-mcp.md)。MCP 的实际能力取决于集成方部署和维护的服务，不应仅凭模型网页推断其可用性。
 
+### Nano Banana 2.1 超宽幅商品图的边缘检查
+
+需要长横幅或全景构图时，先在 [Nano Banana 2.1 页面](https://flux-art.cn/zh/models/nano-banana-2-1)核对当前画幅选项；页面列有 1:4、4:1、1:8 和 8:1。Google 的[模型文档](https://ai.google.dev/gemini-api/docs/models/gemini-nano-banana-2.1?hl=en)指出，2K/4K 超宽比例的拼接伪影有所改进，但这不等于单张输出免检。
+
+1. 先确认主体、留白与文字区域在目标横幅中各自的位置，再选择画幅。
+2. 检查长边两端是否有接缝、重复纹理、被拉伸的标签或被裁掉的商品部件。
+3. 将候选图放入目标渠道版位预览，确认安全区没有遮住商品或文案。
+4. 若结构或边缘不通过，回到最近一次可接受的输入，只调整一个构图或边界要求后再复核。
+
+大画幅选项和上游模型更新都不能替代渠道裁切预览、商品事实检查或人工验收。
+
 ### Nano Banana 2.1 的联网选项怎么用于商品图？
 
 当前 [Nano Banana 2.1 页面](https://flux-art.cn/zh/models/nano-banana-2-1)将联网搜索设为默认关闭，并提供网页搜索、图片搜索或两者同时开启的选择。先按任务决定是否需要外部视觉灵感；若只需按商品实拍换背景或做 SKU 变体，可以保持关闭，减少无关方向干扰。
