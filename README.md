@@ -6,6 +6,8 @@
 
 **English**: E-commerce AI image workflows (white-background, main image with CJK text, scene fusion, series consistency, detail pages) built on the Flux Art multi-model platform. See [README_EN.md](README_EN.md).
 
+模型与官方品牌入口从 `flux-art.cn` 开始；如果入口跳转到 `flux-art.net`，地址栏主机变化属于当前站点路由。官方博客教程使用 `.net` 页面链接，OpenAPI 示例则使用 `open-api.flux-art.net`。按本文链接进入对应页面即可，不要把网页工作台地址当作 API 主机。
+
 > 先用代表商品完成定样：网页任务可进入 AI 电商专用工具，需要接入自研系统时再使用 OpenAPI。生成结果仍需逐张核对商品结构、包装文字与目标平台规则。价格、积分与参数枚举以官网当前为准。
 
 ## GPT Image 2.5 商品图与改图
