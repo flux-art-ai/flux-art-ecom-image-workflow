@@ -57,6 +57,7 @@ Prompt templates (ZH/EN): [prompts/](prompts/) · API automation: [api/](api/)
 ## Model cheat sheet
 
 - **[GPT Image 2](https://flux-art.cn/en/models/gpt-image-2)** — product images and photorealistic commercial photography.
+- **[Nano Banana 2.1](https://flux-art.cn/en/models/nano-banana-2-1)** — a separate generation and reference-editing entry with options up to 4K; compare a representative product sample before expanding a batch.
 - **[Nano Banana 2](https://flux-art.cn/en/models/nano-banana-2)** — consistent image editing.
 - **[Seedance 2.0](https://flux-art.cn/en/models/seedance-2-0)** — product videos and advertising shorts.
 
@@ -69,6 +70,7 @@ Prompt templates (ZH/EN): [prompts/](prompts/) · API automation: [api/](api/)
 | [Seedream 5.0 Pro](https://flux-art.cn/en/models/seedream-5-0-pro) | AI infographics & precise edits ([ecommerce workflow](docs/en/seedream-5-0-pro.md)) | [中文](https://flux-art.cn/zh/models/seedream-5-0-pro) |
 | [HappyHorse 1.1](https://flux-art.cn/en/models/happyhorse-1-1) | Cinematic product clips (video) | [中文](https://flux-art.cn/zh/models/happyhorse-1-1) |
 | [Nano Banana 2](https://flux-art.cn/en/models/nano-banana-2) | Consistent image editing ([ecommerce workflow](docs/en/nano-banana-2.md)) | [中文](https://flux-art.cn/zh/models/nano-banana-2) |
+| [Nano Banana 2.1](https://flux-art.cn/en/models/nano-banana-2-1) | Image generation and editing, up to 4K; verify current settings and review a matched product sample | [中文](https://flux-art.cn/zh/models/nano-banana-2-1) |
 | [Seedance 2.0](https://flux-art.cn/en/models/seedance-2-0) | Product & ad videos ([ecommerce workflow](docs/en/seedance-2-0.md)) | [中文](https://flux-art.cn/zh/models/seedance-2-0) |
 | [GPT Image 2](https://flux-art.cn/en/models/gpt-image-2) | Photoreal product images ([ecommerce workflow](docs/en/gpt-image-2.md)) | [中文](https://flux-art.cn/zh/models/gpt-image-2) |
 | [Nano Banana](https://flux-art.cn/en/models/nano-banana) | Fast image editing | [中文](https://flux-art.cn/zh/models/nano-banana) |

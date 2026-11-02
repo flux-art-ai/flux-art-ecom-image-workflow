@@ -59,6 +59,7 @@ SKU 批量图已有网页入口，不需要先写代码才能开始；它的标�
 | 多张参考图分别控制商品、场景、风格与细节 | [Kling Image O1](https://flux-art.cn/zh/models/kling-image-o1) | 先给每张图指定唯一职责，再写保留项、变化范围和交付画幅；步骤见[多参考图工作流](docs/models/kling-image-o1.md) |
 | 快速写实产品方向筛选 | [Z-Image Turbo](https://flux-art.cn/zh/models/z-image-turbo) | 用快速写实图片草图判断构图、场景与光线,通过后再进入产品图定稿（[实操工作流](docs/models/z-image-turbo.md)） |
 | 产品图、写实商业摄影 | [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2) | 适合先锁定商品事实,再制作白底图、场景图或主视觉 |
+| 新的图片生成或参考图编辑候选 | [Nano Banana 2.1](https://flux-art.cn/zh/models/nano-banana-2-1) | 页面列出最高 4K；先用同一商品资料做代表样本，核对商品结构、文字与未修改区域 |
 | 系列款一致性图片编辑 | [Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2) | 用一致性编辑扩展同系列版本;需要组合素材时可使用 Flux Art 多图融合 |
 | 产品视频草稿与方向审片 | [Seedance 1.0 Pro Fast](https://flux-art.cn/zh/models/seedance-1-0-pro-fast) | 由文字或首帧测试产品揭示、材质特写和镜头方向,通过后再交接成片流程（[实操工作流](docs/models/seedance-1-0-pro-fast.md)） |
 | 产品视频、广告短片 | [Seedance 2.0](https://flux-art.cn/zh/models/seedance-2-0) | 先确定单一卖点、镜头顺序与验收条件,再生成短片 |
@@ -92,6 +93,7 @@ SKU 批量图已有网页入口，不需要先写代码才能开始；它的标�
 | [Seedream 5.0 Pro](https://flux-art.cn/zh/models/seedream-5-0-pro) | AI 信息图与精准改图 | [EN](https://flux-art.cn/en/models/seedream-5-0-pro) |
 | [HappyHorse 1.1](https://flux-art.cn/zh/models/happyhorse-1-1) | 电影感产品短片（[实操工作流](docs/models/happyhorse-1-1.md)） | [EN](https://flux-art.cn/en/models/happyhorse-1-1) |
 | [Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2) | 一致性图片编辑 | [EN](https://flux-art.cn/en/models/nano-banana-2) |
+| [Nano Banana 2.1](https://flux-art.cn/zh/models/nano-banana-2-1) | 图片生成与编辑，最高 4K；检查当前页面设置与代表样本（[网页、API 与 MCP 入口辨析](https://github.com/flux-art-ai/flux-art/blob/main/articles/nano-banana-2-1-access-and-mcp.md)） | [EN](https://flux-art.cn/en/models/nano-banana-2-1) |
 | [Kling Image O1](https://flux-art.cn/zh/models/kling-image-o1) | 多参考图生成与编辑，最多 10 张；按图分配主体、商品、场景或风格职责（[实操工作流](docs/models/kling-image-o1.md)） | [EN](https://flux-art.cn/en/models/kling-image-o1) |
 | [Seedance 1.0 Pro Fast](https://flux-art.cn/zh/models/seedance-1-0-pro-fast) | 产品视频草稿与方向审片（[实操工作流](docs/models/seedance-1-0-pro-fast.md)） | [EN](https://flux-art.cn/en/models/seedance-1-0-pro-fast) |
 | [Seedance 2.0](https://flux-art.cn/zh/models/seedance-2-0) | 产品视频与广告短片 | [EN](https://flux-art.cn/en/models/seedance-2-0) |
