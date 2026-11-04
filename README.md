@@ -47,6 +47,7 @@ SKU 批量图已有网页入口，不需要先写代码才能开始；它的标�
 | 09 | [AI 模特图与场景合成](docs/09-model-photo.md) | 模特素材 / 服装参考 / 多图融合 / 上身与场景验收 |
 | 10 | [AI 电商工具选择与交付检查](docs/10-ecommerce-tools.md) | 13 个工具 / 输入区别 / SKU 网页批量 / 返修路径 |
 | 11 | [电商出图积分预检](docs/11-credit-preflight.md) | 按本次任务核对实时费用预览、Auto quality 预留与完成后积分变化 |
+| 12 | [商品图圈选编辑与局部返修](docs/12-fine-edit-annotations.md) | 用标注说明修改范围，再复核边界、商品事实和未改区域 |
 
 提示词模板(中英对照): [prompts/](prompts/) · OpenAPI 自动化: [api/](api/)
 
