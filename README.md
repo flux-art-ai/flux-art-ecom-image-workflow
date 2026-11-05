@@ -48,6 +48,7 @@ SKU 批量图已有网页入口，不需要先写代码才能开始；它的标�
 | 10 | [AI 电商工具选择与交付检查](docs/10-ecommerce-tools.md) | 13 个工具 / 输入区别 / SKU 网页批量 / 返修路径 |
 | 11 | [电商出图积分预检](docs/11-credit-preflight.md) | 按本次任务核对实时费用预览、Auto quality 预留与完成后积分变化 |
 | 12 | [商品图圈选编辑与局部返修](docs/12-fine-edit-annotations.md) | 用标注说明修改范围，再复核边界、商品事实和未改区域 |
+| 13 | [Seedance 2.5 商品短视频工作流](docs/models/seedance-2-5.md) | 按商品基准图、单一镜头任务和成片验收组织视频生成 |
 
 提示词模板(中英对照): [prompts/](prompts/) · OpenAPI 自动化: [api/](api/)
 
@@ -98,6 +99,7 @@ SKU 批量图已有网页入口，不需要先写代码才能开始；它的标�
 | [Kling Image O1](https://flux-art.cn/zh/models/kling-image-o1) | 多参考图生成与编辑，最多 10 张；按图分配主体、商品、场景或风格职责（[实操工作流](docs/models/kling-image-o1.md)） | [EN](https://flux-art.cn/en/models/kling-image-o1) |
 | [Seedance 1.0 Pro Fast](https://flux-art.cn/zh/models/seedance-1-0-pro-fast) | 产品视频草稿与方向审片（[实操工作流](docs/models/seedance-1-0-pro-fast.md)） | [EN](https://flux-art.cn/en/models/seedance-1-0-pro-fast) |
 | [Seedance 2.0](https://flux-art.cn/zh/models/seedance-2-0) | 产品视频与广告短片 | [EN](https://flux-art.cn/en/models/seedance-2-0) |
+| [Seedance 2.5](https://flux-art.cn/zh/models/seedance-2-5) | 商品图驱动的短视频、视频编辑与延长（[工作流](docs/models/seedance-2-5.md)） | [EN](https://flux-art.cn/en/models/seedance-2-5) |
 | [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2) | 产品图与写实商拍 | [EN](https://flux-art.cn/en/models/gpt-image-2) |
 | [Nano Banana](https://flux-art.cn/zh/models/nano-banana) | 快速图片编辑 | [EN](https://flux-art.cn/en/models/nano-banana) |
 | [Grok Video](https://flux-art.cn/zh/models/grok-video) | 概念短片与产品动态演示(视频) | [EN](https://flux-art.cn/en/models/grok-video) |
