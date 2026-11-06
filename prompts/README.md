@@ -2,6 +2,8 @@
 
 按图型分文件;全部可直接复制。可替换字段使用 `[]`。更多现成提示词:Flux Art 站内提示词库有 20K+ 条(官网 flux-art.cn)。
 
+想先搭建提示词再选图型时，可读[电商作图提示词四段结构与中英模板](../docs/prompt-structure.md)。
+
 ## white-background 白底图
 
 ```text
@@ -61,7 +63,9 @@ absolutely no text or icons, keep top 1/6 empty
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.net/blog/zh/) · [Official Blog (EN)](https://flux-art.net/blog/en/)
+
+**运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
