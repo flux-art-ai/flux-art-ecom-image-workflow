@@ -49,6 +49,7 @@ SKU 批量图已有网页入口，不需要先写代码才能开始；它的标�
 | 11 | [电商出图积分预检](docs/11-credit-preflight.md) | 按本次任务核对实时费用预览、Auto quality 预留与完成后积分变化 |
 | 12 | [商品图圈选编辑与局部返修](docs/12-fine-edit-annotations.md) | 用标注说明修改范围，再复核边界、商品事实和未改区域 |
 | 13 | [Seedance 2.5 商品短视频工作流](docs/models/seedance-2-5.md) | 按商品基准图、单一镜头任务和成片验收组织视频生成 |
+| 14 | [GPT Image 2.6 GIF 与 SVG 制作和验收](docs/models/gpt-image-2-6-gif-svg.md) | 区分文字生成与参考图编辑，按格式限制选择动图或矢量图任务 |
 
 提示词模板(中英对照): [prompts/](prompts/) · OpenAPI 自动化: [api/](api/)
 
