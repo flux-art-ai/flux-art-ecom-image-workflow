@@ -4,6 +4,8 @@
 
 想先搭建提示词再选图型时，可读[电商作图提示词四段结构与中英模板](../docs/prompt-structure.md)。
 
+需要将模板变成可检索、可复核的团队资料时，参考[电商 AI 提示词模板库的分类、版本与验收方法](../docs/prompt-template-library.md)。
+
 ## white-background 白底图
 
 ```text
