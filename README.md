@@ -109,7 +109,7 @@ SKU 批量图已有网页入口，不需要先写代码才能开始；它的标�
 
 ## 自动化(OpenAPI)
 
-平台提供异步任务式 OpenAPI,接口基址为 `https://open-api.flux-art.net/openapi/v1`。鉴权、幂等键、任务状态与调用示例见 [api/README.md](api/README.md) 和 [api/generate_image.py](api/generate_image.py)。
+平台提供异步任务式 OpenAPI,接口基址为 `https://open-api.flux-art.net/openapi/v1`。鉴权、幂等键、任务状态与调用示例见 [api/README.md](api/README.md) 和 [api/generate_image.py](api/generate_image.py)；需要定时提交并恢复异步任务时,参考 [GitHub Actions 定时出图工作流](docs/github-actions-scheduled-image-generation.md)。
 
 ## 贡献与声明
 
