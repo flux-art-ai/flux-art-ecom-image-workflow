@@ -60,6 +60,8 @@ SKU 批量图已有网页入口，不需要先写代码才能开始；它的标�
 | 商品图生成、参考图修改与带文字的版式 | [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) | 在工作台选择 Flare / Sunburst，先做一张代表图并核对商品与文字；再按[商品图与套图衔接指南](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/ecommerce-workflow.md)决定后续流程 |
 | 品牌主视觉、海报概念与氛围探索 | [Midjourney V7 Imagine](https://flux-art.cn/zh/models/midjourney-v7-imagine) | 先比较构图、色调、光线与品牌氛围,再把通过的方向交给写实筛选和产品图定稿（[实操工作流](docs/models/midjourney-v7-imagine.md)） |
 | 多张参考图分别控制商品、场景、风格与细节 | [Kling Image O1](https://flux-art.cn/zh/models/kling-image-o1) | 先给每张图指定唯一职责，再写保留项、变化范围和交付画幅；步骤见[多参考图工作流](docs/models/kling-image-o1.md) |
+| 单张参考图编辑 | [Kling V3 Image](https://flux-art.cn/zh/models/kling-v3-image) | 用于一次单参考图编辑；核对商品身份、变更范围和当前输出设置 |
+| 多张参考图角色分工、交付一张静态图 | [Kling V3 Omni Image](https://flux-art.cn/zh/models/kling-v3-omni-image) | 商品事实、环境和风格参考分别说明；当前 Flux Art 页面未开放 Image Series，步骤见[Omni 电商参考图工作流](docs/models/kling-v3-omni-image.md) |
 | 快速写实产品方向筛选 | [Z-Image Turbo](https://flux-art.cn/zh/models/z-image-turbo) | 用快速写实图片草图判断构图、场景与光线,通过后再进入产品图定稿（[实操工作流](docs/models/z-image-turbo.md)） |
 | 产品图、写实商业摄影 | [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2) | 适合先锁定商品事实,再制作白底图、场景图或主视觉 |
 | 新的图片生成或参考图编辑候选 | [Nano Banana 2.1](https://flux-art.cn/zh/models/nano-banana-2-1) | 页面列出最高 4K；先用同一商品资料做代表样本，核对商品结构、文字与未修改区域 |
