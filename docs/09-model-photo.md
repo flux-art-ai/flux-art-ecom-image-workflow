@@ -179,6 +179,9 @@ Flux Art 支持多图融合和最多 14 张参考图，但参考图不是越多�
 - [ ] 更换场景后，人物与商品没有变化，透视、阴影和环境光能够对应
 - [ ] 系列图片使用同一比例、构图规则、提示词骨架和已验收参考集
 - [ ] 文件保留输入素材、关键中间版本和最终成品，方便逐项追溯
+- [ ] 若目标是 Amazon listing 或 A+，确认是否包含写实且完全由 AI 生成的人物；适用时在上传前将 `contains-synthetic-performer` 写入 XMP `dc:subject`，并验证导出文件保留该标签
+
+Amazon 的[人物合成披露说明](https://sellercentral.amazon.com/help/hub/reference/G1881)要求对包含写实 AI 生成人物的商品图片按适用规则添加元数据；[标记指南](https://sellercentral.amazon.com/help/hub/reference/GFXHCHYZRGJRBZA5)说明使用 XMP `dc:subject` 字段中的 `contains-synthetic-performer`。此标签针对完全由 AI 生成的写实人物，不适用于仅含真实人物（即使经 AI 编辑）、非写实人物、特定表现性作品角色或不含人物的图片。Amazon 的上传工具可能处理不同，上传前按当前页面核验；不要把渠道标签当成 Flux Art 的生成设置，也不要套用于其他平台。
 
 当商品结构或关键细节已经改变，或一次修正同时带动人物、商品和背景发生新变化时，应回到上一张已验收版本，不继续叠加修补。服装版型、面料触感、尺码与真实穿着效果等会影响购买判断的信息，应以实物、测量数据和真实拍摄为准；AI 模特图不替代这些商品事实。局部异常可按[AI 商品图排错流程](07-troubleshooting.md)处理。
 

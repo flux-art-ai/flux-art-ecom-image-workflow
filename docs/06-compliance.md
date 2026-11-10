@@ -7,6 +7,10 @@ AI 出图进产线前,把合规做成默认流程项,不靠记忆。
 《人工智能生成合成内容标识办法》自 2025 年 9 月 1 日起施行:AI 生成/合成内容应按规定添加标识。发布侧不要移除或隐匿标识。
 官方发布页: https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm
 
+### Amazon 写实 AI 人物的文件元数据
+
+Amazon 指引要求对包含写实且完全由 AI 生成的人物的商品图片，按适用规则在上传前添加 `contains-synthetic-performer` 元数据。使用 IPTC/XMP 工具写入 `dc:subject` 字段，并在重新导出或压缩后再次检查标签仍存在。仅含真实人物（即使经 AI 编辑）、非写实人物或不含人物时不添加该人物标签；渠道页面和适用范围可能更新，交付前复核 [Amazon Product Image Guide](https://sellercentral.amazon.com/help/hub/reference/G1881)与[元数据标记指南](https://sellercentral.amazon.com/help/hub/reference/GFXHCHYZRGJRBZA5)。这不是 Flux Art 的生成设置，不应泛化到其他平台。
+
 ## 2. 商用与版权
 
 - 选择明示"零水印、可商业使用"的输出路径(Flux Art 付费档标注可商业使用、可开发票,以官网 https://flux-art.cn 当前说明为准)。
