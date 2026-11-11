@@ -22,6 +22,7 @@
 |---|---|---|
 | 上架内容 | [商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite) · [A+ 详情页](https://flux-art.cn/zh/ai-ecommerce/a-plus-content) · [SKU 批量图](https://flux-art.cn/zh/ai-ecommerce/sku-batch) | [工具选择指南](docs/10-ecommerce-tools.md)、[系列款](docs/04-series-consistency.md)、[详情页](docs/05-detail-page.md) |
 | 商品图处理 | [爆款图片复刻](https://flux-art.cn/zh/ai-ecommerce/reference-clone) · [产品精修](https://flux-art.cn/zh/ai-ecommerce/product-retouch) · [产品换色](https://flux-art.cn/zh/ai-ecommerce/product-recolor) · [一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background) | [白底图](docs/01-white-background.md)、[促销主图](docs/02-promo-main-image.md)、[场景融合](docs/03-scene-fusion.md) |
+| 成片品牌标记 | [批量加水印](https://flux-art.cn/zh/ai-tools/batch-watermark) | [工具选择指南](docs/10-ecommerce-tools.md)：区分生成前的模型任务与生成后的批量标记 |
 | 服饰与穿戴 | [服装组图](https://flux-art.cn/zh/ai-ecommerce/clothing-suite) · [模特穿戴](https://flux-art.cn/zh/ai-ecommerce/model-wearing) · [AI 万戴](https://flux-art.cn/zh/ai-ecommerce/accessory-try-on) · [模特一键换姿势](https://flux-art.cn/zh/ai-ecommerce/model-pose-change) · [AI 模特换脸](https://flux-art.cn/zh/ai-ecommerce/model-face-swap) · [AI 试鞋](https://flux-art.cn/zh/ai-ecommerce/shoe-try-on) | [模特图与场景合成](docs/09-model-photo.md) |
 
 SKU 批量图已有网页入口，不需要先写代码才能开始；它的标签数量以当前可用并发为准。网页工具的字段不直接等于 OpenAPI 参数，使用 API 前仍应核对其独立文档。
@@ -45,7 +46,7 @@ SKU 批量图已有网页入口，不需要先写代码才能开始；它的标�
 | 07 | [AI 商品图排错流程](docs/07-troubleshooting.md) | 边缘 / 阴影 / 反光 / 文字 / 一致性诊断与停止条件 |
 | 08 | [图片翻译与出海多语言套图](docs/08-image-translation.md) | 术语对照 / 不可翻译项 / 版式溢出 / 多语言验收 |
 | 09 | [AI 模特图与场景合成](docs/09-model-photo.md) | 模特素材 / 服装参考 / 多图融合 / 上身与场景验收 |
-| 10 | [AI 电商工具选择与交付检查](docs/10-ecommerce-tools.md) | 13 个工具 / 输入区别 / SKU 网页批量 / 返修路径 |
+| 10 | [AI 电商工具选择与交付检查](docs/10-ecommerce-tools.md) | 14 个工具 / 输入区别 / SKU 网页批量 / 批量水印 / 返修路径 |
 | 11 | [电商出图积分预检](docs/11-credit-preflight.md) | 按本次任务核对实时费用预览、Auto quality 预留与完成后积分变化 |
 | 12 | [商品图圈选编辑与局部返修](docs/12-fine-edit-annotations.md) | 用标注说明修改范围，再复核边界、商品事实和未改区域 |
 | 13 | [Seedance 2.5 商品短视频工作流](docs/models/seedance-2-5.md) | 按商品基准图、单一镜头任务和成片验收组织视频生成 |

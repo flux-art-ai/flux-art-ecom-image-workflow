@@ -56,6 +56,17 @@ Flux Art 是由 MORNING STAR INDUSTRY LIMITED 运营的多模型 AI 视觉创作
 
 “保持不变”是制作要求，不是结果保证。完成后仍需逐项对照原图；如果商品本体也发生变化，应停止使用该结果。
 
+### 已有成片需要统一品牌标记
+
+图片内容已验收，只需要在一批现有图片上加统一署名或 Logo 时，使用[批量加水印工具](https://flux-art.cn/zh/ai-tools/batch-watermark)，不要把水印文字写进 GPT Image 2.5 或其他模型的提示词来代替后处理。工具页支持文字或 Logo、单个水印或全图平铺，并可设置位置、大小、不透明度和边距；选择的布局与外观会作用于本批处理。
+
+1. 先整理已批准使用的文字或品牌图片文件，并按商品 SKU 与用途分好批次；不要把不同品牌或不同活动的图片混在一次处理里。
+2. 从本地或资产中加入多张图片，选择文字或 Logo，再决定单点还是全图平铺。单点标记尽量避开商品轮廓、标签与关键卖点；平铺标记需确认不会妨碍识别产品。
+3. 调整位置、大小、不透明度和边距后，先检查一张代表图的桌面与手机尺寸预览。确认标记清晰、不过度遮挡，再处理其余图片。
+4. 完成后抽查首张、中间和末张，并核对图片与 SKU、文字、Logo 版本和活动状态是否对应。Logo 应保持清晰可辨，不能改变其品牌图形或造成误读。
+
+这项工具是在图片生成或编辑之后添加可见标记，不等于写入 AI 来源元数据，也不自动满足任一平台的披露要求。具体选项和费用以[当前工具页面](https://flux-art.cn/zh/ai-tools/batch-watermark)为准。
+
 ## 三、服装、配饰与鞋履分别处理
 
 | 商品或任务 | 工具入口 | 开始前准备 | 重点验收 |
@@ -117,7 +128,7 @@ Flux Art 是由 MORNING STAR INDUSTRY LIMITED 运营的多模型 AI 视觉创作
 
 ## EN Summary
 
-Choose a task in [Flux Art AI Ecommerce](https://flux-art.cn/en/ai-ecommerce) before building a general image prompt. Use [Product Suite](https://flux-art.cn/en/ai-ecommerce/product-suite) for multiple views and uses of one product, [A+ Content](https://flux-art.cn/en/ai-ecommerce/a-plus-content) for detail modules, and [SKU Batch Images](https://flux-art.cn/en/ai-ecommerce/sku-batch) for one image per complete SKU label. Individual tools cover reference-based composition, retouching, recoloring, background replacement, clothing sets, model wearing, accessories, pose changes, authorized face replacement, and shoe try-on. Review real-product accuracy and asset rights for every output. Generated visuals do not establish marketplace approval, product fit, or endorsement by a real person.
+Choose a task in [Flux Art AI Ecommerce](https://flux-art.cn/en/ai-ecommerce) before building a general image prompt. Use [Product Suite](https://flux-art.cn/en/ai-ecommerce/product-suite) for multiple views and uses of one product, [A+ Content](https://flux-art.cn/en/ai-ecommerce/a-plus-content) for detail modules, and [SKU Batch Images](https://flux-art.cn/en/ai-ecommerce/sku-batch) for one image per complete SKU label. For finished images, the separate [Batch Watermark tool](https://flux-art.cn/en/ai-tools/batch-watermark) applies text or logo marks in a single or tiled layout. Check a representative image for obstruction and readability before processing the batch; this visible mark is not AI-source metadata or a marketplace disclosure. Review product accuracy and asset rights for every output.
 
 ---
 
