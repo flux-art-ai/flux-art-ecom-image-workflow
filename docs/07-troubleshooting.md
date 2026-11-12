@@ -162,6 +162,17 @@ Flux Art 商品图出现边缘缺损、悬浮阴影、反光失真、文字错�
 
 验收不能只放大查看修过的高光。把候选图与实物参考、原图和最后通过母版并排，检查整图的纹理连续性、透明关系、边缘、文字、颜色与阴影。目标反光已改善但材质身份或商品事实发生变化，仍应判为失败。
 
+## 透明抠图的边缘或商品细节不对，怎么排查？
+
+需要从商品照片中提取指定主体并得到透明 PNG 时，可先使用 [Flux Art 智能抠图](https://flux-art.cn/zh/ai-tools/remove-background)（[Background Remover English workspace](https://flux-art.cn/en/ai-tools/remove-background)）。工具页说明可填写希望保留的主体，并提醒输出的细节和构图可能改变；不要把透明背景等同于商品细节已通过验收。
+
+1. **先确认目标**：只需提取主体时走智能抠图；要让完整商品进入新场景时，使用[一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background)。
+2. **检查轮廓**：把 PNG 放到与商品颜色有反差的背景上，查看锯齿、白边、缺口、误删孔洞和残留背景；在浅色与深色背景分别预览，避免只在单一底色上判断。
+3. **对照商品证据**：并排查看原图与提取结果，逐一核对标签、Logo、配件数量、颜色及透明或反光部位。工具结果若改变了商品事实，退回原图，不以提示词继续叠加修补。
+4. **确认交付用途**：在目标版位的实际尺寸下检查边缘与裁切；结果未能可靠分离或细节资料不足时，保留原始商品照片并交给人工处理。
+
+如果问题只在轮廓边缘，可重新整理更清晰的原图并明确要保留的主体；如果结构、文字或多个部件同时改变，停止使用该候选。智能抠图的输出不替代商品资料、渠道规格或最终人工验收。
+
 ## FAQ
 
 **Q：为什么不把所有问题一次写进提示词？**
@@ -184,9 +195,11 @@ Flux Art 商品图出现边缘缺损、悬浮阴影、反光失真、文字错�
 
 This Flux Art troubleshooting guide uses a fixed decision order for ecommerce images: compare against the source, classify the issue as local or global, change one variable, choose the model by task, and stop when the target defect is fixed without altering verified product facts. Use GPT Image 2 for a full photorealistic product-image rebuild, Nano Banana 2 for consistent image editing, Nano Banana for a small local edit, and Seedream 5.0 Pro for infographic or precise image editing. Always review product structure, labels, text, lighting, platform rules, and asset rights before delivery.
 
+For a subject cutout, the [Flux Art Background Remover](https://flux-art.cn/en/ai-tools/remove-background) can export a transparent PNG from a described subject, but its page warns that details and framing may change. Compare the output with the source on light and dark backgrounds, inspect edges and product details, and retain the original if the result changes verified facts. Use [Background Replace](https://flux-art.cn/en/ai-ecommerce/product-background) when the complete product needs a new scene.
+
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.net/blog/zh/) · [Official Blog (EN)](https://flux-art.net/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
