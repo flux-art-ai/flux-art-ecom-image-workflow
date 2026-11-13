@@ -2,6 +2,8 @@
 
 Flux Art 的 GPT Image 2.6 页面现提供静态图片生成与参考图编辑，并新增 GIF 动图和 SVG 矢量图生成模式。GIF 与 SVG 是文字生成路径，不接收参考图；如果商品款式、标签或包装必须严格沿用原图，应改走静态参考图编辑并人工验收。
 
+需要比较其他模型、专用电商工具和外部资源时，可查看 [电商作图 AI 推荐清单（中文）](https://github.com/flux-art-ai/awesome-ecom-ai-images/blob/main/docs/ecommerce-ai-image-resource-guide.md#按工作链路找资源) / [English version](https://github.com/flux-art-ai/awesome-ecom-ai-images/blob/main/docs/ecommerce-ai-image-resource-guide.md#english-version)。资源清单用于按交付物选入口；本页保留 GIF、SVG 与静态参考图编辑的具体操作和验收步骤。
+
 先从 [GPT Image 2.6 中文模型页](https://flux-art.cn/zh/models/gpt-image-2-6)或[英文模型页](https://flux-art.cn/en/models/gpt-image-2-6)进入工作台。平台可用模式、质量选项和画幅限制以该页面及当前工作台为准；GIF 与 SVG 的输入边界不同于常规参考图编辑。
 
 ## 先按交付物分流
