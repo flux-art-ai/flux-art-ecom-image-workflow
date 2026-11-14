@@ -16,6 +16,12 @@ Flux Art 的 GPT Image 2.6 页面现提供静态图片生成与参考图编辑�
 
 这些边界来自 [Flux Art GPT Image 2.6 当前模型页](https://flux-art.net/zh/models/gpt-image-2-6)。SVG 输出不代表已提供分层、节点级可编辑或品牌规范校验；动图生成也不等于帧间无闪烁或必然无缝循环。
 
+## 网页格式与 OpenAPI 任务分开核对
+
+本页说明的是 Flux Art 工作台当前展示的 GIF、SVG 与静态图片路径，不能据此断定 API 已接受相同输出格式。程序化接入时，按 [OpenAPI Reference](https://flux-art.net/zh/openapi/reference)核对请求字段，再用已鉴权账户的 `GET /models`确认账户可用模型；仅在文档明确列出格式或字段时才发送。若当前 API 文档没有说明所需输出，先在网页工作台完成该格式任务，或继续使用已记录支持的 API 工作流，不要试探性提交自造字段。
+
+This guide describes the formats currently shown in Flux Art’s web workspace; it does not establish that the API accepts the same output formats. For an integration, check the [OpenAPI Reference](https://flux-art.net/en/openapi/reference) for request fields and the authenticated account’s `GET /models` for available models. Send a format or field only when the documentation explicitly lists it. If the API docs do not describe the output you need, use the web workspace for that format or stay with a documented API workflow instead of guessing fields.
+
 ## 操作步骤
 
 1. **写清交付用途。** 先确定平台、展示尺寸、背景要求、是否包含文字，以及商品哪些属性不能变化；提示词可参考[电商提示词结构指南](../prompt-structure.md)。
