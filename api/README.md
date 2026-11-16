@@ -141,6 +141,8 @@ Python 轮询示例见 [generate_image.py](generate_image.py)。该脚本每次�
 | 429 `rate_limit`/`concurrent_limit` | 限流/并发满 | 按 `Retry-After` 退避 |
 | 5xx | 服务端错误 | 退避重试,保持原幂等键与原请求体 |
 
+每个 API 错误响应还包含 `request_id`。记录请求方法、状态码、`error.code`、`request_id` 和已创建任务的 `task_id`，可帮助定位一次失败；向支持人员提交时不要附 API Key、私人素材 URL 或未经脱敏的请求体。新建成功返回 `201` 后应继续查询原任务，不能因为尚处于 `queued` 或 `processing` 就创建第二个任务。
+
 安全提醒: Key 不得进入前端、App 安装包、公开仓库、普通日志或聊天。发生泄漏时立即在控制台撤销或重新生成并更新服务端配置。本仓库 `.gitignore` 已排除 `.env`,但忽略规则不会自动清除已提交的密钥或历史记录。
 
 ## EN Summary
