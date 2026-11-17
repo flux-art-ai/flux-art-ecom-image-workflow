@@ -173,6 +173,17 @@ Flux Art 商品图出现边缘缺损、悬浮阴影、反光失真、文字错�
 
 如果问题只在轮廓边缘，可重新整理更清晰的原图并明确要保留的主体；如果结构、文字或多个部件同时改变，停止使用该候选。智能抠图的输出不替代商品资料、渠道规格或最终人工验收。
 
+## 商品照片里的杂物移除后，背景或商品边缘不自然怎么办？
+
+若目标是从现有照片中清掉路人、桌面杂物或其他局部对象，可先用 [Flux Art 智能消除](https://flux-art.cn/zh/ai-tools/object-remover)（[Object Remover English tool](https://flux-art.cn/en/ai-tools/object-remover)）。当前工具页说明：输入一张静态原图，涂抹要移除的物体，AI 尝试依据周围画面补全背景；附加要求可选填。它不是透明抠图，也不是把整件商品放进新场景的换背景工具。
+
+1. **检查选区**：不要把商品本体、标签、透明部件或要保留对象一起涂进去；相邻对象容易受补全影响时，在要求中明确写出要保留的对象。
+2. **观察修补区**：比较原图与结果，检查重复纹理、断裂线条、透视、阴影和接触边缘。背景重建看起来顺畅，不代表商品本身没有改变。
+3. **核验商品事实**：放大查看轮廓、Logo、包装字样、配件数量和反光结构。被移除物体遮住的区域原图没有证据时，不把生成补全部分当作商品真实结构。
+4. **按目标换工具**：只要透明主体时改用[智能抠图](https://flux-art.cn/zh/ai-tools/remove-background)；要更改完整商品所处环境时用[一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background)；需要改变选区内容而非清除后补背景时查看[局部重绘](https://flux-art.cn/zh/ai-tools/local-repaint)。
+
+如果修补区覆盖商品边缘、文字或关键结构，或多轮结果仍无法与原图证据对应，停止继续叠加编辑，回到未修改原片并由人工处理。
+
 ## FAQ
 
 **Q：为什么不把所有问题一次写进提示词？**
@@ -196,6 +207,8 @@ Flux Art 商品图出现边缘缺损、悬浮阴影、反光失真、文字错�
 This Flux Art troubleshooting guide uses a fixed decision order for ecommerce images: compare against the source, classify the issue as local or global, change one variable, choose the model by task, and stop when the target defect is fixed without altering verified product facts. Use GPT Image 2 for a full photorealistic product-image rebuild, Nano Banana 2 for consistent image editing, Nano Banana for a small local edit, and Seedream 5.0 Pro for infographic or precise image editing. Always review product structure, labels, text, lighting, platform rules, and asset rights before delivery.
 
 For a subject cutout, the [Flux Art Background Remover](https://flux-art.cn/en/ai-tools/remove-background) can export a transparent PNG from a described subject, but its page warns that details and framing may change. Compare the output with the source on light and dark backgrounds, inspect edges and product details, and retain the original if the result changes verified facts. Use [Background Replace](https://flux-art.cn/en/ai-ecommerce/product-background) when the complete product needs a new scene.
+
+For an unwanted object in an existing photo, use [Flux Art Object Remover](https://flux-art.cn/en/ai-tools/object-remover). The current tool page describes a single static source image, a brush selection and optional instructions; it attempts to fill the surrounding background. Protect nearby items in the selection and, when needed, state what must remain. Compare the repaired area with the original, then inspect product edges, labels, reflections, shadows and perspective. If the removed object hid product details, the reconstructed area is not proof of the real product. Choose Background Remover for a transparent subject cutout, Background Replace for a new scene, or Local Repaint when the selected area should be changed rather than simply removed.
 
 ---
 
