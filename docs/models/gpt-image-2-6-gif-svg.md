@@ -30,6 +30,18 @@ This guide describes the formats currently shown in Flux Art’s web workspace; 
 4. **生成后做格式验收。** GIF 在目标设备播放并检查接缝与跳动；SVG 打开文件并缩放检查锯齿、溢出、文字和布局。格式有效不代表内容符合商品事实。
 5. **商品素材单独复核。** 如果成品用于商品详情或广告，逐项对照 SKU、包装、颜色、配件和宣传文字；不确定的事实不要直接上架。
 
+## 交付到店铺或广告位前的格式检查
+
+GIF 或 SVG 生成完成后，先确认目标店铺、广告系统或内容管理工具是否接受该文件格式，以及上传后是否会转码、静止化或改变画面尺寸。若规格页面没有明确答案，先用非敏感样稿在目标位置预览；渠道不支持动画时，改用单独验收过的静态图，不要把 GIF 的某一帧直接视为已审核成品。SVG 也应在目标浏览器或设计软件中打开，再检查缩放、裁切、文字和颜色。
+
+交付包可为同一用途分别保留：原始 GIF/SVG、经核对的静态备份、对应 SKU 或活动名称、目标展示位、文件版本与审核状态。每次压缩、改尺寸、转格式或替换文字后，都要检查新文件；通过一个渠道预览，不代表其他渠道也会按相同方式显示。具体上架条件以目标渠道当日公布的要求为准。
+
+## Check format acceptance before delivery
+
+After generating a GIF or SVG, confirm that the destination store, ad system or content manager accepts the format and whether upload will transcode it, flatten the animation or change its dimensions. If the published specification is unclear, preview a non-sensitive sample in the actual placement. When animation is unsupported, use a separately reviewed static image rather than treating one GIF frame as an approved final asset. Open SVG files in the target browser or design tool and check scaling, cropping, text and color.
+
+For one deliverable, retain the original GIF/SVG, a reviewed static fallback, the SKU or campaign name, target placement, file revision and review status. Recheck the file after compression, resizing, conversion or text changes. A preview in one channel does not prove the same display in another; follow the destination’s current requirements.
+
 ## 可直接改写的提示词
 
 **GIF 动图草案**
