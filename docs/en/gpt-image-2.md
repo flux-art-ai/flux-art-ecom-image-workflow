@@ -15,6 +15,8 @@ Do not ask one image to serve every storefront placement. Choose the deliverable
 | Detail image | Explain one visible feature | Texture, edge, connector, closure, surface finish |
 | Campaign visual | Combine a clear product focus with copy space | Product identity, visual hierarchy, safe text area |
 
+**Check the crop before making a second image.** Take a 1600 × 1200 photo of a mug. A centered square crop keeps 1200 × 1200 pixels, removing 200 pixels from each side. A centered 4:5 portrait crop keeps just 960 × 1200, removing 320 from each side. Compare the outer edge of the handle and the rim in both frames. Shift the crop if both still fit; if keeping the handle cuts off the opposite edge, choose a wider original or make a separate portrait composition. Preview the result in the store's listing card as well as the detail page; they need not use the same crop.
+
 For a focused white-background process, use the [white-background workflow](../01-white-background.md). The [Chinese GPT Image 2 guide](../models/gpt-image-2.md) covers the same model for Chinese-language production teams.
 
 ## Build a product fact sheet
