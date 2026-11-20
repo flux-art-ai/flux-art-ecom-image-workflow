@@ -37,6 +37,18 @@ Replace the background of the uploaded product photo with a pure white studio ba
 | 阴影或底色不自然 | 明确目标背景和光线要求，只处理背景后重新检查接触位置 |
 | 反光件失真 | 优先保留实拍材质；需要重新比较写实方向时可评估 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2)（[EN](https://flux-art.cn/en/models/gpt-image-2)），但仍须核对实物 |
 
+## 白色商品放到白底上，轮廓消失怎么排查？
+
+以白色马克杯为例，把原片、透明中间图（如果有）和最终白底图按同一倍率并排打开。优先找三个容易丢失的位置：杯口薄边、杯把内孔、杯底与台面的交界。找到哪一步先丢边，再决定返工位置。
+
+| 边缘最先在哪一步消失 | 怎样确认 | 本次只处理什么 |
+|---|---|---|
+| 实拍原片中已看不清 | 调整查看亮度后，仍无法辨认杯口与背景的分界 | 用能分清轮廓的背景或光线补拍；不让生成工具补猜商品边缘 |
+| 原片清楚，透明中间图缺一块 | 将透明图临时叠在深灰底上，杯口仍断开，或本应透出背景的杯把内孔被填满 | 回原片重做提取或手工修蒙版；深灰底仅供检查，不跟着交付 |
+| 中间图完整，白底成品才看不清 | 导出前能分清边缘，导出后的实际文件里却与背景融在一起 | 保留商品的真实明暗和纹理，检查合成、导出与终端预览；不要给杯身硬描边 |
+
+如果是直接换背景、没有透明中间图，就比对原片、工作台结果和导出文件，不必为了排查另跑一次抠图。确认最终白底文件在目标展示尺寸下仍能辨认杯把和开口，再上架；背景颜色与是否保留自然阴影，按目标版位的当前要求确认。
+
 ## FAQ
 
 **Q：做白底图需要先挑模型吗？**
@@ -54,6 +66,8 @@ Replace the background of the uploaded product photo with a pure white studio ba
 ## EN Summary
 
 Use Flux Art [Background Replace](https://flux-art.cn/en/ai-ecommerce/product-background) for a white-background edit, [Product Retouch](https://flux-art.cn/en/ai-ecommerce/product-retouch) for photo cleanup, or [Product Suite](https://flux-art.cn/en/ai-ecommerce/product-suite) for a set of listing assets. Start from real product photographs and review edges, packaging, materials and current marketplace requirements; an editing option does not guarantee product preservation or approval.
+
+When a white product loses its outline, locate the first bad version: source photo, transparent cutout (if used), or white export. A temporary dark background helps reveal missing cutout pixels and filled holes. Review the actual exported file at its intended display size before listing.
 
 ---
 
