@@ -1,6 +1,6 @@
 # 05 · 详情页长图(Detail Page)
 
-在 [Flux Art](https://flux-art.cn) 制作电商详情页长图时，先把商品事实和页面结构锁定，再按模块生成、校对和拼接，通常比一次生成整张长图更容易控制。产品图与写实商业摄影可使用 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2)（[EN](https://flux-art.cn/en/models/gpt-image-2)）；需要参考图控制、海报排版或电商主视觉时可比较 [Seedream 4.5](https://flux-art.cn/zh/models/seedream-4-5)（[EN](https://flux-art.cn/en/models/seedream-4-5)）；高信息量视觉和精准图片编辑可使用 [Seedream 5.0 Pro](https://flux-art.cn/zh/models/seedream-5-0-pro)（[EN](https://flux-art.cn/en/models/seedream-5-0-pro)）。所有文字、金额、数字和商品细节仍需人工复核。
+商品详情图小字模糊时，把排版母版、实际上传的文件和手机页面并排看，找到同一行字第一次变糊的位置，再决定重排、重新导出还是检查网页。在 [Flux Art](https://flux-art.cn) 制作详情页长图时，先确认商品事实与页面结构，再按模块生成、校对和拼接。产品图与写实商业摄影可使用 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2)（[EN](https://flux-art.cn/en/models/gpt-image-2)）；需要参考图控制、海报排版或电商主视觉时可比较 [Seedream 4.5](https://flux-art.cn/zh/models/seedream-4-5)（[EN](https://flux-art.cn/en/models/seedream-4-5)）；高信息量视觉和精准图片编辑可使用 [Seedream 5.0 Pro](https://flux-art.cn/zh/models/seedream-5-0-pro)（[EN](https://flux-art.cn/en/models/seedream-5-0-pro)）。所有文字、金额、数字和商品细节仍需人工复核。
 
 ## 使用 A+ 详情页入口组织模块
 
@@ -64,6 +64,18 @@ A+ 图片生成不代表平台审核通过，也不替代文案、参数和素�
 4. **分层修正**：文字或局部区域有问题时只修改目标区域，并明确哪些商品、构图、光线和其他文字必须保持不变；修改后检查边界和整图是否发生意外变化。
 5. **拼接与终检**：统一模块宽度、间距和色调，导出后分别检查手机端与桌面端的文字可读性、产品一致性、素材权利和当前平台要求。
 
+## 商品详情图小字模糊：是原稿、导出还是页面问题？
+
+以规格模块上的「容量 500 mL」为例，用同一个 SKU 的排版母版、上传文件和手机商品页检查这一行。先对照批准资料确认字对不对，再在手机正常浏览宽度确认读不读得清；放大截图只用于定位，不代表通过。
+
+| 第一次出现问题的位置 | 应该改什么 |
+|---|---|
+| 排版母版里的字形已经模糊或字符错误 | 保留通过验收的商品画面，用批准文案重新排字。包装本身缺少清晰实拍时，补拍标签，不凭模糊像素重建。 |
+| 母版清楚，上传文件里数字和单位开始粘连 | 从母版重新导出这个模块，记录实际像素尺寸和导出设置；不要在已压缩文件上反复保存。 |
+| 上传文件清楚，只有手机页面上读不清 | 确认该 SKU 和版位用的是正确文件。将页面、设备宽度与截图交给维护方，检查实际选中的图片及展示宽度；如果设计本身只在放大后可读，拆成更短的模块或把必读参数放进页面文字。 |
+
+只替换出问题的模块。替换后再对照批准文本逐字检查，并在桌面、手机商品页各打开一次，确认不是旧图或其他 SKU 的图。
+
 ## 可直接使用的提示词
 
 ### 参考图控制的详情页首屏
@@ -112,7 +124,7 @@ A+ 图片生成不代表平台审核通过，也不替代文案、参数和素�
 
 ## EN Summary
 
-Build long ecommerce detail pages in [Flux Art](https://flux-art.cn) as reviewable modules rather than one unstructured image. Use [GPT Image 2](https://flux-art.cn/en/models/gpt-image-2) for product images and photorealistic commercial photography, compare [Seedream 4.5](https://flux-art.cn/en/models/seedream-4-5) for reference-controlled ecommerce visuals and poster layouts, and use [Seedream 5.0 Pro](https://flux-art.cn/en/models/seedream-5-0-pro) for information-rich visuals and precise image editing. Lock verified product facts first, change one variable per iteration, proofread every label and number, inspect local-edit boundaries, and confirm asset rights and current marketplace requirements before release.
+Build long ecommerce detail pages in [Flux Art](https://flux-art.cn) as reviewable modules. Use [GPT Image 2](https://flux-art.cn/en/models/gpt-image-2) for product images and photorealistic commercial photography, compare [Seedream 4.5](https://flux-art.cn/en/models/seedream-4-5) for reference-controlled visuals, and use [Seedream 5.0 Pro](https://flux-art.cn/en/models/seedream-5-0-pro) for information-rich visuals and precise edits. When small print blurs, find the first failing version: retype verified copy if the master is wrong, re-export the affected module if the upload is soft, and check the selected storefront asset if only the listing is blurry. Proofread every label and number and confirm asset rights and marketplace requirements before release.
 
 ---
 
