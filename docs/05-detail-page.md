@@ -48,6 +48,8 @@ A+ 图片生成不代表平台审核通过，也不替代文案、参数和素�
 
 资料表应记录版本和日期。若包装图、商品档案与运营文案互相冲突，先暂停该字段的生成与发布，回到业务资料确认；不能选择看起来最合理的一项让模型继续。需要制作包装带字图或局部改字时，可从 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)进入，并使用[包装文字与版式检查方法](https://github.com/flux-art-ai/gpt-image-2.5/blob/main/docs/text-and-layout.md)。多个完整 SKU 则从 [SKU 批量图](https://flux-art.cn/zh/ai-ecommerce/sku-batch)开始。
 
+如果这个模块用于回答「能不能放进去」或「包裹多大」，先按[商品尺寸图指南](product-dimension-image.md)分清商品外廓、内腔可用空间和发货包装，再选相应视图。不要用详情页示意图替代原始测量。
+
 ## 三类图片任务怎么分流
 
 - **产品图与写实场景**：使用 GPT Image 2 制作产品图或写实商业摄影模块；需要把商品放入具体环境时，可配合[场景图工作流](03-scene-fusion.md)检查透视、接触面和光线。
