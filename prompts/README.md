@@ -6,6 +6,8 @@
 
 需要将模板变成可检索、可复核的团队资料时，参考[电商 AI 提示词模板库的分类、版本与验收方法](../docs/prompt-template-library.md)。
 
+需要用 Git 管理目录、模型适配、回归用例和版本回滚时，参阅[出图提示词仓库的目录怎么分](../docs/prompt-repository-layout.md)。
+
 ## white-background 白底图
 
 ```text
