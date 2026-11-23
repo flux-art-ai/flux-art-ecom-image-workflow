@@ -1,6 +1,6 @@
 # 03 · 场景图:多图融合(Scene Fusion)
 
-在 [Flux Art](https://flux-art.cn) 制作商品场景图，先确定是“保留商品、更换环境”还是“参考另一张图的构图”。前者可使用[一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background)，后者可评估[爆款图片复刻](https://flux-art.cn/zh/ai-ecommerce/reference-clone)。两条路径都要以真实商品为基准，生成结果不等同于实景拍摄证据。
+商品场景参考图里有另一件商品时，先分清你只需要背景，还是需要原图的机位与摆放位置。在 [Flux Art](https://flux-art.cn) 可用[一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background)的文字路径描述环境；需要借用构图时，再准备一张去掉无关商品后仍能说明构图的参考，评估[爆款图片复刻](https://flux-art.cn/zh/ai-ecommerce/reference-clone)。两条路径都以真实商品为基准，生成结果不等同于实景拍摄证据。
 
 ## 两类任务的入口
 
@@ -36,6 +36,18 @@ match scene lighting and perspective, no text
 - 场景里避免与商品同类的物体(会被抢主体);
 - 透视差太大(俯拍产品×平视场景)最容易翻车,翻车就换参考图重跑,别硬调。
 
+## 场景参考图里有另一件商品怎么办？
+
+比如要把自家的带把手陶瓷杯放到一张窗边桌面的场景里，但参考图中央已有一只玻璃杯。先固定自家杯的正面、杯把与标签照片，只借用场景需要的部分：
+
+| 要借用的内容 | 怎样处理场景参考 |
+|---|---|
+| 只要木纹、窗光或背景色 | 写成文字，例如「浅木桌、左侧窗光、背景无其他杯子」；不上传带玻璃杯的整张图。 |
+| 要保留桌沿和光线方向，玻璃杯在画面边缘 | 从有权使用的参考副本裁掉玻璃杯及其倒影，保留桌沿与来光方向；重新打开导出的文件确认裁切。 |
+| 玻璃杯挡住桌沿或占据主要构图位置 | 不硬裁到失去构图信息。换空桌参考或用简明的构图草图标出杯子的位置。 |
+
+也可在 [Nano Banana 2.1](https://flux-art.cn/zh/models/nano-banana-2-1)（[English](https://flux-art.cn/en/models/nano-banana-2-1)）中用清晰商品图和处理后的场景图做一张编辑小样，明确「商品图决定杯身、杯把与标签；场景图只决定桌面与光线」。把结果与商品原图并排检查：多出玻璃杯、杯把变形或标签混入其他内容时，先更换场景参考，再从原始商品图重试，不继续修补这张错误候选。
+
 ## 参考图缺少不可见结构时的补拍与暂停条件
 
 场景图会让商品出现新的观察角度。原图没有显示的背面、底部、接口、包装小字或配件，不应交给模型自行补全；看起来合理的结果也不能证明真实商品就是这样。
@@ -70,7 +82,7 @@ match scene lighting and perspective, no text
 
 ## EN Summary
 
-Use Flux Art [Background Replace](https://flux-art.cn/en/ai-ecommerce/product-background) to change an environment, or [Reference Clone](https://flux-art.cn/en/ai-ecommerce/reference-clone) to adapt an authorized visual composition to your product. Review geometry, lighting, scale, contact shadows and asset rights; generated scenes are not evidence of an actual product photoshoot.
+Use Flux Art [Background Replace](https://flux-art.cn/en/ai-ecommerce/product-background) to change an environment, or [Reference Clone](https://flux-art.cn/en/ai-ecommerce/reference-clone) to adapt an authorized composition. If the scene contains another product, describe the background in words, crop the unrelated item without losing the composition, or choose a cleaner reference. Review the product, lighting, scale and asset rights before delivery; a generated scene is not evidence of an actual photoshoot.
 
 ---
 
