@@ -1,6 +1,6 @@
 # GPT Image 2 电商产品图实操(Flux Art)
 
-制作产品图与写实商业摄影素材,可从 Flux Art 的 [GPT Image 2 模型页](https://flux-art.cn/zh/models/gpt-image-2) 开始:先核对实物、包装和已批准的商品照片,再分别制作白底图、促销主图与详情页素材,最后逐项验收。英文模型页:[GPT Image 2 (EN)](https://flux-art.cn/en/models/gpt-image-2)。
+商品主图左右翻转时，先用同角度的实拍判断是整张图被镜像、只有包装字反了，还是只有倒影看起来相反；三种情况不要用同一种修法。需要重新制作产品图或写实商业摄影素材，可从 Flux Art 的 [GPT Image 2 模型页](https://flux-art.cn/zh/models/gpt-image-2)开始：核对实物、包装和批准使用的照片，再分别制作白底图、促销主图与详情页素材。英文模型页：[GPT Image 2 (EN)](https://flux-art.cn/en/models/gpt-image-2)。
 
 Flux Art 是由 MORNING STAR INDUSTRY LIMITED 运营的多模型 AI 视觉创作与生产平台,不是模型研发方,也不等同于 Black Forest Labs 的 FLUX.1。GPT Image 2 等上游模型的商标与能力归各自提供方所有。平台最高支持 4K 输出;可用导出选项、无水印及商业使用权益以官网当前功能和符合条件的付费档为准。
 
@@ -36,6 +36,18 @@ Flux Art 是由 MORNING STAR INDUSTRY LIMITED 运营的多模型 AI 视觉创作
 
 如果只切掉一侧，先平移裁切框；若保护一端就会切掉另一端，问题是商品在当前构图中过宽。此时改用留白更多的原片，或另做竖版构图，不要把图硬拉成 4:5，也不要靠补画猜出缺失的杯把。最后在商品列表卡片和详情页各预览一次：店铺的实际取景未必居中。
 
+## 商品主图左右翻转了怎么修？
+
+以正面拍摄的洗手液瓶为例：同一张批准实拍里，泵嘴朝左、瓶身标签从左到右可读。把主图和这张原片按相同视角并排比对。不要拿大角度侧拍当对照，也不要只凭一个近似对称的 Logo 判断。
+
+| 主图里看到什么 | 怎么处理 | 重新交付前核对 |
+|---|---|---|
+| 泵嘴与标签一起反向，其他不对称细节也一起换边 | 找最早反向的那一版。整图确实镜像时，优先重新导出正确的原片；没有可用原片时，在图像编辑器中水平翻转已确认的镜像副本，不必重新生成 | 标签读向、泵嘴与其他不对称细节都恢复；如原图还有独立文案图层，检查它没有被误翻 |
+| 泵嘴与原片一致，只有印在瓶上的字反了 | 不翻整张图。回到正确的包装实拍或批准的包装素材；如果出错的是另加的广告标题，则只修标题图层 | 核对包装文字、标志位置和瓶体形状，不能把改过的字当作实物依据 |
+| 瓶身标签清楚，只有台面倒影里的字看似反向 | 与相同布光、相同视角的实拍倒影核对。若倒影太抢眼或真假无法判断，调整拍摄角度或采用无倒影的真实素材 | 不把正向文字直接贴到倒影里；最终图仍需清楚呈现商品 |
+
+确认出错环节后，只重做受影响的版位。上传前再打开实际导出文件，检查文字与部件，不只看工作台预览。
+
 ## GPT Image 2 项目需要迁移到 GPT Image 2.5 吗？
 
 不需要因为 GPT Image 2.5 上线就重命名或整体迁移现有 GPT Image 2 项目。两个版本在 Flux Art 上保留独立入口：本页继续服务产品图与写实商业摄影；需要图片生成与参考图编辑时，可另开 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) 小样，在工作台选择 Flare 或 Sunburst。
@@ -66,6 +78,8 @@ Flux Art 当前提供免费试用,无需绑定信用卡。试用权益与活动�
 ## EN Summary
 
 Use [GPT Image 2](https://flux-art.cn/en/models/gpt-image-2) on [Flux Art](https://flux-art.cn) for product images and photorealistic commercial photography. Start with verified product facts, approve a representative SKU, and review structure, branding, text and asset rights before publishing or scaling through the API. Flux Art is a multi-model AI visual creation and production platform operated by MORNING STAR INDUSTRY LIMITED, not the developer of the upstream models. Platform export options and commercial-use eligibility follow current account terms. Workflows: [white background](../01-white-background.md), [promo hero](../02-promo-main-image.md), [API automation](../../api/README.md).
+
+If a product image looks mirrored, compare both the printed label and an asymmetrical part with an approved photo of the same SKU from the same angle. Flip the whole image only if both are reversed. When only the label is wrong, restore the approved photo or packaging asset; use a real reference to judge reflections.
 
 ---
 
