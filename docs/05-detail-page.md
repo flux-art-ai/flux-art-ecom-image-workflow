@@ -1,6 +1,6 @@
 # 05 · 详情页长图(Detail Page)
 
-商品详情图小字模糊时，把排版母版、实际上传的文件和手机页面并排看，找到同一行字第一次变糊的位置，再决定重排、重新导出还是检查网页。在 [Flux Art](https://flux-art.cn) 制作详情页长图时，先确认商品事实与页面结构，再按模块生成、校对和拼接。产品图与写实商业摄影可使用 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2)（[EN](https://flux-art.cn/en/models/gpt-image-2)）；需要参考图控制、海报排版或电商主视觉时可比较 [Seedream 4.5](https://flux-art.cn/zh/models/seedream-4-5)（[EN](https://flux-art.cn/en/models/seedream-4-5)）；高信息量视觉和精准图片编辑可使用 [Seedream 5.0 Pro](https://flux-art.cn/zh/models/seedream-5-0-pro)（[EN](https://flux-art.cn/en/models/seedream-5-0-pro)）。所有文字、金额、数字和商品细节仍需人工复核。
+商品多角度拼图容易被看成多件套时，先用一个主视角说明卖什么，把其他角度放到后续图；必须同图时，在手机预览里确认各视角没有被当成不同件。在 [Flux Art](https://flux-art.cn) 制作详情页长图时，先确认商品事实与页面结构，再按模块生成、校对和拼接。产品图与写实商业摄影可使用 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2)（[EN](https://flux-art.cn/en/models/gpt-image-2)）；需要参考图控制、海报排版或电商主视觉时可比较 [Seedream 4.5](https://flux-art.cn/zh/models/seedream-4-5)（[EN](https://flux-art.cn/en/models/seedream-4-5)）；高信息量视觉和精准图片编辑可使用 [Seedream 5.0 Pro](https://flux-art.cn/zh/models/seedream-5-0-pro)（[EN](https://flux-art.cn/en/models/seedream-5-0-pro)）。所有文字、金额、数字和商品细节仍需人工复核。
 
 ## 使用 A+ 详情页入口组织模块
 
@@ -32,6 +32,18 @@ A+ 图片生成不代表平台审核通过，也不替代文案、参数和素�
 | 售后与说明块 | 官方原文、适用范围、限制条件 | 保留原意，按当前平台规则和商品资料发布 |
 
 先建立一张商品事实表，记录名称、SKU、颜色、材质、尺寸、包装清单、已核实卖点、禁止改写项和素材来源。任何无法从商品资料确认的内容都不进入提示词或成品。
+
+## 商品多角度拼图怎样避免看成多件套？
+
+先在商品事实表写下「实际收到几件、哪几件」，再决定哪些照片应同框。例如，一把厨房剪刀的正面、背面和刀口特写展示的是**一把剪刀**；剪刀和护套只有确实一起发货时，才能按实物清单展示为随附内容。
+
+| 买家需要判断什么 | 怎么排图 | 手机端怎么验收 |
+|---|---|---|
+| 单件商品的结构 | 首图留一个主视角；后续按正面、背面、刀口拆图，或在详情模块独立分格 | 列表与首屏缩略图即使裁掉角落小字，也不应像三把剪刀放在一起 |
+| 不同 SKU 可选什么 | 把对比留在规格选择或详情模块，依据在售选项标明各图，不把并排展示画成同一份发货内容 | 当前选中 SKU 的图和规格一致；不同选项在可见范围内能区分 |
+| 实际随商品发哪些部件 | 用同一发货版本的实拍与装箱清单确认，再展示主件和附件 | 不把场景道具、未随附的收纳盒或局部特写算成一件 |
+
+发布前，让没参与制图的人只看目标渠道的手机列表图和首屏图，各回答一次「你觉得会收到什么、几件？」再对照清单。不一致就先拆图或改构图，再检查手机横竖裁切；不要把解释缩成可能被裁掉的小字。主图是否允许拼图、文字及配件同框，以目标渠道和类目的当前要求为准。
 
 ## 包装文字与参数资料包
 
@@ -127,6 +139,8 @@ A+ 图片生成不代表平台审核通过，也不替代文案、参数和素�
 ## EN Summary
 
 Build long ecommerce detail pages in [Flux Art](https://flux-art.cn) as reviewable modules. Use [GPT Image 2](https://flux-art.cn/en/models/gpt-image-2) for product images and photorealistic commercial photography, compare [Seedream 4.5](https://flux-art.cn/en/models/seedream-4-5) for reference-controlled visuals, and use [Seedream 5.0 Pro](https://flux-art.cn/en/models/seedream-5-0-pro) for information-rich visuals and precise edits. When small print blurs, find the first failing version: retype verified copy if the master is wrong, re-export the affected module if the upload is soft, and check the selected storefront asset if only the listing is blurry. Proofread every label and number and confirm asset rights and marketplace requirements before release.
+
+For a multi-view collage, ask someone new to the image what they expect to receive from the mobile thumbnail and first detail view. Compare their answer with the packing list. Split the views or change the composition if a single item looks like a multipack.
 
 ---
 
