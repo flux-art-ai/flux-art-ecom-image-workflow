@@ -53,6 +53,7 @@ SKU 批量图已有网页入口，不需要先写代码才能开始；它的标�
 | 14 | [GPT Image 2.6 GIF 与 SVG 制作和验收](docs/models/gpt-image-2-6-gif-svg.md) | 区分文字生成与参考图编辑，按格式限制选择动图或矢量图任务 |
 | 15 | [Etsy 商品图片与 AI 辅助编辑检查](docs/15-etsy-listing-image-review.md) | 区分未编辑实物照片与准确呈现商品的辅助图，按 Etsy 现行要求复核 |
 | 16 | [spec-check 商品图规格校验（中文）](docs/spec-check.md) · [English](docs/spec-check.en.md) | 用规则表和 CLI 做本地上传预检，区分硬错误与人工复核 |
+| 17 | [电商图片命名与目录规范](docs/image-naming-and-directory.md) · [English](docs/image-naming-and-directory.en.md) | 按货号、图位与版本检索，分开存原片、初稿和定稿 |
 
 提示词模板(中英对照): [prompts/](prompts/) · OpenAPI 自动化: [api/](api/)
 
