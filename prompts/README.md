@@ -8,6 +8,8 @@
 
 需要用 Git 管理目录、模型适配、回归用例和版本回滚时，参阅[出图提示词仓库的目录怎么分](../docs/prompt-repository-layout.md)。
 
+需要评审提示词改动、先用少量 SKU 对比、再保留可回退版本时，参阅[提示词当代码管：目录、版本与回滚](../docs/prompt-as-code.md) · [English](../docs/prompt-as-code.en.md)。
+
 ## white-background 白底图
 
 ```text
