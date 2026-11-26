@@ -1,6 +1,6 @@
 # 03 · 场景图:多图融合(Scene Fusion)
 
-商品场景参考图里有另一件商品时，先分清你只需要背景，还是需要原图的机位与摆放位置。在 [Flux Art](https://flux-art.cn) 可用[一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background)的文字路径描述环境；需要借用构图时，再准备一张去掉无关商品后仍能说明构图的参考，评估[爆款图片复刻](https://flux-art.cn/zh/ai-ecommerce/reference-clone)。两条路径都以真实商品为基准，生成结果不等同于实景拍摄证据。
+透明商品换背景后瓶内还有旧桌纹时，先对照原片区分透过瓶身的旧背景、真实玻璃边缘和不应改变的标签；不要统一降低整瓶的不透明度。在 [Flux Art](https://flux-art.cn) 可用[一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background)的文字路径描述环境。商品场景参考图里有另一件商品时，若确实要借机位与摆放位置，先准备去掉无关商品后仍能说明构图的参考，再评估[爆款图片复刻](https://flux-art.cn/zh/ai-ecommerce/reference-clone)。两条路径都以真实商品为基准，生成结果不等同于实景拍摄证据。
 
 ## 两类任务的入口
 
@@ -48,6 +48,18 @@ match scene lighting and perspective, no text
 
 也可在 [Nano Banana 2.1](https://flux-art.cn/zh/models/nano-banana-2-1)（[English](https://flux-art.cn/en/models/nano-banana-2-1)）中用清晰商品图和处理后的场景图做一张编辑小样，明确「商品图决定杯身、杯把与标签；场景图只决定桌面与光线」。把结果与商品原图并排检查：多出玻璃杯、杯把变形或标签混入其他内容时，先更换场景参考，再从原始商品图重试，不继续修补这张错误候选。
 
+## 透明商品换背景后瓶身还看得到旧背景怎么办？
+
+例如，一只透明玻璃瓶原来拍在深色条纹台面上，成品换到浅灰台面，瓶外已经是浅灰，瓶身透明区却还能看到旧条纹。先把原图与候选放大并排看，不把瓶身所有深色区域都当成残留。
+
+| 看到的位置 | 怎么确认 | 怎么处理 |
+|---|---|---|
+| 瓶身透明区 | 原图台面上的条纹在瓶内还能辨认，而目标台面没有条纹 | 背景没有完全换掉。从背景干净的同款原片开始；没有就补拍。不要拿已经透进瓶身的旧桌纹作为商品细节保留。 |
+| 瓶口、瓶肩、厚底或亮边 | 对照同一 SKU 的原片，区分真实的形状与高光，不把亮边当成多余背景 | 保留可核对的瓶型。在目标底色上看轮廓是否连续；切掉厚底、把清玻璃变成磨砂，都应退回。 |
+| 标签、瓶盖与液面 | 这些是商品本身，而不是后面的环境 | 对照原片复核文字与位置、盖型、液面和颜色。若候选改了商品，就停止在这张图上返修。 |
+
+源图能分清玻璃本身和背景时，可以用 [Nano Banana 2.1](https://flux-art.cn/zh/models/nano-banana-2-1)（[English](https://flux-art.cn/en/models/nano-banana-2-1)）做一张参考图编辑候选。只借背景时，明确说明新台面与光线；需要上传场景图就选没有其他玻璃商品的空场景。把候选放到实际交付背景上核对，不只看棋盘格。失败时先换一张干净原片，而不是加大修改范围；单张背景合成图也不要当作可在任意背景上使用的透明母版。
+
 ## 参考图缺少不可见结构时的补拍与暂停条件
 
 场景图会让商品出现新的观察角度。原图没有显示的背面、底部、接口、包装小字或配件，不应交给模型自行补全；看起来合理的结果也不能证明真实商品就是这样。
@@ -83,6 +95,8 @@ match scene lighting and perspective, no text
 ## EN Summary
 
 Use Flux Art [Background Replace](https://flux-art.cn/en/ai-ecommerce/product-background) to change an environment, or [Reference Clone](https://flux-art.cn/en/ai-ecommerce/reference-clone) to adapt an authorized composition. If the scene contains another product, describe the background in words, crop the unrelated item without losing the composition, or choose a cleaner reference. Review the product, lighting, scale and asset rights before delivery; a generated scene is not evidence of an actual photoshoot.
+
+For a clear bottle, inspect the view through the glass as well as the silhouette. If the old surface pattern is still visible inside, return to a clean source or reshoot. Protect the real label, cap and fill level instead of reducing opacity across the whole product.
 
 ---
 
